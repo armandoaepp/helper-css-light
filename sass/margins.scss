@@ -1,0 +1,18 @@
+// margin Xpx
+.m-none {margin: 0; }
+.m-t-none {margin-top: 0; }
+.m-r-none {margin-right: 0; }
+.m-b-none {margin-bottom: 0; }
+.m-l-none {margin-left: 0; }
+.m-l-r-none {margin-left: 0; margin-right: 0; }
+.m-t-b-none {margin-top: 0; margin-bottom: 0; }
+
+@include margin-variant(5);
+@include margin-variant(10);
+@include margin-variant(15);
+@include margin-variant(20);
+@include margin-variant(25);
+@include margin-variant(30);
+@include margin-variant(40);
+@include margin-variant(50);
+@include margin-variant(60);

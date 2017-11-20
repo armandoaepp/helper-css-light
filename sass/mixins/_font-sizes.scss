@@ -1,0 +1,10 @@
+@mixin font-size-variant($value, $derivadas:only) {
+
+    .#{$font-size-prefix}-#{$value}x { font-size: #{$value}em + !important; }
+
+    @if $derivadas == "full" {
+     .#{$font-size-prefix}-#{$value}x-sm { font-size: sumar($value, 0.25) + em + !important; }
+     .#{$font-size-prefix}-#{$value}x-md { font-size: sumar($value, 0.5) + em + !important; }
+     .#{$font-size-prefix}-#{$value}x-lg { font-size: sumar($value, 0.75) + em + !important; }
+    }
+}

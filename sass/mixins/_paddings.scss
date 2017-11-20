@@ -1,0 +1,40 @@
+@mixin padding-variant($value) {
+     // padding  #{$value}
+    .p-all-#{$value} {
+        padding: #{$value}px;
+    }
+
+    .p-t-#{$value} {
+        padding-top: #{$value}px;
+    }
+
+    .p-r-#{$value} {
+        padding-right: #{$value}px;
+    }
+
+    .p-b-#{$value} {
+        padding-bottom: #{$value}px;
+    }
+
+    .p-l-#{$value} {
+        padding-left: #{$value}px;
+    }
+
+    .p-t-b-#{$value} {
+        padding-top: #{$value}px;
+        padding-bottom: #{$value}px;
+    }
+
+    .p-l-r-#{$value} {
+        padding-right: #{$value}px;
+        padding-left: #{$value}px;
+    }
+
+    .p-x-#{$value} {
+        padding: #{$value}px 0;
+    }
+
+    .p-y-#{$value} {
+        padding: 0 5px;
+    }
+}

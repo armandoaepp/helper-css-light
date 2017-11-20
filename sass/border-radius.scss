@@ -1,0 +1,10 @@
+// border radius
+.b-rounded { border-radius: 50%; }
+@include border-radius-variant(0);
+@include border-radius-variant(4);
+@include border-radius-variant(8);
+@include border-radius-variant(10);
+@include border-radius-variant(15);
+@include border-radius-variant(20);
+@include border-radius-variant(30);
+@include border-radius-variant(40);

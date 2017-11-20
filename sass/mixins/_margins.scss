@@ -1,0 +1,40 @@
+@mixin margin-variant($value) {
+     // margin  #{$value}
+    .m-all-#{$value} {
+        margin: #{$value}px;
+    }
+
+    .m-t-#{$value} {
+        margin-top: #{$value}px;
+    }
+
+    .m-r-#{$value} {
+        margin-right: #{$value}px;
+    }
+
+    .m-b-#{$value} {
+        margin-bottom: #{$value}px;
+    }
+
+    .m-l-#{$value} {
+        margin-left: #{$value}px;
+    }
+
+    .m-t-b-#{$value} {
+        margin-top: #{$value}px;
+        margin-bottom: #{$value}px;
+    }
+
+    .m-l-r-#{$value} {
+        margin-right: #{$value}px;
+        margin-left: #{$value}px;
+    }
+
+    .m-x-#{$value} {
+        margin: #{$value}px 0;
+    }
+
+    .m-y-#{$value} {
+        margin: 0 5px;
+    }
+}

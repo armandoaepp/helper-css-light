@@ -1,0 +1,15 @@
+// font-sizes varintes
+/*
+* params full aplica las variantes de -x-sm(+0.25) -x-md(+0.5) -x-lg(+0.75)
+* only on null no crea variantes de la fuente
+*/
+@include font-size-variant(1, full);
+@include font-size-variant(2, full);
+@include font-size-variant(3, full);
+@include font-size-variant(4, full);
+@include font-size-variant(5, full);
+@include font-size-variant(6,only);
+@include font-size-variant(7);
+@include font-size-variant(8);
+@include font-size-variant(9);
+@include font-size-variant(10);

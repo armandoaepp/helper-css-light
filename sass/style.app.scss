@@ -1,0 +1,50 @@
+//  ==========================================================================
+// text-aling
+//  ==========================================================================
+.text-left {text-align: left; }
+.text-right {text-align: right; }
+.text-center {text-align: center; }
+.text-justify {text-align: justify; }
+.text-upper {text-transform: uppercase!important; }
+.text-lower {text-transform: lowercase!important; }
+.text-capitalize {text-transform: capitalize!important; }
+.text-none {text-transform: none !important; }
+
+
+//  ==========================================================================
+// Typography
+//  ==========================================================================
+.bold {font-weight: bold; }
+.regular {font-weight: normal; }
+.italic {font-style: italic; }
+.ell {white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.break-word {word-wrap: break-word; }
+.no-wrap {white-space: nowrap; }
+
+
+//  ==========================================================================
+
+//  agrupar icons (fontawesome.io)
+//  ==========================================================================
+.icon-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+.icon-stack-1x,
+.icon-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.icon-stack-1x {
+  line-height: inherit;
+  color: #ffffff;
+}
+.icon-stack-2x {
+  font-size: 2em;
+}

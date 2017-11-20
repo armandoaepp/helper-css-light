@@ -1,0 +1,18 @@
+// paddings Xpx
+.p-none {padding: 0; }
+.p-t-none {padding-top: 0; }
+.p-r-none {padding-right: 0; }
+.p-b-none {padding-bottom: 0; }
+.p-l-none {padding-top: 0; }
+.p-l-r-none {padding-left: 0; padding-right: 0; }
+.p-t-b-none {padding-top: 0; padding-bottom: 0; }
+
+@include padding-variant(5);
+@include padding-variant(10);
+@include padding-variant(15);
+@include padding-variant(20);
+@include padding-variant(25);
+@include padding-variant(30);
+@include padding-variant(40);
+@include padding-variant(50);
+@include padding-variant(60);
