@@ -1,6 +1,6 @@
-// font-sizes varintes
+// rotates variants (param: x deg)
 
-@include rotatessss-variant(45);
-//@include rotate-variant(90deg);
-//@include rotate-variant(180deg);
-//@include rotate-variant(270deg);
+@include rotate-variant(45);
+@include rotate-variant(90);
+@include rotate-variant(180);
+@include rotate-variant(270);

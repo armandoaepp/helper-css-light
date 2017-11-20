@@ -1,0 +1,31 @@
+{
+  "name": "helper-css",
+  "version": "1.0.0",
+  "description": "css classes of help for fronend",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armandoaepp/helper-css.git"
+  },
+  "keywords": [
+    "helper-css"
+  ],
+  "author": "@armandoaepp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/armandoaepp/helper-css/issues"
+  },
+  "homepage": "https://github.com/armandoaepp/helper-css#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.1"
+  },
+  "devDependencies": {
+    "gulp-sass": "^3.1.0"
+  }
+}
