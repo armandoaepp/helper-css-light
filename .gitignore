@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 /node_modules
 /sass/.sass-cache
 /sass/.sass-cache/*
 .sass-cache/*
 *.css.map
-=======
-.sass-cache/
-*.css.map
->>>>>>> b97067bb051c28d04ee128d68024ae4cd2b7ac4d
