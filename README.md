@@ -93,7 +93,6 @@ Text CSS Helpers contain set of text styling classes for text display and size.
 #### CSS Helpers for Rotates
 
 *Transform*
-* `.b-rounded`: assigns `border-radius: 50%` property
 * `.rotate-45`: assigns `transform: rotate(45deg)` property
 * `.rotate-90`: assigns `transform: rotate(90deg)` property
 * `.rotate-180`: assigns `transform: rotate(180deg)` property
