@@ -20,6 +20,7 @@ Following is the number that represents space in pixels and (optional) direction
 
 Example:
 
+*Margins*
 * `m-none`: assigns `margin: 0` property
 * `m-all-5`: assigns `margin: 5px` property
 * `m-t-5`: assigns `margin-top: 5px` property
@@ -30,7 +31,9 @@ Example:
 * `m-l-r-5`: assigns `margin-left: 5px; margin-right: 5px` property
 * `m-x-5`: assigns `margin: 5px 0` property
 * `m-y-5`: assigns `margin: 0 5px` property
+...
 
+*Paddings*
 * `p-none`: assigns `padding: 0` property
 * `p-all-5`: assigns `padding: 5px` property
 * `p-t-5`: assigns `padding-top: 5px` property
@@ -41,7 +44,7 @@ Example:
 * `p-l-r-5`: assigns `padding-left: 5px; padding-right: 5px` property
 * `p-x-5`: assigns `padding: 5px 0` property
 * `p-y-5`: assigns `padding: 0 5px` property
-
+...
 
 
 #### CSS Helpers for Text
