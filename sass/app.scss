@@ -1,14 +1,14 @@
 /*!
  * helper-css v1.0.0 (@armandoaepp)
  * Copyright 2017
- */
+*/
 
 @import "variables";
 @import "mixins/app.mixins";
 
+@import "style.app";
+@import "font-sizes";
 @import "margins";
 @import "paddings";
 @import "border-radius";
-@import "font-sizes";
 @import "rotates";
-@import "style.app";

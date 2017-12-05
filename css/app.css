@@ -1,7 +1,191 @@
 /*!
  * helper-css v1.0.0 (@armandoaepp)
  * Copyright 2017
- */
+*/
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-upper {
+    text-transform: uppercase !important;
+}
+
+.text-lower {
+    text-transform: lowercase !important;
+}
+
+.text-capitalize {
+    text-transform: capitalize !important;
+}
+
+.text-none {
+    text-transform: none !important;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.regular {
+    font-weight: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.ell {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.break-word {
+    word-wrap: break-word;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+.icon-stack {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+}
+
+.icon-stack-1x,
+.icon-stack-2x {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.icon-stack-1x {
+    line-height: inherit;
+    color: #ffffff;
+}
+
+.icon-stack-2x {
+    font-size: 2em;
+}
+
+.fs-1x {
+    font-size: 1em !important;
+}
+
+.fs-1x-sm {
+    font-size: 1.25em !important;
+}
+
+.fs-1x-md {
+    font-size: 1.5em !important;
+}
+
+.fs-1x-lg {
+    font-size: 1.75em !important;
+}
+
+.fs-2x {
+    font-size: 2em !important;
+}
+
+.fs-2x-sm {
+    font-size: 2.25em !important;
+}
+
+.fs-2x-md {
+    font-size: 2.5em !important;
+}
+
+.fs-2x-lg {
+    font-size: 2.75em !important;
+}
+
+.fs-3x {
+    font-size: 3em !important;
+}
+
+.fs-3x-sm {
+    font-size: 3.25em !important;
+}
+
+.fs-3x-md {
+    font-size: 3.5em !important;
+}
+
+.fs-3x-lg {
+    font-size: 3.75em !important;
+}
+
+.fs-4x {
+    font-size: 4em !important;
+}
+
+.fs-4x-sm {
+    font-size: 4.25em !important;
+}
+
+.fs-4x-md {
+    font-size: 4.5em !important;
+}
+
+.fs-4x-lg {
+    font-size: 4.75em !important;
+}
+
+.fs-5x {
+    font-size: 5em !important;
+}
+
+.fs-5x-sm {
+    font-size: 5.25em !important;
+}
+
+.fs-5x-md {
+    font-size: 5.5em !important;
+}
+
+.fs-5x-lg {
+    font-size: 5.75em !important;
+}
+
+.fs-6x {
+    font-size: 6em !important;
+}
+
+.fs-7x {
+    font-size: 7em !important;
+}
+
+.fs-8x {
+    font-size: 8em !important;
+}
+
+.fs-9x {
+    font-size: 9em !important;
+}
+
+.fs-10x {
+    font-size: 10em !important;
+}
 
 .m-none {
     margin: 0;
@@ -334,44 +518,6 @@
 }
 
 .m-y-50 {
-    margin: 0 5px;
-}
-
-.m-all-60 {
-    margin: 60px;
-}
-
-.m-t-60 {
-    margin-top: 60px;
-}
-
-.m-r-60 {
-    margin-right: 60px;
-}
-
-.m-b-60 {
-    margin-bottom: 60px;
-}
-
-.m-l-60 {
-    margin-left: 60px;
-}
-
-.m-t-b-60 {
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-
-.m-l-r-60 {
-    margin-right: 60px;
-    margin-left: 60px;
-}
-
-.m-x-60 {
-    margin: 60px 0;
-}
-
-.m-y-60 {
     margin: 0 5px;
 }
 
@@ -709,44 +855,6 @@
     padding: 0 5px;
 }
 
-.p-all-60 {
-    padding: 60px;
-}
-
-.p-t-60 {
-    padding-top: 60px;
-}
-
-.p-r-60 {
-    padding-right: 60px;
-}
-
-.p-b-60 {
-    padding-bottom: 60px;
-}
-
-.p-l-60 {
-    padding-left: 60px;
-}
-
-.p-t-b-60 {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-.p-l-r-60 {
-    padding-right: 60px;
-    padding-left: 60px;
-}
-
-.p-x-60 {
-    padding: 60px 0;
-}
-
-.p-y-60 {
-    padding: 0 5px;
-}
-
 .b-rounded {
     border-radius: 50%;
 }
@@ -773,114 +881,6 @@
 
 .b-r-20 {
     border-radius: 20px !important;
-}
-
-.b-r-30 {
-    border-radius: 30px !important;
-}
-
-.b-r-40 {
-    border-radius: 40px !important;
-}
-
-.fs-1x {
-    font-size: 1em !important;
-}
-
-.fs-1x-sm {
-    font-size: 1.25em !important;
-}
-
-.fs-1x-md {
-    font-size: 1.5em !important;
-}
-
-.fs-1x-lg {
-    font-size: 1.75em !important;
-}
-
-.fs-2x {
-    font-size: 2em !important;
-}
-
-.fs-2x-sm {
-    font-size: 2.25em !important;
-}
-
-.fs-2x-md {
-    font-size: 2.5em !important;
-}
-
-.fs-2x-lg {
-    font-size: 2.75em !important;
-}
-
-.fs-3x {
-    font-size: 3em !important;
-}
-
-.fs-3x-sm {
-    font-size: 3.25em !important;
-}
-
-.fs-3x-md {
-    font-size: 3.5em !important;
-}
-
-.fs-3x-lg {
-    font-size: 3.75em !important;
-}
-
-.fs-4x {
-    font-size: 4em !important;
-}
-
-.fs-4x-sm {
-    font-size: 4.25em !important;
-}
-
-.fs-4x-md {
-    font-size: 4.5em !important;
-}
-
-.fs-4x-lg {
-    font-size: 4.75em !important;
-}
-
-.fs-5x {
-    font-size: 5em !important;
-}
-
-.fs-5x-sm {
-    font-size: 5.25em !important;
-}
-
-.fs-5x-md {
-    font-size: 5.5em !important;
-}
-
-.fs-5x-lg {
-    font-size: 5.75em !important;
-}
-
-.fs-6x {
-    font-size: 6em !important;
-}
-
-.fs-7x {
-    font-size: 7em !important;
-}
-
-.fs-8x {
-    font-size: 8em !important;
-}
-
-.fs-9x {
-    font-size: 9em !important;
-}
-
-.fs-10x {
-    font-size: 10em !important;
 }
 
 .rotate-45 {
