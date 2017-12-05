@@ -35,15 +35,15 @@
     text-transform: none !important;
 }
 
-.bold {
+.text-bold {
     font-weight: bold;
 }
 
-.regular {
+.text-normal {
     font-weight: normal;
 }
 
-.italic {
+.text-italic {
     font-style: italic;
 }
 

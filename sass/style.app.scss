@@ -27,7 +27,7 @@
 .clear{clear: both; }
 
 //  ==========================================================================
-// display
+// Display
 //  ==========================================================================
 .inline       { display: inline; }
 .show,.block {display: block; }
@@ -36,12 +36,13 @@
 
 
 //  ==========================================================================
-// text-aling
+// Text-aling
 //  ==========================================================================
 .text-left {text-align: left; }
 .text-right {text-align: right; }
 .text-center {text-align: center; }
 .text-justify {text-align: justify; }
+
 .text-upper {text-transform: uppercase!important; }
 .text-lower {text-transform: lowercase!important; }
 .text-capitalize {text-transform: capitalize!important; }
@@ -51,9 +52,10 @@
 //  ==========================================================================
 // Typography
 //  ==========================================================================
-.bold {font-weight: bold; }
-.regular {font-weight: normal; }
-.italic {font-style: italic; }
+.tex-bold {font-weight: bold; }
+.text-regular {font-weight: normal; }
+.text-italic {font-style: italic; }
+
 .ell {white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .break-word {word-wrap: break-word; }
 .no-wrap {white-space: nowrap; }
