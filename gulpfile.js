@@ -8,7 +8,7 @@ var sourcemaps = require('gulp-sourcemaps');
 
 
 gulp.task('sass-dev', function () {
-  return gulp.src('./sass/app.scss')
+  return gulp.src('./sass/helper-css.scss')
     .pipe(sass({outputStyle: 'compressed'}))
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
@@ -18,10 +18,17 @@ gulp.task('sass-dev', function () {
 });
 
 gulp.task('sass-prod', function () {
-  return gulp.src('./sass/app.scss')
+  return gulp.src('./sass/helper-css.scss')
     .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest('./css'));
 });
 
+
+gulp.task('prod', function () {
+  return gulp.src('./sass/helper-css.scss')
+    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+    .pipe(rename({suffix: '.min'}))
+    .pipe(gulp.dest('./'));
+});
 
