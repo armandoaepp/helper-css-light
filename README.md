@@ -79,6 +79,25 @@ Text CSS Helpers contain set of text styling classes for text display and size.
 ...
 
 
+#### CSS Helpers for Border Radius
+
+*Border Radius*
+* `.b-rounded`: assigns `border-radius: 50%` property
+* `.b-r-0`: assigns `border-radius: 0` property
+* `.b-r-4`: assigns `border-radius: 4` property
+* `.b-r-8`: assigns `border-radius: 8` property
+* `.b-r-10`: assigns `border-radius: 10` property
+* `.b-r-15`: assigns `border-radius: 15` property
+
+
+#### CSS Helpers for Rotates
+
+*Transform*
+* `.b-rounded`: assigns `border-radius: 50%` property
+* `.rotate-45`: assigns `transform: rotate(45deg)` property
+* `.rotate-90`: assigns `transform: rotate(90deg)` property
+* `.rotate-180`: assigns `transform: rotate(180deg)` property
+* `.rotate-270`: assigns `transform: rotate(270deg)` property
 
 ---
 
@@ -89,7 +108,7 @@ As any other classes, helper classes can be combined together.
 For given `div` element:
 
 ```
-<div class="m0 text-center p-t-10 fs-2x-sm">
+<div class="m-all-20 text-center p-t-10 fs-2x-sm">
     ...
 </div>
 ```
