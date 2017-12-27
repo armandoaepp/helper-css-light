@@ -35,6 +35,6 @@
     }
 
     .m-y-#{$value} {
-        margin: 0 5px;
+        margin: 0 #{$value}px;
     }
 }

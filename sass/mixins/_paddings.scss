@@ -35,6 +35,6 @@
     }
 
     .p-y-#{$value} {
-        padding: 0 5px;
+        padding: 0 #{$value}px;
     }
 }
