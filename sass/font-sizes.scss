@@ -22,11 +22,18 @@
 }
 
 .fs-x-sm {
+    font-size: 0.25em;
+}
+.fs-x-md {
     font-size: 0.5em;
 }
 
-.fs-x-md {
+.fs-x-lg {
     font-size: 0.75em;
+}
+
+.fs-x-xlg {
+    font-size: 0.875em;
 }
 
 @include font-size-variant(1, full);
