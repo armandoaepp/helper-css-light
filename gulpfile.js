@@ -25,10 +25,11 @@ gulp.task('sass-prod', function () {
 });
 
 
-gulp.task('prod', function () {
+/*gulp.task('prod', function () {
   return gulp.src('./sass/helper-css.scss')
     .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest('./'));
-});
+});*/
 
+gulp.task('prod', ['sass-dev','sass-prod']);

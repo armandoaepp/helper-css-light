@@ -1,10 +1,32 @@
 @mixin font-size-variant($value, $derivadas:only) {
 
-    .#{$font-size-prefix}-#{$value}x { font-size: #{$value}em + !important; }
+    @if $value > 0 {
+      .#{$font-size-prefix}-#{$value}x { font-size: #{$value}em + !important; }
+    }
 
-    @if $derivadas == "full" {
+    @if $derivadas == "medium" {
      .#{$font-size-prefix}-#{$value}x-sm { font-size: sumar($value, 0.25) + em + !important; }
      .#{$font-size-prefix}-#{$value}x-md { font-size: sumar($value, 0.5) + em + !important; }
      .#{$font-size-prefix}-#{$value}x-lg { font-size: sumar($value, 0.75) + em + !important; }
+    }
+
+    @if $derivadas == "full" and $value > 0 {
+     .#{$font-size-prefix}-#{$value}x-x-sm { font-size: sumar($value, 0.125) + em + !important; }
+     .#{$font-size-prefix}-#{$value}x-sm { font-size: sumar($value, 0.25) + em + !important; }
+     .#{$font-size-prefix}-#{$value}x-sm-md { font-size: sumar($value, 0.375) + em + !important; }
+     .#{$font-size-prefix}-#{$value}x-md { font-size: sumar($value, 0.5) + em + !important; }
+     .#{$font-size-prefix}-#{$value}x-md-lg { font-size: sumar($value, 0.625) + em + !important; }
+     .#{$font-size-prefix}-#{$value}x-lg { font-size: sumar($value, 0.75) + em + !important; }
+     .#{$font-size-prefix}-#{$value}x-x-lg { font-size: sumar($value, 0.875) + em + !important; }
+    }
+
+    @if $value == 0 {
+     .#{$font-size-prefix}-x-x-sm { font-size: sumar($value, 0.125) + em + !important; }
+     .#{$font-size-prefix}-x-sm { font-size: sumar($value, 0.25) + em + !important; }
+     .#{$font-size-prefix}-x-sm-md { font-size: sumar($value, 0.375) + em + !important; }
+     .#{$font-size-prefix}-x-md { font-size: sumar($value, 0.5) + em + !important; }
+     .#{$font-size-prefix}-x-md-lg { font-size: sumar($value, 0.625) + em + !important; }
+     .#{$font-size-prefix}-x-lg { font-size: sumar($value, 0.75) + em + !important; }
+     .#{$font-size-prefix}-x-x-lg { font-size: sumar($value, 0.875) + em + !important; }
     }
 }

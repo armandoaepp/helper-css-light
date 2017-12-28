@@ -5,23 +5,24 @@
 * only on null no crea variantes de la fuente
 */
 
-.fs-x-10 {
+.fs-10 {
     font-size: 10px;
 }
 
-.fs-x-12 {
+.fs-12 {
     font-size: 12px;
 }
 
-.fs-x-14 {
+.fs-14 {
     font-size: 14px;
 }
 
-.fs-x-16 {
+.fs-16 {
     font-size: 16px;
 }
 
-.fs-x-sm {
+
+/* .fs-x-sm {
     font-size: 0.25em;
 }
 .fs-x-md {
@@ -35,14 +36,18 @@
 .fs-x-xlg {
     font-size: 0.875em;
 }
+ */
 
+
+
+@include font-size-variant(0, full);
 @include font-size-variant(1, full);
 @include font-size-variant(2, full);
-@include font-size-variant(3, full);
-@include font-size-variant(4, full);
-@include font-size-variant(5, full);
+@include font-size-variant(3, mediun);
+@include font-size-variant(4, medium);
+@include font-size-variant(5, medium);
 @include font-size-variant(6, only);
-@include font-size-variant(7);
-@include font-size-variant(8);
-@include font-size-variant(9);
+@include font-size-variant(7, only);
+@include font-size-variant(8, only);
+@include font-size-variant(9, only);
 @include font-size-variant(10);

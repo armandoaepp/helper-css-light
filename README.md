@@ -4,7 +4,7 @@ Common CSS helper classes.
 
 ## Usage
 
-Include `helper-css.min.css` style in your page and start using css helper classes.
+Include `css/helper-css.min.css` style in your page and start using css helper classes.
 
 ### CSS Helper Classes
 

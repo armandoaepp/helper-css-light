@@ -30,11 +30,13 @@
         margin-left: #{$value}px;
     }
 
-    .m-x-#{$value} {
+    .m-x-#{$value},
+    .m-h-#{$value} {
         margin: #{$value}px 0;
     }
 
-    .m-y-#{$value} {
+    .m-y-#{$value},
+    .m-h-#{$value} {
         margin: 0 #{$value}px;
     }
 }

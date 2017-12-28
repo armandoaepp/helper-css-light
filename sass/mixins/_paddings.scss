@@ -30,11 +30,13 @@
         padding-left: #{$value}px;
     }
 
-    .p-x-#{$value} {
+    .p-x-#{$value},
+    .p-h-#{$value} {
         padding: #{$value}px 0;
     }
 
-    .p-y-#{$value} {
+    .p-y-#{$value},
+    .p-v-#{$value} {
         padding: 0 #{$value}px;
     }
 }
