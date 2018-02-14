@@ -1,8 +1,11 @@
 //  ==========================================================================
 // ---- Alignments ----
 //  ==========================================================================
+.centered {
+  float: none!important;
+  margin: auto!important;
+}
 
-.centered {float: none!important; margin: auto!important; }
 .center-block {
   display: block;
   margin-right: auto;
@@ -10,57 +13,136 @@
 }
 
 .valing-full {
-    align-items: center;
-    min-height: 100%;
-    min-height: 100vh;
-    margin: 0 auto;
+  align-items: center;
+  min-height: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
 }
 
-.centered-v {display: flex; align-items: center; }
+.centered-v {
+  display: flex;
+  align-items: center;
+}
+
 @media only screen and (min-width: 768px) {
-    .center-v {
-        display: flex;
-        align-items: center;
-    }
+  .center-v {
+    display: flex;
+    align-items: center;
+  }
 }
 
-.clear{clear: both; }
+.clear {
+  clear: both;
+}
 
 //  ==========================================================================
 // Display
 //  ==========================================================================
-.inline       { display: inline; }
-.show,.block {display: block; }
-.inline-block { display: inline-block; }
-.hidden       { display: none; }
+.inline {
+  display: inline;
+}
+
+.show,
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.hidden {
+  display: none;
+}
 
 
 //  ==========================================================================
 // Text-aling
 //  ==========================================================================
-.text-left {text-align: left; }
-.text-right {text-align: right; }
-.text-center {text-align: center; }
-.text-justify {text-align: justify; }
+.text-left {
+  text-align: left;
+}
 
-.text-upper {text-transform: uppercase!important; }
-.text-lower {text-transform: lowercase!important; }
-.text-capitalize {text-transform: capitalize!important; }
-.text-none {text-transform: none !important; }
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-upper {
+  text-transform: uppercase!important;
+}
+
+.text-lower {
+  text-transform: lowercase!important;
+}
+
+.text-capitalize {
+  text-transform: capitalize!important;
+}
+
+.text-none {
+  text-transform: none !important;
+}
 
 
 //  ==========================================================================
 // Typography
 //  ==========================================================================
-.tex-bold {font-weight: bold; }
-.text-regular {font-weight: normal; }
-.text-italic {font-style: italic; }
+.tex-bold {
+  font-weight: bold;
+}
 
-.ell {white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.break-word {word-wrap: break-word; }
-.no-wrap {white-space: nowrap; }
+.text-regular {
+  font-weight: normal;
+}
 
+.text-italic {
+  font-style: italic;
+}
 
+.ell {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.break-word {
+  word-wrap: break-word;
+}
+
+.no-wrap {
+  white-space: nowrap;
+}
+
+//  ==========================================================================
+//  line-height
+//  ==========================================================================
+
+.l-h-1{
+      line-height: 1;
+}
+
+.l-h-1-md{
+      line-height: 1.5;
+}
+
+.l-h-2{
+      line-height: 2;
+}
+
+.l-h-2-md{
+      line-height: 2.5
+}
+.l-h-3{
+      line-height: 3;
+}
 
 //  ==========================================================================
 //  agrupar icons (fontawesome.io)
@@ -73,6 +155,7 @@
   line-height: 2em;
   vertical-align: middle;
 }
+
 .icon-stack-1x,
 .icon-stack-2x {
   position: absolute;
@@ -80,10 +163,12 @@
   width: 100%;
   text-align: center;
 }
+
 .icon-stack-1x {
   line-height: inherit;
   color: #ffffff;
 }
+
 .icon-stack-2x {
   font-size: 2em;
 }
