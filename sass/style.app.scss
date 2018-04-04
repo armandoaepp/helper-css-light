@@ -58,7 +58,7 @@
 //  ==========================================================================
 // Text-aling
 //  ==========================================================================
-.text-left {
+/* .text-left {
   text-align: left;
 }
 
@@ -85,7 +85,7 @@
 .text-capitalize {
   text-transform: capitalize!important;
 }
-
+ */
 .text-none {
   text-transform: none !important;
 }
@@ -106,19 +106,6 @@
   font-style: italic;
 }
 
-.ell {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.break-word {
-  word-wrap: break-word;
-}
-
-.no-wrap {
-  white-space: nowrap;
-}
 
 //  ==========================================================================
 //  line-height
