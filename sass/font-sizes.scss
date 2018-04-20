@@ -22,23 +22,6 @@
 }
 
 
-/* .fs-x-sm {
-    font-size: 0.25em;
-}
-.fs-x-md {
-    font-size: 0.5em;
-}
-
-.fs-x-lg {
-    font-size: 0.75em;
-}
-
-.fs-x-xlg {
-    font-size: 0.875em;
-}
- */
-
-
 
 @include font-size-variant(0, full);
 @include font-size-variant(1, full);
@@ -47,7 +30,7 @@
 @include font-size-variant(4, medium);
 @include font-size-variant(5, medium);
 @include font-size-variant(6, only);
-@include font-size-variant(7, only);
-@include font-size-variant(8, only);
-@include font-size-variant(9, only);
-@include font-size-variant(10);
+// @include font-size-variant(7, only);
+// @include font-size-variant(8, only);
+// @include font-size-variant(9, only);
+// @include font-size-variant(10);

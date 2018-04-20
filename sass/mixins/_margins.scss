@@ -1,6 +1,6 @@
 @mixin margin-variant($value) {
      // margin  #{$value}
-    .m-all-#{$value} {
+    .m-#{$value} {
         margin: #{$value}px;
     }
 
@@ -36,7 +36,7 @@
     }
 
     .m-y-#{$value},
-    .m-h-#{$value} {
+    .m-v-#{$value} {
         margin: 0 #{$value}px;
     }
 }

@@ -58,7 +58,7 @@
 //  ==========================================================================
 // Text-aling
 //  ==========================================================================
-/* .text-left {
+.text-left {
   text-align: left;
 }
 
@@ -74,18 +74,18 @@
   text-align: justify;
 }
 
-.text-upper {
+.text-uppercase {
   text-transform: uppercase!important;
 }
 
-.text-lower {
+.text-lowercase {
   text-transform: lowercase!important;
 }
 
 .text-capitalize {
   text-transform: capitalize!important;
 }
- */
+
 .text-none {
   text-transform: none !important;
 }
@@ -202,5 +202,5 @@
 
 .left-0 {
   left: 0;
-  auto: auto;
+  right: auto;
 }

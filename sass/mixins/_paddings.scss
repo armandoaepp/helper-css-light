@@ -1,6 +1,6 @@
 @mixin padding-variant($value) {
      // padding  #{$value}
-    .p-all-#{$value} {
+    .p-#{$value} {
         padding: #{$value}px;
     }
 
