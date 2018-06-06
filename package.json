@@ -4,7 +4,8 @@
   "description": "css classes of help for fronend",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node-sass scss/helper-css.scss css/helper-css.css",
+    "prod": "node-sass scss/helper-css.scss css/helper-css.min.css  --output-style compressed"
   },
   "repository": {
     "type": "git",
@@ -20,12 +21,9 @@
   },
   "homepage": "https://github.com/armandoaepp/helper-css#readme",
   "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-rename": "^1.2.2",
-    "gulp-sourcemaps": "^2.6.1"
+
   },
   "devDependencies": {
-    "gulp-sass": "^3.1.0"
+    "node-sass": "^4.9.0"
   }
 }
