@@ -65,15 +65,6 @@
 .text-none {
   text-transform: none !important; }
 
-.tex-bold {
-  font-weight: bold; }
-
-.text-regular {
-  font-weight: normal; }
-
-.text-italic {
-  font-style: italic; }
-
 .l-h-1 {
   line-height: 1; }
 
@@ -933,3 +924,46 @@ h6,
     padding: 0; }
   .m-none-lg {
     margin: 0; } }
+
+.tex-bold {
+  font-weight: bold; }
+
+.text-regular {
+  font-weight: normal; }
+
+.text-italic {
+  font-style: italic; }
+
+.fw-100 {
+  font-weight: 100; }
+
+.fw-extra-light,
+.fw-200 {
+  font-weight: 200; }
+
+.fw-light,
+.fw-300 {
+  font-weight: 300; }
+
+.fw-regular,
+.fw-400 {
+  font-weight: 400; }
+
+.fw-medium,
+.fw-500 {
+  font-weight: 500; }
+
+.fw-semi-bold,
+.fw-600 {
+  font-weight: 600; }
+
+.fw-bold,
+.fw-700 {
+  font-weight: 700; }
+
+.fw-800 {
+  font-weight: 800; }
+
+.fw-extra-bold,
+.fw-900 {
+  font-weight: 900; }
