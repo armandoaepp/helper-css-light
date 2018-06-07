@@ -1,11 +1,11 @@
 // margin Xpx
-.m-none {margin: 0; }
-.m-t-none {margin-top: 0; }
-.m-r-none {margin-right: 0; }
-.m-b-none {margin-bottom: 0; }
-.m-l-none {margin-left: 0; }
-.m-l-r-none {margin-left: 0; margin-right: 0; }
-.m-t-b-none {margin-top: 0; margin-bottom: 0; }
+.m-0 {margin: 0; }
+.m-t-0 {margin-top: 0; }
+.m-r-0 {margin-right: 0; }
+.m-b-0 {margin-bottom: 0; }
+.m-l-0 {margin-left: 0; }
+.m-l-r-0 {margin-left: 0; margin-right: 0; }
+.m-t-b-0 {margin-top: 0; margin-bottom: 0; }
 
 @include margin-variant(5);
 @include margin-variant(10);

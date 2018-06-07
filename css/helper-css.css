@@ -259,26 +259,26 @@
 .fs-6x {
   font-size: 6rem!important; }
 
-.m-none {
+.m-0 {
   margin: 0; }
 
-.m-t-none {
+.m-t-0 {
   margin-top: 0; }
 
-.m-r-none {
+.m-r-0 {
   margin-right: 0; }
 
-.m-b-none {
+.m-b-0 {
   margin-bottom: 0; }
 
-.m-l-none {
+.m-l-0 {
   margin-left: 0; }
 
-.m-l-r-none {
+.m-l-r-0 {
   margin-left: 0;
   margin-right: 0; }
 
-.m-t-b-none {
+.m-t-b-0 {
   margin-top: 0;
   margin-bottom: 0; }
 
@@ -530,26 +530,26 @@
 .m-v-50 {
   margin: 0 50px; }
 
-.p-none {
+.p-0 {
   padding: 0; }
 
-.p-t-none {
+.p-t-0 {
   padding-top: 0; }
 
-.p-r-none {
+.p-r-0 {
   padding-right: 0; }
 
-.p-b-none {
+.p-b-0 {
   padding-bottom: 0; }
 
-.p-l-none {
+.p-l-0 {
   padding-top: 0; }
 
-.p-l-r-none {
+.p-l-r-0 {
   padding-left: 0;
   padding-right: 0; }
 
-.p-t-b-none {
+.p-t-b-0 {
   padding-top: 0;
   padding-bottom: 0; }
 
@@ -921,3 +921,15 @@ h6,
   h6,
   .h6 {
     font-size: 1rem; } }
+
+@media (min-width: 768px) {
+  .p-md-0 {
+    padding: 0; }
+  .m-md-0 {
+    margin: 0; } }
+
+@media (min-width: 960px) {
+  .p-none-lg {
+    padding: 0; }
+  .m-none-lg {
+    margin: 0; } }

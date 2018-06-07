@@ -21,7 +21,7 @@ Following is the number that represents space in pixels and (optional) direction
 Example:
 
 *Margins*
-* `m-none`: assigns `margin: 0` property
+* `m-0`: assigns `margin: 0` property
 * `m-all-5`: assigns `margin: 5px` property
 * `m-t-5`: assigns `margin-top: 5px` property
 * `m-r-5`: assigns `margin-right: 5px` property
@@ -34,7 +34,7 @@ Example:
 ...
 
 *Paddings*
-* `p-none`: assigns `padding: 0` property
+* `p-0`: assigns `padding: 0` property
 * `p-all-5`: assigns `padding: 5px` property
 * `p-t-5`: assigns `padding-top: 5px` property
 * `p-r-5`: assigns `padding-right: 5px` property
