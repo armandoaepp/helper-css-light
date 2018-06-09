@@ -5,7 +5,6 @@
     }
 
     @if $derivadas == "medium" {
-        .medium{ font-size:$value  }
      .#{$font-size-prefix}-#{$value}x-sm { font-size: sumar($value, 0.25)#{$font-size-unity-prefix}#{$important}; }
      .#{$font-size-prefix}-#{$value}x-md { font-size: sumar($value, 0.5)#{$font-size-unity-prefix}#{$important}; }
      .#{$font-size-prefix}-#{$value}x-lg { font-size: sumar($value, 0.75)#{$font-size-unity-prefix}#{$important}; }

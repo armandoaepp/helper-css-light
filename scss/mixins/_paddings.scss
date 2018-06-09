@@ -1,42 +1,42 @@
 @mixin padding-variant($value) {
      // padding  #{$value}
     .p-#{$value} {
-        padding: #{$value}px;
+        padding: #{$value}px!important;
     }
 
     .p-t-#{$value} {
-        padding-top: #{$value}px;
+        padding-top: #{$value}px!important;
     }
 
     .p-r-#{$value} {
-        padding-right: #{$value}px;
+        padding-right: #{$value}px!important;
     }
 
     .p-b-#{$value} {
-        padding-bottom: #{$value}px;
+        padding-bottom: #{$value}px!important;
     }
 
     .p-l-#{$value} {
-        padding-left: #{$value}px;
+        padding-left: #{$value}px!important;
     }
 
     .p-t-b-#{$value} {
-        padding-top: #{$value}px;
-        padding-bottom: #{$value}px;
+        padding-top: #{$value}px!important;
+        padding-bottom: #{$value}px!important;
     }
 
     .p-l-r-#{$value} {
-        padding-right: #{$value}px;
-        padding-left: #{$value}px;
+        padding-right: #{$value}px!important;
+        padding-left: #{$value}px!important;
     }
 
     .p-x-#{$value},
     .p-h-#{$value} {
-        padding: #{$value}px 0;
+        padding: #{$value}px 0!important;
     }
 
     .p-y-#{$value},
     .p-v-#{$value} {
-        padding: 0 #{$value}px;
+        padding: 0 #{$value}px!important;
     }
 }

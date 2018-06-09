@@ -1,42 +1,42 @@
 @mixin margin-variant($value) {
      // margin  #{$value}
     .m-#{$value} {
-        margin: #{$value}px;
+        margin: #{$value}px!important;
     }
 
     .m-t-#{$value} {
-        margin-top: #{$value}px;
+        margin-top: #{$value}px!important;
     }
 
     .m-r-#{$value} {
-        margin-right: #{$value}px;
+        margin-right: #{$value}px!important;
     }
 
     .m-b-#{$value} {
-        margin-bottom: #{$value}px;
+        margin-bottom: #{$value}px!important;
     }
 
     .m-l-#{$value} {
-        margin-left: #{$value}px;
+        margin-left: #{$value}px!important;
     }
 
     .m-t-b-#{$value} {
-        margin-top: #{$value}px;
-        margin-bottom: #{$value}px;
+        margin-top: #{$value}px!important;
+        margin-bottom: #{$value}px!important;
     }
 
     .m-l-r-#{$value} {
-        margin-right: #{$value}px;
-        margin-left: #{$value}px;
+        margin-right: #{$value}px!important;
+        margin-left: #{$value}px!important;
     }
 
     .m-x-#{$value},
     .m-h-#{$value} {
-        margin: #{$value}px 0;
+        margin: #{$value}px 0!important;
     }
 
     .m-y-#{$value},
     .m-v-#{$value} {
-        margin: 0 #{$value}px;
+        margin: 0 #{$value}px!important;
     }
 }

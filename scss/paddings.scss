@@ -1,12 +1,7 @@
 // paddings Xpx
-.p-0 {padding: 0; }
-.p-t-0 {padding-top: 0; }
-.p-r-0 {padding-right: 0; }
-.p-b-0 {padding-bottom: 0; }
-.p-l-0 {padding-top: 0; }
-.p-l-r-0 {padding-left: 0; padding-right: 0; }
-.p-t-b-0 {padding-top: 0; padding-bottom: 0; }
 
+
+@include padding-variant(0);
 @include padding-variant(5);
 @include padding-variant(10);
 @include padding-variant(15);

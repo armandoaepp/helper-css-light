@@ -26,7 +26,29 @@
 @include font-size-variant(0, full);
 @include font-size-variant(1, full);
 @include font-size-variant(2, full);
-@include font-size-variant(3, mediun);
+@include font-size-variant(3, full);
 @include font-size-variant(4, medium);
 @include font-size-variant(5, medium);
 @include font-size-variant(6, only);
+
+
+.fs-x1 {
+  font-size: 1rem!important; }
+
+.fs-x2{
+  font-size: 1.25rem!important; }
+
+.fs-x3 {
+  font-size: 1.375rem!important; }
+
+.fs-x4{
+  font-size: 1.5rem!important; }
+
+.fs-x5 {
+  font-size: 1.625rem!important; }
+
+.fs-x6{
+  font-size: 1.75rem!important; }
+
+.fs-6 {
+  font-size: 1.875rem!important; }
