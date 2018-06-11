@@ -1,6 +1,6 @@
 {
   "name": "helper-css",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "css classes of help for fronend",
   "main": "gulpfile.js",
   "scripts": {
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/armandoaepp/helper-css#readme",
   "dependencies": {
-
+    "foundation-sites": "^6.4.4-rc1"
   },
   "devDependencies": {
     "node-sass": "^4.9.0"

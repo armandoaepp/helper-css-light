@@ -1,3 +1,14 @@
-@function sumar($number1, $number2){
-  @return $number1 + $number2
+@function sumar($number1, $number2) {
+    @return $number1+$number2
+}
+
+// value = px
+@function rem-calc($value, $base: 16) {
+    $value: ($value / $base) * 1rem;
+    @return $value;
+}
+
+// verificar si existe un item en list
+@function verify-key-header($key) {
+      @return index($headers, $key);
 }
