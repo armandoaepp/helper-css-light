@@ -2,83 +2,79 @@
 // Typography
 //  ==========================================================================
 .tex-bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .text-regular {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 .text-italic {
-    font-style: italic;
+  font-style: italic;
 }
 
 //  ==========================================================================
 // font-weight
 //  ==========================================================================
-
+.fw-extra-light,
 .fw-100 {
-    font-weight: 100;
+  font-weight: 100;
 }
 
-.fw-extra-light,
+.fw-semi-light,
 .fw-200 {
-    font-weight: 200;
+  font-weight: 200;
 }
 
 .fw-light,
 .fw-300 {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 .fw-regular,
 .fw-400 {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .fw-medium,
 .fw-500 {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .fw-semi-bold,
 .fw-600 {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .fw-bold,
 .fw-700 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .fw-800 {
-    font-weight: 800;
+  font-weight: 800;
 }
 
 .fw-extra-bold,
 .fw-900 {
-    font-weight: 900;
+  font-weight: 900;
 }
-
-
 
 //  ==========================================================================
 // opacity
 //  ==========================================================================
-
 .opacity-1 {
-    opacity: 1;
+  opacity: 1;
 }
 
 .opacity-2 {
-    opacity: .875;
+  opacity: .875;
 }
 
 .opacity-3 {
-    opacity: .75;
+  opacity: .75;
 }
 
-
 .opacity-4 {
-    opacity: .5;
+  opacity: .5;
 }
