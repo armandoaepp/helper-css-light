@@ -1,15 +1,181 @@
+// =================================================================================
 // font-sizes varintes
+// =================================================================================
 
 /*
-* params full aplica las variantes de -x-sm(+0.25) -x-md(+0.5) -x-lg(+0.75)
+* params full aplica las variantes de :
+xs(+0.125)
+sm(+0.25)
+sm-md(+0.375)
+md(+0.5)
+md-lg(+0.625)
+lg(+0.75)
+xlg(+0.875)
 * only on null no crea variantes de la fuente
 */
 
-@include font-size-variant(0, full);
-@include font-size-variant(1, full);
-@include font-size-variant(2, full);
-@include font-size-variant(3, full);
-@include font-size-variant(4, medium);
-@include font-size-variant(5, medium);
-@include font-size-variant(6, only);
+// =================================================================================
+// font-sizes VARIABLES
+// =================================================================================
+$font-sizes: (
+  all: (
+    'fs-x-10': ('font-size':10),
+    'fs-x-11': ('font-size':11),
+    'fs-x-12': ('font-size':12),
+    'fs-x-13': ('font-size':13),
+    'fs-x-14': ('font-size':14),
+    'fs-x-15': ('font-size':15),
+    // 1rem
+    'fs-1x': ('font-size': 16),
+    'fs-1x-xs': ('font-size': 18),
+    'fs-1x-sm': ('font-size': 20),
+    'fs-1x-sm-md': ('font-size': 22),
+    'fs-1x-md': ('font-size': 24),
+    'fs-1x-md-lg': ('font-size': 26),
+    'fs-1x-lg': ('font-size': 28),
+    'fs-1x-xlg': ('font-size': 30),
+    // 2rem
+    'fs-2x': ('font-size': 32),
+    'fs-2x-xs': ('font-size': 34),
+    'fs-2x-sm': ('font-size': 36),
+    'fs-2x-sm-md': ('font-size': 38),
+    'fs-2x-md': ('font-size': 40),
+    'fs-2x-md-lg': ('font-size': 42),
+    'fs-2x-lg': ('font-size': 44),
+    'fs-2x-xlg': ('font-size': 46),
+    // 3rem
+    'fs-3x': ('font-size': 48),
+    'fs-3x-xs': ('font-size': 50),
+    'fs-3x-sm': ('font-size': 52),
+    'fs-3x-sm-md': ('font-size': 54),
+    'fs-3x-md': ('font-size': 56),
+    'fs-3x-md-lg': ('font-size': 58),
+    'fs-3x-lg': ('font-size': 60),
+    'fs-3x-xlg': ('font-size': 62),
+    // 4rem
+    'fs-4x': ('font-size': 64),
+    'fs-4x-xs': ('font-size': 66),
+    'fs-4x-sm': ('font-size': 68),
+    'fs-4x-sm-md': ('font-size': 70),
+    'fs-4x-md': ('font-size': 72),
+    'fs-4x-md-lg': ('font-size': 74),
+    'fs-4x-lg': ('font-size': 76),
+    'fs-4x-xlg': ('font-size': 78),
+    // 5rem
+    'fs-5x': ('font-size': 80),
 
+  ),
+  sm: (
+    // 1rem
+    'fs-sm-1x': ('font-size': 16),
+    // 'fs-sm-1x-xs': ('font-size': 18),
+    'fs-sm-1x-sm': ('font-size': 20),
+    // 'fs-sm-1x-sm-md': ('font-size': 22),
+    'fs-sm-1x-md': ('font-size': 24),
+    // 'fs-sm-1x-md-lg': ('font-size': 26),
+    'fs-sm-1x-lg': ('font-size': 28),
+    // 'fs-sm-1x-xlg': ('font-size': 30),
+    // 2rem
+    'fs-sm-2x': ('font-size': 32),
+    // 'fs-sm-2x-xs': ('font-size': 34),
+    'fs-sm-2x-sm': ('font-size': 36),
+    // 'fs-sm-2x-sm-md': ('font-size': 38),
+    'fs-sm-2x-md': ('font-size': 40),
+    // 'fs-sm-2x-md-lg': ('font-size': 42),
+    'fs-sm-2x-lg': ('font-size': 44),
+    // 'fs-sm-2x-xlg': ('font-size': 46),
+    // 3rem
+    'fs-sm-3x': ('font-size': 48),
+    // 'fs-sm-3x-xs': ('font-size': 50),
+    'fs-sm-3x-sm': ('font-size': 52),
+    // 'fs-sm-3x-sm-md': ('font-size': 54),
+    'fs-sm-3x-md': ('font-size': 56),
+    // 'fs-sm-3x-md-lg': ('font-size': 58),
+    'fs-sm-3x-lg': ('font-size': 60),
+    // 'fs-sm-3x-xlg': ('font-size': 62),
+    // 4rem
+    'fs-sm-4x': ('font-size': 64),
+    // 'fs-sm-4x-xs': ('font-size': 66),
+    'fs-sm-4x-sm': ('font-size': 68),
+    // 'fs-sm-4x-sm-md': ('font-size': 70),
+    'fs-sm-4x-md': ('font-size': 72),
+    // 'fs-sm-4x-md-lg': ('font-size': 74),
+    'fs-sm-4x-lg': ('font-size': 76),
+    // 'fs-sm-4x-xlg': ('font-size': 78),
+    // 5rem
+    'fs-sm-5x': ('font-size': 80),
+  ),
+  md: (
+     // 1rem
+     'fs-md-1x': ('font-size': 16),
+     'fs-md-1x-sm': ('font-size': 20),
+     'fs-md-1x-md': ('font-size': 24),
+     'fs-md-1x-lg': ('font-size': 28),
+     // 2rem
+     'fs-md-2x': ('font-size': 32),
+     'fs-md-2x-sm': ('font-size': 36),
+     'fs-md-2x-md': ('font-size': 40),
+     'fs-md-2x-lg': ('font-size': 44),
+     // 3rem
+     'fs-md-3x': ('font-size': 48),
+     'fs-md-3x-sm': ('font-size': 52),
+     'fs-md-3x-md': ('font-size': 56),
+     'fs-md-3x-lg': ('font-size': 60),
+     // 4rem
+     'fs-md-4x': ('font-size': 64),
+     'fs-md-4x-sm': ('font-size': 68),
+     'fs-md-4x-md': ('font-size': 72),
+     'fs-md-4x-lg': ('font-size': 76),
+     // 5rem
+     'fs-md-5x': ('font-size': 80),
+  ),
+  lg: (
+    // 1rem
+    'fs-lg-1x': ('font-size': 16),
+    'fs-lg-1x-sm': ('font-size': 20),
+    'fs-lg-1x-md': ('font-size': 24),
+    'fs-lg-1x-lg': ('font-size': 28),
+    // 2rem
+    'fs-lg-2x': ('font-size': 32),
+    'fs-lg-2x-sm': ('font-size': 36),
+    'fs-lg-2x-md': ('font-size': 40),
+    'fs-lg-2x-lg': ('font-size': 44),
+    // 3rem
+    'fs-lg-3x': ('font-size': 48),
+    'fs-lg-3x-sm': ('font-size': 52),
+    'fs-lg-3x-md': ('font-size': 56),
+    'fs-lg-3x-lg': ('font-size': 60),
+    // 4rem
+    'fs-lg-4x': ('font-size': 64),
+    'fs-lg-4x-sm': ('font-size': 68),
+    'fs-lg-4x-md': ('font-size': 72),
+    'fs-lg-4x-lg': ('font-size': 76),
+    // 5rem
+    'fs-lg-5x': ('font-size': 80),
+ ),
+);
+
+
+//  ==========================================================================
+// fonts-size styles CLASS
+//  ==========================================================================
+
+@each $size,
+$fsizes in $font-sizes {
+  @include media-breakpoint-up($size) {
+    @each $fonts,
+    $fonts-defs in $fsizes {
+      .#{$fonts} {
+
+        @if map-has-key($fonts-defs, font-size) {
+          $font-size-temp: rem-calc(map-get($fonts-defs, font-size)) ;
+          font-size: $font-size-temp ;
+        }
+        @else if map-has-key($fonts-defs, fs) {
+          $font-size-temp: rem-calc(map-get($fonts-defs, font-size)) ;
+          font-size: $font-size-temp;
+        }
+      }
+    }
+  }
+}

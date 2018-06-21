@@ -1,3 +1,62 @@
+// =================================================================================
+// HEADGING
+// =================================================================================
+$headers:(
+  'h1',
+  'h2',
+  'h3',
+  'h4',
+  'h5',
+  'h6',
+);
+
+$header-font-sizes: (
+  xs: (
+    'h1': ('font-size': 28),
+    'h2': ('font-size': 22),
+    'h3': ('font-size': 20),
+    'h4': ('font-size': 18),
+    'h5': ('font-size': 17),
+    'h6': ('font-size': 16),
+    'h1-lg': ('font-size': 28),
+    'h7': ('font-size': 14),
+  ),
+  sm: (
+    'h1': ('font-size': 30),
+    'h2': ('font-size': 25),
+    'h3': ('font-size': 22),
+    'h4': ('font-size': 20),
+    'h5': ('font-size': 18),
+    'h6': ('font-size': 16),
+    'h1-lg': ('font-size': 35),
+    'h7': ('font-size': 14),
+  ),
+  md: (
+    'h1': ('font-size': 36),
+    'h2': ('font-size': 30),
+    'h3': ('font-size': 25),
+    'h4': ('font-size': 22),
+    'h5': ('font-size': 19),
+    'h6': ('font-size': 16),
+    'h1-lg': ('font-size': 42),
+    'h7': ('font-size': 15),
+  ),
+  lg: (
+    'h1': ('font-size': 48),
+    'h2': ('font-size': 40),
+    'h3': ('font-size': 31),
+    'h4': ('font-size': 25),
+    'h5': ('font-size': 20),
+    'h6': ('font-size': 16),
+    'h1-lg': ('font-size': 56),
+    'h7': ('font-size': 16),
+  ),
+);
+
+// =================================================================================
+// HEADGING GENERATES CLASS
+// =================================================================================
+
 h1,
 .h1,
 h2,
@@ -37,7 +96,7 @@ h6 small,
 }
 
 //  ==========================================================================
-// Heading styles
+// Heading styles CLASS
 //  ==========================================================================
 @each $size,
 $headers in $header-font-sizes {
@@ -51,15 +110,14 @@ $headers in $header-font-sizes {
       }
       @else {
         $h-temp: '.#{$header}';
-      }
-      // #{$header}, .#{$header} {
+      } // #{$header}, .#{$header} {
       #{$h-temp} {
         @if map-has-key($header-defs, font-size) {
-          $font-size-temp: rem-calc(map-get($header-defs, font-size));
+          $font-size-temp: rem-calc(map-get($header-defs, font-size)) ;
           font-size: $font-size-temp;
         }
         @else if map-has-key($header-defs, fs) {
-          $font-size-temp: rem-calc(map-get($header-defs, fs));
+          $font-size-temp: rem-calc(map-get($header-defs, fs)) ;
           font-size: $font-size-temp;
         }
       }
