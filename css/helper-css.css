@@ -1,5 +1,5 @@
 /*!
- * helper-css v.2.0.0 (@armandoaepp)
+ * helper-css v.2.2.0 (@armandoaepp)
  * Copyright 2018
 */
 .centered {
@@ -66,19 +66,19 @@
   text-transform: none !important; }
 
 .l-h-1 {
-  line-height: 1; }
+  line-height: 1 !important; }
+
+.l-h-1-sm {
+  line-height: 1.25 !important; }
 
 .l-h-1-md {
-  line-height: 1.5; }
+  line-height: 1.5 !important; }
+
+.l-h-1-lg {
+  line-height: 1.75 !important; }
 
 .l-h-2 {
-  line-height: 2; }
-
-.l-h-2-md {
-  line-height: 2.5; }
-
-.l-h-3 {
-  line-height: 3; }
+  line-height: 2 !important; }
 
 .icon-stack {
   position: relative;
@@ -129,17 +129,71 @@
   left: 0;
   right: auto; }
 
-/*
-* params full aplica las variantes de :
-xs(+0.125)
-sm(+0.25)
-sm-md(+0.375)
-md(+0.5)
-md-lg(+0.625)
-lg(+0.75)
-xlg(+0.875)
-* only on null no crea variantes de la fuente
-*/
+.img-bg-fluid {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-size: cover; }
+
+.img-bg-fixed,
+.img-parallax {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+.opacity-1 {
+  opacity: 1; }
+
+.opacity-2 {
+  opacity: .875; }
+
+.opacity-3 {
+  opacity: .75; }
+
+.opacity-4 {
+  opacity: .5; }
+
+.opacity-bg-25 {
+  background-color: rgba(0, 0, 0, 0.25) !important; }
+
+.opacity-bg-50 {
+  background-color: rgba(0, 0, 0, 0.5) !important; }
+
+.opacity-bg-75 {
+  background-color: rgba(0, 0, 0, 0.75) !important; }
+
+.opacity-bg-85 {
+  background-color: rgba(0, 0, 0, 0.85) !important; }
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1); }
+
+hr.double {
+  border-top-width: 3px;
+  border-top-style: double; }
+
+hr.dashed {
+  border-top-style: dashed; }
+
+hr.dotted {
+  border-top-style: dotted; }
+
+.hr-2x {
+  border-top-width: 2px; }
+
+.hr-3x {
+  border-top-width: 3px; }
+
+.hr-white {
+  border-top-color: rgba(255, 255, 255, 0.75); }
+
+.hr-black {
+  border-top-color: rgba(0, 0, 0, 0.75); }
+
 .fs-x-10 {
   font-size: 0.625rem; }
 
@@ -1137,14 +1191,29 @@ h6, .h6 {
 .fw-900 {
   font-weight: 900; }
 
-.opacity-1 {
-  opacity: 1; }
+.h-25 {
+  height: 25%; }
 
-.opacity-2 {
-  opacity: .875; }
+.h-50 {
+  height: 50%; }
 
-.opacity-3 {
-  opacity: .75; }
+.h-75 {
+  height: 75%; }
 
-.opacity-4 {
-  opacity: .5; }
+.h-100 {
+  height: 100%; }
+
+.h-auto {
+  height: auto; }
+
+@media (min-width: 768px) {
+  .h-md-25 {
+    height: 25%; }
+  .h-md-50 {
+    height: 50%; }
+  .h-md-75 {
+    height: 75%; }
+  .h-md-100 {
+    height: 100%; }
+  .h-md-auto {
+    height: auto; } }

@@ -2,8 +2,8 @@
 // ---- Alignments ----
 //  ==========================================================================
 .centered {
-  float: none!important;
-  margin: auto!important;
+  float: none !important;
+  margin: auto !important;
 }
 
 .center-block {
@@ -74,15 +74,15 @@
 }
 
 .text-uppercase {
-  text-transform: uppercase!important;
+  text-transform: uppercase !important;
 }
 
 .text-lowercase {
-  text-transform: lowercase!important;
+  text-transform: lowercase !important;
 }
 
 .text-capitalize {
-  text-transform: capitalize!important;
+  text-transform: capitalize !important;
 }
 
 .text-none {
@@ -93,23 +93,23 @@
 //  line-height
 //  ==========================================================================
 .l-h-1 {
-  line-height: 1;
+  line-height: 1 !important;
+}
+
+.l-h-1-sm {
+  line-height: 1.25 !important;
 }
 
 .l-h-1-md {
-  line-height: 1.5;
+  line-height: 1.5 !important;
+}
+
+.l-h-1-lg {
+  line-height: 1.75 !important;
 }
 
 .l-h-2 {
-  line-height: 2;
-}
-
-.l-h-2-md {
-  line-height: 2.5
-}
-
-.l-h-3 {
-  line-height: 3;
+  line-height: 2 !important;
 }
 
 //  ==========================================================================
@@ -181,4 +181,98 @@
 .left-0 {
   left: 0;
   right: auto;
+}
+
+//  ==========================================================================
+// IMAGES BACKGROUND
+//  ==========================================================================
+.img-bg-fluid {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-size: cover;
+}
+
+.img-bg-fixed,
+.img-parallax {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+//  ==========================================================================
+// OPACITY
+//  ==========================================================================
+.opacity-1 {
+  opacity: 1;
+}
+
+.opacity-2 {
+  opacity: .875;
+}
+
+.opacity-3 {
+  opacity: .75;
+}
+
+.opacity-4 {
+  opacity: .5;
+}
+
+//  ==========================================================================
+// OPACITY BACKGROUND
+//  ==========================================================================
+.opacity-bg-25 {
+  background-color: rgba(#000000, 0.25) !important;
+}
+
+.opacity-bg-50 {
+  background-color: rgba(#000000, 0.50) !important;
+}
+
+.opacity-bg-75 {
+  background-color: rgba(#000000, 0.75) !important;
+}
+
+.opacity-bg-85 {
+  background-color: rgba(#000000, 0.85) !important;
+}
+
+//  ==========================================================================
+// HR styles
+//  ==========================================================================
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+hr.double {
+  border-top-width: 3px;
+  border-top-style: double;
+}
+
+hr.dashed {
+  border-top-style: dashed;
+}
+
+hr.dotted {
+  border-top-style: dotted;
+}
+
+.hr-2x {
+  border-top-width: 2px;
+}
+
+.hr-3x {
+  border-top-width: 3px;
+}
+
+.hr-white {
+  border-top-color: rgba(255, 255, 255, 0.75);
+}
+.hr-black {
+  border-top-color: rgba(0, 0, 0, 0.75);
 }
