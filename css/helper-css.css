@@ -1217,3 +1217,15 @@ h6, .h6 {
     height: 100%; }
   .h-md-auto {
     height: auto; } }
+
+@media (min-width: 992px) {
+  .h-lg-25 {
+    height: 25%; }
+  .h-lg-50 {
+    height: 50%; }
+  .h-lg-75 {
+    height: 75%; }
+  .h-lg-100 {
+    height: 100%; }
+  .h-lg-auto {
+    height: auto; } }
