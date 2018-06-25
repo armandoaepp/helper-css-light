@@ -1,0 +1,17 @@
+$sizes-styles: ()!default ;
+$sizes-styles: map-merge((
+  25: 25%,
+  50: 50%,
+  75: 75%,
+  100: 100%,
+  auto: auto
+), $sizes-styles);
+
+@each $prop, $abbrev in (width: w, height: h) {
+  @each $size, $length in $sizes-styles {
+    .#{$abbrev}-#{$size} { #{$prop}: $length !important; }
+  }
+}
+
+.mw-100 { max-width: 100% !important; }
+.mh-100 { max-height: 100% !important; }
