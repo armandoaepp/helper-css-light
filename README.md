@@ -20,52 +20,99 @@ Following is the number that represents space in pixels and (optional) direction
 
 Example:
 
-*Margins*
-* `m-0`: assigns `margin: 0` property
-* `m-all-5`: assigns `margin: 5px` property
-* `m-t-5`: assigns `margin-top: 5px` property
-* `m-r-5`: assigns `margin-right: 5px` property
-* `m-b-5`: assigns `margin-bottom: 5px` property
-* `m-l-5`: assigns `margin-left: 5px` property
-* `m-t-b-5`: assigns `margin-top: 5px; margin-bottom: 5px` property
-* `m-l-r-5`: assigns `margin-left: 5px; margin-right: 5px` property
-* `m-x-5`: assigns `margin: 5px 0` property
-* `m-y-5`: assigns `margin: 0 5px` property
-...
+*Margins(m) and Paddings(p)*
 
-*Paddings*
+
+
+
+* `t`:  for classes that set` margin-top` or `padding-top`
+* `b`:  for classes that set `margin-bottom` or `padding-bottom`
+* `l`:  for classes that set `margin-left` or `padding-left`
+* `r`:  for classes that set `margin-right` or `padding-right`
+* `x`:  for classes that set both `*-left` and `*-right`
+* `y`:  for classes that set both `*-top` and `*-bottom`
+
+*Margins(m)*
+* `m-0`: assigns `margin: 0` property
+* `m-1x`: assigns `margin: 1rem` property
+* `mt-1x`: assigns `margin-top: 1rem` property
+* `mb-1x`: assigns `margin-bottom: 1rem` property
+* `ml-1x`: assigns `margin-left: 1rem` property
+* `mr-1x`: assigns `margin-right: 1rem` property
+* `mx-1x`: assigns `margin-left: 1rem; margin-right: 1rem` property
+* `my-1x`: assigns `margin-top: 1rem; margin-bottom: 1rem` property
+
+* `m-x-25`: assigns `margin: 0.25rem` property
+* `m-x-50`: assigns `margin: 0.5rem` property
+* `m-x-75`: assigns `margin: 0.75rem` property
+
+* `m-1x-25`: assigns `margin: 1.25rem` property
+* `m-1x-50`: assigns `margin: 1.5rem` property
+* `m-1x-75`: assigns `margin: 1.75rem` property
+* `m-1x-*`: assigns `margin-*: 1.25rem` property
+
+* `m-2x`: assigns `margin: 1.75rem` property
+* `m-3x`: assigns `margin: 1.75rem` property
+* `m-4x`: assigns `margin: 1.75rem` property
+
+and variants `md`: `m*-md-*x`
+....
+
+*Paddings(m)*
 * `p-0`: assigns `padding: 0` property
-* `p-all-5`: assigns `padding: 5px` property
-* `p-t-5`: assigns `padding-top: 5px` property
-* `p-r-5`: assigns `padding-right: 5px` property
-* `p-b-5`: assigns `padding-bottom: 5px` property
-* `p-l-5`: assigns `padding-left: 5px` property
-* `p-t-b-5`: assigns `padding-top: 5px; padding-bottom: 5px` property
-* `p-l-r-5`: assigns `padding-left: 5px; padding-right: 5px` property
-* `p-x-5`: assigns `padding: 5px 0` property
-* `p-y-5`: assigns `padding: 0 5px` property
-...
+* `p-1x`: assigns `padding: 1rem` property
+* `pt-1x`: assigns `padding-top: 1rem` property
+* `pb-1x`: assigns `padding-bottom: 1rem` property
+* `pl-1x`: assigns `padding-left: 1rem` property
+* `pr-1x`: assigns `padding-right: 1rem` property
+* `px-5`: assigns `padding-left: 1rem; padding-right: 1rem` property
+* `py-1x`: assigns `padding-top: 1rem; padding-bottom: 1rem` property
+
+* `p-x-25`: assigns `padding: 0.25rem` property
+* `p-x-50`: assigns `padding: 0.5rem` property
+* `p-x-75`: assigns `padding: 0.75rem` property
+
+* `p-1x-25`: assigns `padding: 1.25rem` property
+* `p-1x-50`: assigns `padding: 1.5rem` property
+* `p-1x-75`: assigns `padding: 1.75rem` property
+* `p-1x-*`: assigns `padding-*: 1.25rem` property
+
+* `p-2x`: assigns `padding: 1.75rem` property
+* `p-3x`: assigns `padding: 1.75rem` property
+* `p-4x`: assigns `padding: 1.75rem` property
+
+and variants `md`: `p*-md-*x`
 
 
 #### CSS Helpers for Text
 
 Text CSS Helpers contain set of text styling classes for text display and size.
 
-*Text Align*
+*Text Alignment Responsive*
 
 * `.text-left`: assigns `text-align: left` property
 * `.text-right`: assigns `text-align: right` property
 * `.text-center`: assigns `text-align: center` property
-* `.text-justify`: assigns `font-align: justify` property
 
-*Text Style*
+variants
+* `.text-sm-*`: assigns `text-align: *` property
+* `.text-md-*`: assigns `text-align: *` property
+* `.text-lg-*`: assigns `text-align: *` property
+* `.text-xlg-*`: assigns `text-align: *` property
+
+*Text Alignment*
+
+* `.text-justify`: assigns `font-align: justify` property
+* `.text-nowrap`: assigns `font-align: nowrap` property
+
+*Text Weight and italics*
 * `.text-bold`: assigns `font-weight: bold` property
 * `.text-normal`: assigns `font-weight: normal` property
 * `.text-italic`: assigns `font-weight: italic` property
 
 *Text Transform*
-* `.text-upper`: assigns `font-transform: uppercase` property
-* `.text-lower`: assigns `font-transform: lowercase` property
+* `.text-uppercase`: assigns `font-transform: uppercase` property
+* `.text-lowercase`: assigns `font-transform: lowercase` property
 * `.text-capitalize`: assigns `font-transform: capitalize` property
 * `.text-none`: assigns `font-transform: none` property
 
@@ -73,21 +120,42 @@ Text CSS Helpers contain set of text styling classes for text display and size.
 
 *Text Size*
 * `.fs-1x`: assigns `font-size: 1em` property
-* `.fs-1x-sm`: assigns `font-size: 1.25em` property
-* `.fs-1x-md`: assigns `font-size: 1.5em` property
-* `.fs-1x-lg`: assigns `font-size: 1.75em` property
+* `.fs-1x-25`: assigns `font-size: 1.25em` property
+* `.fs-1x-50`: assigns `font-size: 1.5em` property
+* `.fs-1x-75`: assigns `font-size: 1.75em` property
+...
+...
+...
+* `.fs-5x`: assigns `font-size: 1.75em` property
+
+and variants
+* `sm`: `fs-sm-*x-*`
+* `md`: `fs-md-*x-*`
+* `lg`: `fs-lg-*x-*`
+* `xlg`: `fs-xlg-*x-*`
 ...
 
 
 #### CSS Helpers for Border Radius
 
 *Border Radius*
-* `.b-rounded`: assigns `border-radius: 50%` property
-* `.b-r-0`: assigns `border-radius: 0` property
-* `.b-r-4`: assigns `border-radius: 4` property
-* `.b-r-8`: assigns `border-radius: 8` property
-* `.b-r-10`: assigns `border-radius: 10` property
-* `.b-r-15`: assigns `border-radius: 15` property
+* `.rounded-circle`: assigns `border-radius: 50%` property
+* `.rounded-0`: assigns `border-radius: 0` property
+* `.rounded-5`: assigns `border-radius: 5` property
+* `.rounded-10`: assigns `border-radius: 10` property
+* `.rounded-15`: assigns `border-radius: 15` property
+* `.rounded-20`: assigns `border-radius: 20` property
+
+* `.rounded-top`
+* `.rounded-right`
+* `.rounded-bottom`
+* `.rounded-left`
+* `.rounded-top-left`
+* `.rounded-top-right`
+* `.rounded-bottom-left`
+* `.rounded-bottom-right`
+* `.rounded-diagonal-1`
+* `.rounded-diagonal-2`
 
 
 #### CSS Helpers for Rotates

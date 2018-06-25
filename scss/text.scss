@@ -1,0 +1,101 @@
+
+//  ==========================================================================
+//  --- Text Variants ---
+//  ==========================================================================
+
+
+//  ==========================================================================
+// Responsive alignment
+//  ==========================================================================
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    .text#{$infix}-left   { text-align: left !important; }
+    .text#{$infix}-right  { text-align: right !important; }
+    .text#{$infix}-center { text-align: center !important; }
+  }
+}
+
+
+//  ==========================================================================
+// Alignment
+//  ==========================================================================
+
+.text-justify  { text-align: justify !important; }
+.text-nowrap   { white-space: nowrap !important; }
+
+
+//  ==========================================================================
+//  Transformation
+//  ==========================================================================
+.text-lowercase  { text-transform: lowercase !important; }
+.text-uppercase  { text-transform: uppercase !important; }
+.text-capitalize { text-transform: capitalize !important; }
+
+.text-none {
+  text-transform: none !important;
+}
+
+//  ==========================================================================
+//  Weight and italics
+//  ==========================================================================
+.tex-bold {
+  font-weight: bold;
+}
+
+.text-regular {
+  font-weight: normal;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+//  ==========================================================================
+// font-weight
+//  ==========================================================================
+.fw-extra-light,
+.fw-100 {
+  font-weight: 100;
+}
+
+.fw-semi-light,
+.fw-200 {
+  font-weight: 200;
+}
+
+.fw-light,
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-regular,
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-medium,
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-semi-bold,
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-bold,
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-800 {
+  font-weight: 800;
+}
+
+.fw-extra-bold,
+.fw-900 {
+  font-weight: 900;
+}
