@@ -1,4 +1,0 @@
-// border radius
-@mixin border-radius-variant($value) {
-     .b-r-#{$value} { border-radius: #{$value}px !important; }
-}

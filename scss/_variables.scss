@@ -6,3 +6,16 @@ $grid-breakpoints: (
   xl: 1200px
 ) !default;
 
+//  ==========================================================================
+// Borders Variables
+//  ==========================================================================
+$border-width: 1px !default ;
+$border-color: #dee2e6 !default;
+
+$border-radius: (
+  'rounded-0' : 0 ,
+  'rounded-5' : 5 ,
+  'rounded-10': 10 ,
+  'rounded-15': 15 ,
+  'rounded-20': 20 ,
+);
