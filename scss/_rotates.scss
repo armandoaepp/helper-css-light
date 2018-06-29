@@ -1,6 +1,9 @@
 // rotates variants (param: x deg)
 
+@include rotate-variant(30);
 @include rotate-variant(45);
+@include rotate-variant(60);
 @include rotate-variant(90);
+@include rotate-variant(120);
 @include rotate-variant(180);
 @include rotate-variant(270);

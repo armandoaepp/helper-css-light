@@ -22,6 +22,26 @@
 .align-text-top {
   vertical-align: text-top !important; }
 
+.centered,
+.float-center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto; }
+
+.valing-full {
+  align-items: center;
+  min-height: 100vh;
+  margin: 0 auto; }
+
+.center-flex-v {
+  display: flex;
+  align-items: center; }
+
+@media only screen and (min-width: 768px) {
+  .centered-v-md {
+    display: flex;
+    align-items: center; } }
+
 .border {
   border: 1px solid #dee2e6 !important; }
 
@@ -516,6 +536,23 @@
 .lh-2 {
   line-height: 2 !important; }
 
+ul.list-style-none {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+ul.list-circle {
+  list-style-type: circle; }
+
+ul.list-square {
+  list-style-type: square; }
+
+ol.list-upper-roman {
+  list-style-type: upper-roman; }
+
+ol.list-lower-alpha {
+  list-style-type: lower-alpha; }
+
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -752,15 +789,30 @@ h6, .h6 {
     top: 0;
     z-index: 1020; } }
 
+.rotate-30 {
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg); }
+
 .rotate-45 {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg); }
 
+.rotate-60 {
+  -webkit-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  transform: rotate(60deg); }
+
 .rotate-90 {
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg); }
+
+.rotate-120 {
+  -webkit-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  transform: rotate(120deg); }
 
 .rotate-180 {
   -webkit-transform: rotate(180deg);
@@ -1941,11 +1993,8 @@ h6, .h6 {
   .mx-xl-auto {
     margin-left: auto !important; } }
 
-.centered {
-  float: none !important;
-  margin: auto !important; }
-
-.center-block {
+.centered,
+.float-center {
   display: block;
   margin-right: auto;
   margin-left: auto; }
@@ -1955,12 +2004,12 @@ h6, .h6 {
   min-height: 100vh;
   margin: 0 auto; }
 
-.centered-v {
+.center-flex-v {
   display: flex;
   align-items: center; }
 
 @media only screen and (min-width: 768px) {
-  .center-v {
+  .centered-v-md {
     display: flex;
     align-items: center; } }
 
