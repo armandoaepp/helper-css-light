@@ -1,40 +1,29 @@
 // paddings Xpx
 
-$grid-breakpoints-spacing: (
-  xs: 0,
-  // sm: 576px,
-  md: 768px,
-  // lg: 992px,
-) !default;
+
+$spacers: map-merge((
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: $spacer,
+  4: ($spacer * 1.5),
+  5: ($spacer * 3)
+), $spacers);
 
 
-$spacings:(
-  '0' : 0,
-  'x-25' : .25,
-  'x-50' : .5,
-  'x-75' : .75,
-  '1x'   : 1,
-  '1x-25': 1.25,
-  '1x-50': 1.5,
-  '1x-75': 1.75,
-  '2x'   : 2,
-  // '2x-50': 2.5,
-  '3x'   : 3,
-  '4x'   : 4,
-);
 
+// stylelint-disable declaration-no-important
 
-@each $breakpoint in map-keys($grid-breakpoints-spacing) {
+// Margin and Padding
+
+@each $breakpoint in map-keys($grid-breakpoints) {
   @include media-breakpoint-up($breakpoint) {
-    $infix: breakpoint-infix($breakpoint, $grid-breakpoints-spacing);
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
     @each $prop, $abbrev in (margin: m, padding: p) {
-      @each $size, $length in $spacings {
+      @each $size, $length in $spacers {
 
-        $length: $length * 1rem ;
-
-        .#{$abbrev}#{$infix}-#{$size} {
-          #{$prop}: $length !important;
-        }
+        .#{$abbrev}#{$infix}-#{$size} { #{$prop}: $length !important; }
         .#{$abbrev}t#{$infix}-#{$size},
         .#{$abbrev}y#{$infix}-#{$size} {
           #{$prop}-top: $length !important;
@@ -53,10 +42,9 @@ $spacings:(
         }
       }
     }
+
     // Some special margin utils
-    .m#{$infix}-auto {
-      margin: auto !important;
-    }
+    .m#{$infix}-auto { margin: auto !important; }
     .mt#{$infix}-auto,
     .my#{$infix}-auto {
       margin-top: auto !important;

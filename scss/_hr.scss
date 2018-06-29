@@ -1,0 +1,37 @@
+//  ==========================================================================
+// HR styles
+//  ==========================================================================
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+hr.double {
+  border-top-width: 3px;
+  border-top-style: double;
+}
+
+hr.dashed {
+  border-top-style: dashed;
+}
+
+hr.dotted {
+  border-top-style: dotted;
+}
+
+.hr-2x {
+  border-top-width: 2px;
+}
+
+.hr-3x {
+  border-top-width: 3px;
+}
+
+.hr-white {
+  border-top-color: rgba(255, 255, 255, 0.75);
+}
+.hr-black {
+  border-top-color: rgba(0, 0, 0, 0.75);
+}

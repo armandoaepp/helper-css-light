@@ -1,11 +1,13 @@
 {
   "name": "helper-css",
-  "version": "2.2.0",
+  "version": "2.2.x",
   "description": "css classes of help for fronend",
   "main": "gulpfile.js",
   "scripts": {
     "dev": "node-sass scss/helper-css.scss css/helper-css.css",
-    "prod": "node-sass scss/helper-css.scss css/helper-css.min.css  --output-style compressed"
+    "prod": "node-sass scss/helper-css.scss css/helper-css.min.css  --output-style compressed",
+    "dev-b": "node-sass scss/helper-bootstrap.scss css/helper-bootstrap.css",
+    "prod-b": "node-sass scss/helper-bootstrap.scss css/helper-bootstrap.min.css  --output-style compressed"
   },
   "repository": {
     "type": "git",

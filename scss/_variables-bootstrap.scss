@@ -1,3 +1,6 @@
+//  ==========================================================================
+//  Variables for bootstrap > 4.1.x
+//  ==========================================================================
 $grid-breakpoints: (
   xs: 0,
   sm: 576px,
@@ -25,9 +28,3 @@ $spacer: 1rem !default;
 $spacers: (
   6: ($spacer * 3.5)
   );
-
-// Z-index master list
-//
-
-$zindex-sticky:                     1020 !default;
-$zindex-fixed:                      1030 !default;

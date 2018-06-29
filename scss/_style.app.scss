@@ -1,0 +1,32 @@
+//  ==========================================================================
+// ---- Alignments ----
+//  ==========================================================================
+.centered {
+  float: none !important;
+  margin: auto !important;
+}
+
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.valing-full {
+  align-items: center;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.centered-v {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .center-v {
+    display: flex;
+    align-items: center;
+  }
+}
+

@@ -1,50 +1,3 @@
-//  ==========================================================================
-// Borders Styles
-//  ==========================================================================
-
-.border {
-  border: $border-width solid $border-color !important;
-}
-
-.border-top {
-  border-top: $border-width solid $border-color !important;
-}
-
-.border-right {
-  border-right: $border-width solid $border-color !important;
-}
-
-.border-bottom {
-  border-bottom: $border-width solid $border-color !important;
-}
-
-.border-left {
-  border-left: $border-width solid $border-color !important;
-}
-
-.border-0 {
-  border: 0 !important;
-}
-
-.border-top-0 {
-  border-top: 0 !important;
-}
-
-.border-right-0 {
-  border-right: 0 !important;
-}
-
-.border-bottom-0 {
-  border-bottom: 0 !important;
-}
-
-.border-left-0 {
-  border-left: 0 !important;
-}
-
-.border-white {
-  border-color: #fff !important;
-}
 
 //  ==========================================================================
 //  Border Radius Stylus
@@ -53,10 +6,6 @@
   .#{$border-name} {
     border-radius: $value * 1px !important;
   }
-}
-
-.rounded-circle {
-  border-radius: 50%;
 }
 
 .rounded-top {
@@ -111,4 +60,8 @@
 .rounded-diagonal-2 {
   border-top-left-radius: 0 !important;
   border-bottom-right-radius: 0 !important;
+}
+
+.rounded-circle {
+  border-radius: 50%;
 }

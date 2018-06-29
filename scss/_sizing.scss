@@ -1,14 +1,14 @@
-$sizes-styles: ()!default ;
-$sizes-styles: map-merge((
+$sizes: () !default;
+$sizes: map-merge((
   25: 25%,
   50: 50%,
   75: 75%,
   100: 100%,
   auto: auto
-), $sizes-styles);
+), $sizes);
 
 @each $prop, $abbrev in (width: w, height: h) {
-  @each $size, $length in $sizes-styles {
+  @each $size, $length in $sizes {
     .#{$abbrev}-#{$size} { #{$prop}: $length !important; }
   }
 }
