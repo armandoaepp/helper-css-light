@@ -1,5 +1,5 @@
 /*!
- * helper-css:  v.2.2.2
+ * helper-css:  v.2.2.3
  * github: https://github.com/armandoaepp/helper-css
  * developer: @armandoaepp
  * Copyright 2018
@@ -9,7 +9,6 @@
 @import "mixins/app.mixins";
 
 @import "_align";
-@import "alignments";
 @import "_borders";
 @import "border-radius";
 @import "_clearfix";
@@ -18,7 +17,6 @@
 @import "_float";
 @import "font-sizes";
 @import "line-heights";
-@import "lists";
 @import "hr";
 @import "icon-stack";
 @import "images";

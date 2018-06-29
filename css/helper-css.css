@@ -1,5 +1,5 @@
 /*!
- * helper-css:  v.2.2.2
+ * helper-css:  v.2.2.3
  * github: https://github.com/armandoaepp/helper-css
  * developer: @armandoaepp
  * Copyright 2018
@@ -21,26 +21,6 @@
 
 .align-text-top {
   vertical-align: text-top !important; }
-
-.centered,
-.float-center {
-  display: block;
-  margin-right: auto;
-  margin-left: auto; }
-
-.valing-full {
-  align-items: center;
-  min-height: 100vh;
-  margin: 0 auto; }
-
-.center-flex-v {
-  display: flex;
-  align-items: center; }
-
-@media only screen and (min-width: 768px) {
-  .centered-v-md {
-    display: flex;
-    align-items: center; } }
 
 .border {
   border: 1px solid #dee2e6 !important; }
@@ -535,23 +515,6 @@
 
 .lh-2 {
   line-height: 2 !important; }
-
-ul.list-style-none {
-  list-style: none;
-  padding: 0;
-  margin: 0; }
-
-ul.list-circle {
-  list-style-type: circle; }
-
-ul.list-square {
-  list-style-type: square; }
-
-ol.list-upper-roman {
-  list-style-type: upper-roman; }
-
-ol.list-lower-alpha {
-  list-style-type: lower-alpha; }
 
 hr {
   margin-top: 1rem;
