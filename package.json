@@ -1,6 +1,6 @@
 {
   "name": "helper-css",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "description": "css classes of help for fronend",
   "main": "gulpfile.js",
   "scripts": {
