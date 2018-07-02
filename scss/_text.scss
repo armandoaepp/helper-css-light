@@ -41,52 +41,47 @@
 //  ==========================================================================
 //  Weight and italics
 //  ==========================================================================
-.tex-bold {
-  font-weight: bold;
+
+.text-normal {
+  font-weight: normal!important;
 }
 
-.text-regular {
-  font-weight: normal;
-}
-
-.text-italic {
-  font-style: italic;
-}
 
 //  ==========================================================================
 // font-weight
 //  ==========================================================================
-.fw-extra-light,
+
+.text-extra-light,
 .fw-100 {
   font-weight: 100;
 }
 
-.fw-semi-light,
+.text-semi-light,
 .fw-200 {
   font-weight: 200;
 }
 
-.fw-light,
+.text-light,
 .fw-300 {
   font-weight: 300;
 }
 
-.fw-regular,
+.text-normal,
 .fw-400 {
   font-weight: 400;
 }
 
-.fw-medium,
+.text-medium,
 .fw-500 {
   font-weight: 500;
 }
 
-.fw-semi-bold,
+.text-semi-bold,
 .fw-600 {
   font-weight: 600;
 }
 
-.fw-bold,
+.text-bold,
 .fw-700 {
   font-weight: 700;
 }
@@ -95,7 +90,7 @@
   font-weight: 800;
 }
 
-.fw-extra-bold,
+.text-extra-bold,
 .fw-900 {
   font-weight: 900;
 }
