@@ -20,10 +20,7 @@ Following is the number that represents space in pixels and (optional) direction
 
 Example:
 
-*Margins(m) and Paddings(p)*
-
-
-
+*Margins(m) and Paddings(p)* BY BOOTSTRAP
 
 * `t`:  for classes that set` margin-top` or `padding-top`
 * `b`:  for classes that set `margin-bottom` or `padding-bottom`
@@ -33,55 +30,59 @@ Example:
 * `y`:  for classes that set both `*-top` and `*-bottom`
 
 *Margins(m)*
+
+Where size is one of:
+
+* `0` - for classes that eliminate the `margin` or `padding` by setting it to 0
+* `1` - (by default) for classes that set the `margin` or `padding` to `$spacer * .25`
+* `2` - (by default) for classes that set the `margin` or `padding` to `$spacer * .5`
+* `3` - (by default) for classes that set the `margin` or `padding` to `$spacer`
+* `4` - (by default) for classes that set the `margin` or `padding` to `$spacer * 1.5`
+* `5` - (by default) for classes that set the `margin` or `padding` to `$spacer * 3`
+* `6` - (by default) for classes that set the `margin` or `padding` to `$spacer * 3.5`
+
+auto - for classes that set the margin to auto
+
+for example($space = 1rem by default)
 * `m-0`: assigns `margin: 0` property
-* `m-1x`: assigns `margin: 1rem` property
-* `mt-1x`: assigns `margin-top: 1rem` property
-* `mb-1x`: assigns `margin-bottom: 1rem` property
-* `ml-1x`: assigns `margin-left: 1rem` property
-* `mr-1x`: assigns `margin-right: 1rem` property
-* `mx-1x`: assigns `margin-left: 1rem; margin-right: 1rem` property
-* `my-1x`: assigns `margin-top: 1rem; margin-bottom: 1rem` property
 
-* `m-x-25`: assigns `margin: 0.25rem` property
-* `m-x-50`: assigns `margin: 0.5rem` property
-* `m-x-75`: assigns `margin: 0.75rem` property
+* `m-1`: assigns `margin: 0.25rem` property
+* `mt-1`: assigns `margin-top: 0.25rem` property
+* `mb-1`: assigns `margin-bottom: 0.25rem` property
+* `ml-1`: assigns `margin-left: 0.25rem` property
+* `mr-1`: assigns `margin-right: 0.25rem` property
+* `mx-1`: assigns `margin-left: 0.25rem; margin-right: 0.25rem` property
+* `my-1`: assigns `margin-top: 0.25rem; margin-bottom: 0.25rem` property
+...
+* `m-2`: assigns `margin: 0.5rem` property
+* `m-3`: assigns `margin: 1rem` property
+* `m-4`: assigns `margin: 1.5rem` property
+* `m-5`: assigns `margin: 3rem` property
+* `m-5`: assigns `margin: 3.5rem` property
 
-* `m-1x-25`: assigns `margin: 1.25rem` property
-* `m-1x-50`: assigns `margin: 1.5rem` property
-* `m-1x-75`: assigns `margin: 1.75rem` property
-* `m-1x-*`: assigns `margin-*: 1.25rem` property
-
-* `m-2x`: assigns `margin: 1.75rem` property
-* `m-3x`: assigns `margin: 1.75rem` property
-* `m-4x`: assigns `margin: 1.75rem` property
-
-and variants `md`: `m*-md-*x`
+and variants `md`: `m*-md-*`
 ....
 
 *Paddings(m)*
+
 * `p-0`: assigns `padding: 0` property
-* `p-1x`: assigns `padding: 1rem` property
-* `pt-1x`: assigns `padding-top: 1rem` property
-* `pb-1x`: assigns `padding-bottom: 1rem` property
-* `pl-1x`: assigns `padding-left: 1rem` property
-* `pr-1x`: assigns `padding-right: 1rem` property
-* `px-5`: assigns `padding-left: 1rem; padding-right: 1rem` property
-* `py-1x`: assigns `padding-top: 1rem; padding-bottom: 1rem` property
 
-* `p-x-25`: assigns `padding: 0.25rem` property
-* `p-x-50`: assigns `padding: 0.5rem` property
-* `p-x-75`: assigns `padding: 0.75rem` property
+* `p-1`: assigns `padding: 0.25rem` property
+* `pt-1`: assigns `padding-top: 0.25rem` property
+* `pb-1`: assigns `padding-bottom: 0.25rem` property
+* `pl-1`: assigns `padding-left: 0.25rem` property
+* `pr-1`: assigns `padding-right: 0.25rem` property
+* `px-1`: assigns `padding-left: 0.25rem; padding-right: 0.25rem` property
+* `py-1`: assigns `padding-top: 0.25rem; padding-bottom: 0.25rem` property
+...
+* `p-2`: assigns `padding: 0.5rem` property
+* `p-3`: assigns `padding: 1rem` property
+* `p-4`: assigns `padding: 1.5rem` property
+* `p-5`: assigns `padding: 3rem` property
+* `p-5`: assigns `padding: 3.5rem` property
 
-* `p-1x-25`: assigns `padding: 1.25rem` property
-* `p-1x-50`: assigns `padding: 1.5rem` property
-* `p-1x-75`: assigns `padding: 1.75rem` property
-* `p-1x-*`: assigns `padding-*: 1.25rem` property
-
-* `p-2x`: assigns `padding: 1.75rem` property
-* `p-3x`: assigns `padding: 1.75rem` property
-* `p-4x`: assigns `padding: 1.75rem` property
-
-and variants `md`: `p*-md-*x`
+and variants `md`: `p*-md-*`
+....
 
 
 #### CSS Helpers for Text
