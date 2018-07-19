@@ -137,11 +137,11 @@ $fsizes in $font-sizes {
 
         @if map-has-key($fonts-defs, font-size) {
           $font-size-temp: rem-calc(map-get($fonts-defs, font-size)) ;
-          font-size: $font-size-temp ;
+          font-size: $font-size-temp!important; 
         }
         @else if map-has-key($fonts-defs, fs) {
           $font-size-temp: rem-calc(map-get($fonts-defs, font-size)) ;
-          font-size: $font-size-temp;
+          font-size: $font-size-temp!important;
         }
       }
     }

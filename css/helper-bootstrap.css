@@ -1,5 +1,5 @@
 /*!
- * helper-css:  v.2.2.4 (for bootstrap)
+ * helper-css:  v.2.2.5 (for bootstrap)
  * github: https://github.com/armandoaepp/helper-css
  * developer: @armandoaepp
  * Copyright 2018
@@ -67,181 +67,181 @@
   border-radius: 50%; }
 
 .fs-x-10 {
-  font-size: 0.625rem; }
+  font-size: 0.625rem !important; }
 
 .fs-x-11 {
-  font-size: 0.6875rem; }
+  font-size: 0.6875rem !important; }
 
 .fs-x-12 {
-  font-size: 0.75rem; }
+  font-size: 0.75rem !important; }
 
 .fs-x-13 {
-  font-size: 0.8125rem; }
+  font-size: 0.8125rem !important; }
 
 .fs-x-14 {
-  font-size: 0.875rem; }
+  font-size: 0.875rem !important; }
 
 .fs-x-15 {
-  font-size: 0.9375rem; }
+  font-size: 0.9375rem !important; }
 
 .fs-1x {
-  font-size: 1rem; }
+  font-size: 1rem !important; }
 
 .fs-1x-25 {
-  font-size: 1.25rem; }
+  font-size: 1.25rem !important; }
 
 .fs-1x-50 {
-  font-size: 1.5rem; }
+  font-size: 1.5rem !important; }
 
 .fs-1x-75 {
-  font-size: 1.75rem; }
+  font-size: 1.75rem !important; }
 
 .fs-2x {
-  font-size: 2rem; }
+  font-size: 2rem !important; }
 
 .fs-2x-25 {
-  font-size: 2.25rem; }
+  font-size: 2.25rem !important; }
 
 .fs-2x-50 {
-  font-size: 2.5rem; }
+  font-size: 2.5rem !important; }
 
 .fs-2x-75 {
-  font-size: 2.75rem; }
+  font-size: 2.75rem !important; }
 
 .fs-3x {
-  font-size: 3rem; }
+  font-size: 3rem !important; }
 
 .fs-3x-25 {
-  font-size: 3.25rem; }
+  font-size: 3.25rem !important; }
 
 .fs-3x-50 {
-  font-size: 3.5rem; }
+  font-size: 3.5rem !important; }
 
 .fs-3x-75 {
-  font-size: 3.75rem; }
+  font-size: 3.75rem !important; }
 
 .fs-4x {
-  font-size: 4rem; }
+  font-size: 4rem !important; }
 
 .fs-4x-25 {
-  font-size: 4.25rem; }
+  font-size: 4.25rem !important; }
 
 .fs-4x-50 {
-  font-size: 4.5rem; }
+  font-size: 4.5rem !important; }
 
 .fs-4x-75 {
-  font-size: 4.75rem; }
+  font-size: 4.75rem !important; }
 
 .fs-5x {
-  font-size: 5rem; }
+  font-size: 5rem !important; }
 
 @media (min-width: 576px) {
   .fs-sm-1x {
-    font-size: 1rem; }
+    font-size: 1rem !important; }
   .fs-sm-1x-25 {
-    font-size: 1.25rem; }
+    font-size: 1.25rem !important; }
   .fs-sm-1x-50 {
-    font-size: 1.5rem; }
+    font-size: 1.5rem !important; }
   .fs-sm-1x-75 {
-    font-size: 1.75rem; }
+    font-size: 1.75rem !important; }
   .fs-sm-2x {
-    font-size: 2rem; }
+    font-size: 2rem !important; }
   .fs-sm-2x-25 {
-    font-size: 2.25rem; }
+    font-size: 2.25rem !important; }
   .fs-sm-2x-50 {
-    font-size: 2.5rem; }
+    font-size: 2.5rem !important; }
   .fs-sm-2x-75 {
-    font-size: 2.75rem; }
+    font-size: 2.75rem !important; }
   .fs-sm-3x {
-    font-size: 3rem; }
+    font-size: 3rem !important; }
   .fs-sm-3x-25 {
-    font-size: 3.25rem; }
+    font-size: 3.25rem !important; }
   .fs-sm-3x-50 {
-    font-size: 3.5rem; }
+    font-size: 3.5rem !important; }
   .fs-sm-3x-75 {
-    font-size: 3.75rem; }
+    font-size: 3.75rem !important; }
   .fs-sm-4x {
-    font-size: 4rem; }
+    font-size: 4rem !important; }
   .fs-sm-4x-25 {
-    font-size: 4.25rem; }
+    font-size: 4.25rem !important; }
   .fs-sm-4x-50 {
-    font-size: 4.5rem; }
+    font-size: 4.5rem !important; }
   .fs-sm-4x-75 {
-    font-size: 4.75rem; }
+    font-size: 4.75rem !important; }
   .fs-sm-5x {
-    font-size: 5rem; } }
+    font-size: 5rem !important; } }
 
 @media (min-width: 768px) {
   .fs-md-1x {
-    font-size: 1rem; }
+    font-size: 1rem !important; }
   .fs-md-1x-25 {
-    font-size: 1.25rem; }
+    font-size: 1.25rem !important; }
   .fs-md-1x-50 {
-    font-size: 1.5rem; }
+    font-size: 1.5rem !important; }
   .fs-md-1x-75 {
-    font-size: 1.75rem; }
+    font-size: 1.75rem !important; }
   .fs-md-2x {
-    font-size: 2rem; }
+    font-size: 2rem !important; }
   .fs-md-2x-25 {
-    font-size: 2.25rem; }
+    font-size: 2.25rem !important; }
   .fs-md-2x-50 {
-    font-size: 2.5rem; }
+    font-size: 2.5rem !important; }
   .fs-md-2x-75 {
-    font-size: 2.75rem; }
+    font-size: 2.75rem !important; }
   .fs-md-3x {
-    font-size: 3rem; }
+    font-size: 3rem !important; }
   .fs-md-3x-25 {
-    font-size: 3.25rem; }
+    font-size: 3.25rem !important; }
   .fs-md-3x-50 {
-    font-size: 3.5rem; }
+    font-size: 3.5rem !important; }
   .fs-md-3x-75 {
-    font-size: 3.75rem; }
+    font-size: 3.75rem !important; }
   .fs-md-4x {
-    font-size: 4rem; }
+    font-size: 4rem !important; }
   .fs-md-4x-25 {
-    font-size: 4.25rem; }
+    font-size: 4.25rem !important; }
   .fs-md-4x-50 {
-    font-size: 4.5rem; }
+    font-size: 4.5rem !important; }
   .fs-md-4x-75 {
-    font-size: 4.75rem; }
+    font-size: 4.75rem !important; }
   .fs-md-5x {
-    font-size: 5rem; } }
+    font-size: 5rem !important; } }
 
 @media (min-width: 992px) {
   .fs-lg-1x {
-    font-size: 1rem; }
+    font-size: 1rem !important; }
   .fs-lg-1x-25 {
-    font-size: 1.25rem; }
+    font-size: 1.25rem !important; }
   .fs-lg-1x-50 {
-    font-size: 1.5rem; }
+    font-size: 1.5rem !important; }
   .fs-lg-1x-75 {
-    font-size: 1.75rem; }
+    font-size: 1.75rem !important; }
   .fs-lg-2x {
-    font-size: 2rem; }
+    font-size: 2rem !important; }
   .fs-lg-2x-25 {
-    font-size: 2.25rem; }
+    font-size: 2.25rem !important; }
   .fs-lg-2x-50 {
-    font-size: 2.5rem; }
+    font-size: 2.5rem !important; }
   .fs-lg-2x-75 {
-    font-size: 2.75rem; }
+    font-size: 2.75rem !important; }
   .fs-lg-3x {
-    font-size: 3rem; }
+    font-size: 3rem !important; }
   .fs-lg-3x-25 {
-    font-size: 3.25rem; }
+    font-size: 3.25rem !important; }
   .fs-lg-3x-50 {
-    font-size: 3.5rem; }
+    font-size: 3.5rem !important; }
   .fs-lg-3x-75 {
-    font-size: 3.75rem; }
+    font-size: 3.75rem !important; }
   .fs-lg-4x {
-    font-size: 4rem; }
+    font-size: 4rem !important; }
   .fs-lg-4x-25 {
-    font-size: 4.25rem; }
+    font-size: 4.25rem !important; }
   .fs-lg-4x-50 {
-    font-size: 4.5rem; }
+    font-size: 4.5rem !important; }
   .fs-lg-4x-75 {
-    font-size: 4.75rem; }
+    font-size: 4.75rem !important; }
   .fs-lg-5x {
-    font-size: 5rem; } }
+    font-size: 5rem !important; } }
 
 .lh-1 {
   line-height: 1 !important; }
