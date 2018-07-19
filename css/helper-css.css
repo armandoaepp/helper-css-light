@@ -2081,3 +2081,25 @@ h6, .h6 {
 .text-extra-bold,
 .fw-900 {
   font-weight: 900; }
+
+a.none,
+.link-text,
+.link-text:hover,
+.link-text:active {
+  color: inherit;
+  text-decoration: none !important; }
+
+.text-under {
+  text-decoration: underline; }
+
+.text-over {
+  text-decoration: overline; }
+
+.text-line {
+  text-decoration: line-through; }
+
+.text-blink {
+  text-decoration: blink; }
+
+.text-underover {
+  text-decoration: underline overline; }
