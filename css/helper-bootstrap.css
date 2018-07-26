@@ -472,8 +472,8 @@ ol.list-lower-alpha {
 
 .li-square li:before {
   content: "";
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   display: inline-block;
   background-color: #101010;
   margin-right: 0.5rem;
