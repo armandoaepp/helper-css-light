@@ -633,9 +633,6 @@ h5, .h5 {
 h6, .h6 {
   font-size: 1rem; }
 
-.h1-lg {
-  font-size: 1.75rem; }
-
 .h7 {
   font-size: 0.875rem; }
 
@@ -652,8 +649,6 @@ h6, .h6 {
     font-size: 1.125rem; }
   h6, .h6 {
     font-size: 1rem; }
-  .h1-lg {
-    font-size: 2.1875rem; }
   .h7 {
     font-size: 0.875rem; } }
 
@@ -670,8 +665,6 @@ h6, .h6 {
     font-size: 1.1875rem; }
   h6, .h6 {
     font-size: 1rem; }
-  .h1-lg {
-    font-size: 2.625rem; }
   .h7 {
     font-size: 0.9375rem; } }
 
@@ -688,8 +681,6 @@ h6, .h6 {
     font-size: 1.25rem; }
   h6, .h6 {
     font-size: 1rem; }
-  .h1-lg {
-    font-size: 3.5rem; }
   .h7 {
     font-size: 1rem; } }
 
@@ -2103,3 +2094,33 @@ a.none,
 
 .text-underover {
   text-decoration: underline overline; }
+
+.min-h-200 {
+  min-height: 200px !important; }
+
+.min-h-250 {
+  min-height: 250px !important; }
+
+.min-h-300 {
+  min-height: 350px !important; }
+
+.min-h-500 {
+  min-height: 500px !important; }
+
+.min-h-auto {
+  min-height: auto !important; }
+
+.max-h-200 {
+  max-height: 200px !important; }
+
+.max-h-250 {
+  max-height: 250px !important; }
+
+.max-h-300 {
+  max-height: 350px !important; }
+
+.max-h-500 {
+  max-height: 500px !important; }
+
+.max-h-auto {
+  max-height: auto !important; }

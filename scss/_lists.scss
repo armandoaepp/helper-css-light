@@ -1,14 +1,36 @@
 // styles Ul
 
-// list
-ul.list-style-none {
-  list-style: none;
+.list-unstyled,
+.list-inline  {
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
+.list-inline li {
+  display: inline-block;
+}
+
+.list-inline li:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+// li styles
 ul.list-circle {list-style-type: circle;}
 ul.list-square {list-style-type: square;}
 ol.list-upper-roman {list-style-type: upper-roman;}
 ol.list-lower-alpha {list-style-type: lower-alpha;}
 
+.li-square li:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color: #ffffff;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+// .li-square.square-white li:before {
+//   background-color: #ffffff !important;
+// }
