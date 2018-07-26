@@ -26,11 +26,11 @@ ol.list-lower-alpha {list-style-type: lower-alpha;}
   width: 10px;
   height: 10px;
   display: inline-block;
-  background-color: #ffffff;
+  background-color: #101010;
   margin-right: 0.5rem;
   vertical-align: middle;
 }
 
-// .li-square.square-white li:before {
-//   background-color: #ffffff !important;
-// }
+.li-square.square-white li:before {
+  background-color: #ffffff !important;
+}
