@@ -1,5 +1,5 @@
 /*!
- * helper-css:  v.2.2.5 (for bootstrap)
+ * helper-css:  v.2.2.6 (for bootstrap)
  * github: https://github.com/armandoaepp/helper-css
  * developer: @armandoaepp
  * Copyright 2018
@@ -8,25 +8,28 @@
 @import "variables";
 @import "mixins/app.mixins";
 
+
+
 // @import "_align";
-// @import "_borders";
+@import "alignments";
 @import "border-radius";
+// @import "_borders";
 // @import "_clearfix";
 // @import "_display";
 // @import "_embed";
 // @import "_float";
 @import "font-sizes";
-@import "line-heights";
+@import "headings";
 @import "hr";
 @import "icon-stack";
 @import "images";
-@import "headings";
+@import "line-heights";
+@import "lists";
 @import "opacities";
 // @import "_position";
 @import "rotates";
 // @import "_sizing";
 // @import "_spacing";
-@import "alignments";
 // @import "_text";
 @import "text-font-weights";
 @import "text-decoration";
