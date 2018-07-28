@@ -1,8 +1,7 @@
 //  ==========================================================================
 // ---- Alignments ----
 //  ==========================================================================
-.centered,
-.float-center {
+.centered {
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -14,21 +13,25 @@
   margin: 0 auto;
 }
 
-.center-flex-v {
-  display: flex;
+.flex-center {
   align-items: center;
-}
-
-.center-xy,
-.center-vh{
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
+.flex-center-v {
+  display: flex;
+  align-items: center;
+}
+
+.full-h {
+  height: 100vh;
+}
+
 @media only screen and (min-width: 768px) {
-  .centered-v-md {
-    display: flex;
+  .flex-md-center {
     align-items: center;
+    display: flex;
+    justify-content: center;
   }
 }
