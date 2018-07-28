@@ -141,11 +141,12 @@ and variants
 
 *Border Radius*
 * `.rounded-circle`: assigns `border-radius: 50%` property
+* `.rounded-sm`: assigns `border-radius: .125rem` property
+* `.rounded`: assigns `border-radius: .25rem` property
+* `.rounded-md`: assigns `border-radius: 0.5rem` property
+* `.rounded-lg`: assigns `border-radius: 1rem` property
 * `.rounded-0`: assigns `border-radius: 0` property
-* `.rounded-5`: assigns `border-radius: 5` property
-* `.rounded-10`: assigns `border-radius: 10` property
-* `.rounded-15`: assigns `border-radius: 15` property
-* `.rounded-20`: assigns `border-radius: 20` property
+* `.rounded-x`: assigns custom  `border-radius: x` property
 
 * `.rounded-top`
 * `.rounded-right`
