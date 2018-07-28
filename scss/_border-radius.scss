@@ -2,9 +2,11 @@
 //  ==========================================================================
 //  Border Radius Stylus
 //  ==========================================================================
-@each $border-name, $value in $border-radius {
+@each $border-name, $value in $borders-radius {
   .#{$border-name} {
-    border-radius: $value * 1px !important;
+    // border-radius: $value * 1px !important;
+    $border-radius-temp: rem-calc($value) ;
+    border-radius: $border-radius-temp !important;
   }
 }
 

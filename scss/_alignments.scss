@@ -1,14 +1,12 @@
 //  ==========================================================================
 // ---- Alignments ----
 //  ==========================================================================
-
 .centered,
 .float-center {
   display: block;
   margin-right: auto;
   margin-left: auto;
 }
-
 
 .valing-full {
   align-items: center;
@@ -21,10 +19,16 @@
   align-items: center;
 }
 
+.center-xy,
+.center-vh{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media only screen and (min-width: 768px) {
   .centered-v-md {
     display: flex;
     align-items: center;
   }
 }
-
