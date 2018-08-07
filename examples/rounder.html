@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Borders and Borders Radius | Helper - Css | armandotuweb.net </title>
+  <meta name="robots" content="index,follow" />
+  <meta name="description" content="Helper css utilidades css " />
+  <meta name="keywords" content="helper css, sass, scss, armandotuweb" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,500,700,700i,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" href="../css/helper-css.css">
+  <style>
+    .container {
+      clear: both;
+    }
+
+    .col {
+      float: left;
+      width: 150px;
+      height: 150px;
+      margin: 1rem;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+
+    .col:nth-child(even) {
+      background: #bebebe;
+    }
+
+    .col:nth-child(odd) {
+      background: #9c9b9b;
+    }
+  </style>
+</head>
+
+<body>
+  <h1> Boder radius </h1>
+
+  <button type="button" class="button radius bordered shadow primary">Primary</button>
+  <button type="button" class="button semi-rounded bordered shadow secondary">Secondary</button>
+  <button type="button" class="button radius bordered shadow success">Success</button>
+  <button type="button" class="button semi-rounded bordered shadow alert">Alert</button>
+  <button type="button" class="button radius bordered shadow warning">Warning</button>
+
+  <div class="container">
+    <h2> .rounded-x </h2>
+
+    <div class="col rounded-0">
+      .rounded-0
+    </div>
+
+    <div class="col rounded-sm">
+      .rounded-sm
+    </div>
+
+    <div class="col rounded">
+      rounded
+    </div>
+
+    <div class="col rounded-md">
+      .rounded-md
+    </div>
+
+    <div class="col rounded-lg">
+      .rounded-lg
+    </div>
+
+    <div class="col rounded-circle">
+      <span>.rounded-circle</span>
+    </div>
+
+  </div>
+
+
+  <!-- rounded sm -->
+  <div class="container">
+    <h2> .rounded-sm .rounded-* </h2>
+    <hr>
+    <div class="col rounded-sm rounded-top">
+      .rounded-sm .rounded-top
+    </div>
+
+    <div class="col rounded-sm rounded-right">
+      .rounded-sm .rounded-right
+    </div>
+
+    <div class="col rounded-sm rounded-bottom">
+      .rounded-sm .rounded-bottom
+    </div>
+    <div class="col rounded-sm rounded-left">
+      .rounded-sm .rounded-left
+    </div>
+
+    <div class="col rounded-sm rounded-top-left ">
+      .rounded-sm .rounded-top-left
+    </div>
+
+    <div class="col rounded-sm rounded-top-left ">
+      .rounded-sm .rounded-top-left
+    </div>
+
+    <div class="col rounded-sm rounded-bottom-left ">
+      .rounded-sm .rounded-bottom-left
+    </div>
+
+    <div class="col rounded-sm rounded-bottom-right ">
+      .rounded-sm .rounded-bottom-right
+    </div>
+
+    <div class="col rounded-sm rounded-diagonal-1 ">
+      .rounded-sm .rounded-diagonal-1
+    </div>
+
+    <div class="col rounded-sm rounded-diagonal-2 ">
+      .rounded-sm .rounded-diagonal-2
+    </div>
+  </div>
+
+
+  <!-- rounded -->
+  <div class="container">
+    <h2> .rounded .rounded-* </h2>
+    <hr>
+    <div class="col rounded rounded-top">
+      .rounded .rounded-top
+    </div>
+
+    <div class="col rounded rounded-right">
+      .rounded .rounded-right
+    </div>
+
+    <div class="col rounded rounded-bottom">
+      .rounded .rounded-bottom
+    </div>
+    <div class="col rounded rounded-left">
+      .rounded .rounded-left
+    </div>
+
+    <div class="col rounded rounded-top-left ">
+      .rounded .rounded-top-left
+    </div>
+
+    <div class="col rounded rounded-top-left ">
+      .rounded .rounded-top-left
+    </div>
+
+    <div class="col rounded rounded-bottom-left ">
+      .rounded .rounded-bottom-left
+    </div>
+
+    <div class="col rounded rounded-bottom-right ">
+      .rounded .rounded-bottom-right
+    </div>
+
+    <div class="col rounded rounded-diagonal-1 ">
+      .rounded .rounded-diagonal-1
+    </div>
+
+    <div class="col rounded rounded-diagonal-2 ">
+      .rounded .rounded-diagonal-2
+    </div>
+  </div>
+
+  <!-- rounded md -->
+  <div class="container">
+    <h2> .rounded-md .rounded-* </h2>
+    <hr>
+    <div class="col rounded-md rounded-top">
+      .rounded-md .rounded-top
+    </div>
+
+    <div class="col rounded-md rounded-right">
+      .rounded-md .rounded-right
+    </div>
+
+    <div class="col rounded-md rounded-bottom">
+      .rounded-md .rounded-bottom
+    </div>
+    <div class="col rounded-md rounded-left">
+      .rounded-md .rounded-left
+    </div>
+
+    <div class="col rounded-md rounded-top-left ">
+      .rounded-md .rounded-top-left
+    </div>
+
+    <div class="col rounded-md rounded-top-left ">
+      .rounded-md .rounded-top-left
+    </div>
+
+    <div class="col rounded-md rounded-bottom-left ">
+      .rounded-md .rounded-bottom-left
+    </div>
+
+    <div class="col rounded-md rounded-bottom-right ">
+      .rounded-md .rounded-bottom-right
+    </div>
+
+    <div class="col rounded-md rounded-diagonal-1 ">
+      .rounded-md .rounded-diagonal-1
+    </div>
+
+    <div class="col rounded-md rounded-diagonal-2 ">
+      .rounded-md .rounded-diagonal-2
+    </div>
+  </div>
+
+  <!-- rounded lg -->
+  <div class="container">
+    <h2> .rounded-lg .rounded-* </h2>
+    <hr>
+    <div class="col rounded-lg rounded-top">
+      .rounded-lg .rounded-top
+    </div>
+
+    <div class="col rounded-lg rounded-right">
+      .rounded-lg .rounded-right
+    </div>
+
+    <div class="col rounded-lg rounded-bottom">
+      .rounded-lg .rounded-bottom
+    </div>
+    <div class="col rounded-lg rounded-left">
+      .rounded-lg .rounded-left
+    </div>
+
+    <div class="col rounded-lg rounded-top-left ">
+      .rounded-lg .rounded-top-left
+    </div>
+
+    <div class="col rounded-lg rounded-top-left ">
+      .rounded-lg .rounded-top-left
+    </div>
+
+    <div class="col rounded-lg rounded-bottom-left ">
+      .rounded-lg .rounded-bottom-left
+    </div>
+
+    <div class="col rounded-lg rounded-bottom-right ">
+      .rounded-lg .rounded-bottom-right
+    </div>
+
+    <div class="col rounded-lg rounded-diagonal-1 ">
+      .rounded-lg .rounded-diagonal-1
+    </div>
+
+    <div class="col rounded-lg rounded-diagonal-2 ">
+      .rounded-lg .rounded-diagonal-2
+    </div>
+  </div>
+
+
+
+
+
+</body>
+
+</html>

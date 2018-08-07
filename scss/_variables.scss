@@ -1,3 +1,26 @@
+
+/// Color used for light gray UI items.
+/// @type Color
+$light-gray: #e6e6e6 !default;
+
+/// Color used for medium gray UI items.
+/// @type Color
+$medium-gray: #cacaca !default;
+
+/// Color used for dark gray UI items.
+/// @type Color
+$dark-gray: #8a8a8a !default;
+
+/// Color used for black ui items.
+/// @type Color
+$black: #0a0a0a !default;
+
+/// Color used for white ui items.
+/// @type Color
+$white: #fefefe !default;
+
+// # $grid-breakpoints: 
+
 $grid-breakpoints: (
   xs: 0,
   sm: 576px,
@@ -7,10 +30,9 @@ $grid-breakpoints: (
 ) !default;
 
 //  ==========================================================================
-// Borders radisu Variables (custom add in the array  $borders-radius => "rounded-x": x , )
+// Borders radius Variables (custom add in the array  $borders-radius => "rounded-x": x , )
 //  ==========================================================================
-// $border-width: 1px !default ;
-// $border-color: #dee2e6 !default;
+ 
 
 $borders-radius: (
   "rounded-sm": 2,
@@ -25,5 +47,3 @@ $borders-radius: (
 $zindex-sticky:                     1020 !default;
 $zindex-fixed:                      1030 !default;
 
-$white:    #fff !default;
-$black:    #000 !default;

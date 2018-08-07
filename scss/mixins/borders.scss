@@ -1,0 +1,34 @@
+/// Border none utility
+@mixin border-none {
+  border: none !important;
+}
+
+ 
+/// Default value for `prototype-border-width`
+/// @type Number
+$prototype-border-width: rem-calc(1) !default;
+
+/// Default value for `prototype-border-type`
+/// @type String
+$prototype-border-type: solid !default;
+
+/// Default value for `prototype-border-color` defaulted to `medium-gray`
+/// @type Color
+$prototype-border-color: $medium-gray !default;
+
+/// Bordered Utility: Adds a light border to an element by default.
+/// @param {Number} $width [$prototype-border-width] Width of the border
+/// @param {String} $type [$prototype-border-type] Type of the border
+/// @param {Color} $color [$prototype-border-color] Color of the border
+@mixin bordered(
+  $width: $prototype-border-width,
+  $type: $prototype-border-type,
+  $color: $prototype-border-color
+) {
+  border: $width $type $color;
+}
+
+.bordered {
+  @include bordered;
+}
+ 
