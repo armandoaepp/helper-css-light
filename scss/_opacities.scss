@@ -1,22 +1,35 @@
+$opacities: (
+  0  : 0,
+  10 : 10,
+  20 : 20,
+  25 : 25,
+  30 : 30,
+  40 : 40,
+  50 : 50,
+  60 : 60,
+  70 : 70,
+  75 : 75,
+  80 : 80,
+  90 : 90,
+  100: 100,
+);
 
 //  ==========================================================================
-// OPACITY
+// OPACITY normal
 //  ==========================================================================
-.opacity-1 {
-  opacity: 1;
-}
 
-.opacity-2 {
-  opacity: .875;
-}
+  @each $size, $length in $opacities {
+    .opacity-#{$size} { opacity: ($length)/100 !important; }
+  }
 
-.opacity-3 {
-  opacity: .75;
-}
+//  ==========================================================================
+// OPACITY HOVER
+//  ==========================================================================
+  @each $size, $length in $opacities {
+    .hvr-opacity-#{$size}.opacity:hover,
+    .hvr-opacity-#{$size} .opacity:hover { opacity: ($length)/100 !important; }
+  }
 
-.opacity-4 {
-  opacity: .5;
-}
 
 //  ==========================================================================
 // OPACITY BACKGROUND
