@@ -1,9 +1,23 @@
 // rotates variants (param: x deg)
 
-@include rotate-variant(30);
-@include rotate-variant(45);
-@include rotate-variant(60);
-@include rotate-variant(90);
-@include rotate-variant(120);
-@include rotate-variant(180);
-@include rotate-variant(270);
+$rotates: (
+  90 : 90,
+  180 : 180,
+  270 : 270,
+);
+
+
+@each $class, $value in $rotates {
+  .rotate-#{$class} {
+    @include rotate($value) ;
+  }
+
+  .rotate-x-#{$class} {
+    @include rotateY($value) ;
+  }
+
+  .rotate-y-#{$class} {
+    @include rotateY($value) ;
+  }
+
+}

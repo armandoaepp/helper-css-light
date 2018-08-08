@@ -1,9 +1,0 @@
-// border radius
-@mixin rotate-variant($degrees) {
-
-    .rotate-#{$degrees} {
-        -webkit-transform: rotate($degrees + deg);
-      -ms-transform: rotate($degrees + deg);
-          transform: rotate($degrees + deg);
-    }
-}

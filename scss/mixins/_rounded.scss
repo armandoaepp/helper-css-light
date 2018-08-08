@@ -1,14 +1,10 @@
-
- 
 /// Default value for `prototype-border-radius`
 /// @type Number
-$prototype-border-radius: rem-calc(3) !default;
+$prototype-border-radius: rem-calc(4) !default;
 
 /// Rounded utility (all corners): Adds radius corners (all corners) to an element by default.
 /// @param {Number} $radius [$prototype-border-radius] Border radius (all corners)
-@mixin border-radius(
-  $radius: $prototype-border-radius
-) {
+@mixin border-radius( $radius: $prototype-border-radius) {
   border-radius: $radius;
 }
 
@@ -16,15 +12,4 @@ $prototype-border-radius: rem-calc(3) !default;
 @mixin border-rounded {
   border-radius: 5000px !important;
 }
- 
-  .rounded {
-    @include border-rounded;
-    &:after {
-      border-radius: 50%; // For switches
-    }
-  }
 
-  .radius {
-    @include border-radius;
-  }
- 

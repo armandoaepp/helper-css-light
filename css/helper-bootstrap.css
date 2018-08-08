@@ -1,5 +1,5 @@
 /*!
- * helper-css:  v.2.3.0 (for bootstrap)
+ * helper-css:  v.2.3.1 (for bootstrap)
  * github: https://github.com/armandoaepp/helper-css
  * developer: @armandoaepp
  * Copyright 2018
@@ -32,67 +32,72 @@
     display: flex;
     justify-content: center; } }
 
-.rounded-sm {
+.radius-sm {
   border-radius: 0.125rem !important; }
 
-.rounded {
+.radius {
   border-radius: 0.25rem !important; }
 
-.rounded-md {
+.radius-md {
   border-radius: 0.5rem !important; }
 
-.rounded-lg {
+.radius-lg {
   border-radius: 1rem !important; }
 
-.rounded-0 {
+.radius-0 {
   border-radius: 0rem !important; }
 
-.rounded-top {
+.radius-top {
   border-bottom-left-radius: 0 !important;
   border-bottom-right-radius: 0 !important; }
 
-.rounded-right {
+.radius-right {
   border-top-left-radius: 0 !important;
   border-bottom-left-radius: 0 !important; }
 
-.rounded-bottom {
+.radius-bottom {
   border-top-right-radius: 0 !important;
   border-top-left-radius: 0 !important; }
 
-.rounded-left {
+.radius-left {
   border-top-right-radius: 0 !important;
   border-bottom-right-radius: 0 !important; }
 
-.rounded-top-left {
+.radius-top-left {
   border-bottom-left-radius: 0 !important;
   border-bottom-right-radius: 0 !important;
   border-top-right-radius: 0 !important; }
 
-.rounded-top-right {
+.radius-top-right {
   border-bottom-left-radius: 0 !important;
   border-bottom-right-radius: 0 !important;
   border-top-left-radius: 0 !important; }
 
-.rounded-bottom-left {
+.radius-bottom-left {
   border-top-right-radius: 0 !important;
   border-top-left-radius: 0 !important;
   border-bottom-right-radius: 0 !important; }
 
-.rounded-bottom-right {
+.radius-bottom-right {
   border-top-right-radius: 0 !important;
   border-top-left-radius: 0 !important;
   border-bottom-left-radius: 0 !important; }
 
-.rounded-diagonal-1 {
+.radius-diagonal-1 {
   border-top-right-radius: 0 !important;
   border-bottom-left-radius: 0 !important; }
 
-.rounded-diagonal-2 {
+.radius-diagonal-2 {
   border-top-left-radius: 0 !important;
   border-bottom-right-radius: 0 !important; }
 
-.rounded-circle {
+.radius-circle {
   border-radius: 50%; }
+
+.radius-rounded {
+  border-radius: 5000px !important; }
+  .radius-rounded:after {
+    border-radius: 50%; }
 
 .fs-x-10 {
   font-size: 0.625rem !important; }
@@ -593,40 +598,32 @@ ol.list-lower-alpha {
 .opacity-bg-85 {
   background-color: rgba(0, 0, 0, 0.85) !important; }
 
-.rotate-30 {
-  -webkit-transform: rotate(30deg);
-  -ms-transform: rotate(30deg);
-  transform: rotate(30deg); }
-
-.rotate-45 {
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg); }
-
-.rotate-60 {
-  -webkit-transform: rotate(60deg);
-  -ms-transform: rotate(60deg);
-  transform: rotate(60deg); }
-
 .rotate-90 {
-  -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
   transform: rotate(90deg); }
 
-.rotate-120 {
-  -webkit-transform: rotate(120deg);
-  -ms-transform: rotate(120deg);
-  transform: rotate(120deg); }
+.rotate-x-90 {
+  transform: rotateY(90deg); }
+
+.rotate-y-90 {
+  transform: rotateY(90deg); }
 
 .rotate-180 {
-  -webkit-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
   transform: rotate(180deg); }
 
+.rotate-x-180 {
+  transform: rotateY(180deg); }
+
+.rotate-y-180 {
+  transform: rotateY(180deg); }
+
 .rotate-270 {
-  -webkit-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
   transform: rotate(270deg); }
+
+.rotate-x-270 {
+  transform: rotateY(270deg); }
+
+.rotate-y-270 {
+  transform: rotateY(270deg); }
 
 .text-extra-light,
 .fw-100 {

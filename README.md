@@ -140,33 +140,39 @@ and variants
 #### CSS Helpers for Border Radius
 
 *Border Radius*
-* `.rounded-circle`: assigns `border-radius: 50%` property
-* `.rounded-sm`: assigns `border-radius: .125rem` property
-* `.rounded`: assigns `border-radius: .25rem` property
-* `.rounded-md`: assigns `border-radius: 0.5rem` property
-* `.rounded-lg`: assigns `border-radius: 1rem` property
-* `.rounded-0`: assigns `border-radius: 0` property
-* `.rounded-x`: assigns custom  `border-radius: x` property
+* `.radius-circle`: assigns `border-radius: 50%` property
+* `.radius-sm`: assigns `border-radius: .125rem` property
+* `.radius`: assigns `border-radius: .25rem` property
+* `.radius-md`: assigns `border-radius: 0.5rem` property
+* `.radius-lg`: assigns `border-radius: 1rem` property
+* `.radius-0`: assigns `border-radius: 0` property
+* `.radius-x`: assigns custom  `border-radius: x` property
 
-* `.rounded-top`
-* `.rounded-right`
-* `.rounded-bottom`
-* `.rounded-left`
-* `.rounded-top-left`
-* `.rounded-top-right`
-* `.rounded-bottom-left`
-* `.rounded-bottom-right`
-* `.rounded-diagonal-1`
-* `.rounded-diagonal-2`
+* `.radius-top`
+* `.radius-right`
+* `.radius-bottom`
+* `.radius-left`
+* `.radius-top-left`
+* `.radius-top-right`
+* `.radius-bottom-left`
+* `.radius-bottom-right`
+* `.radius-diagonal-1`
+* `.radius-diagonal-2`
 
 
 #### CSS Helpers for Rotates
 
 *Transform*
-* `.rotate-45`: assigns `transform: rotate(45deg)` property
 * `.rotate-90`: assigns `transform: rotate(90deg)` property
+* `.rotate-x-90`: assigns `transform: rotate(90deg)` property
+* `.rotate-y-90`: assigns `transform: rotate(90deg)` property
 * `.rotate-180`: assigns `transform: rotate(180deg)` property
+* `.rotate-x-180`: assigns `transform: rotate(180deg)` property
+* `.rotate-y-180`: assigns `transform: rotate(180deg)` property
 * `.rotate-270`: assigns `transform: rotate(270deg)` property
+* `.rotate-x-270`: assigns `transform: rotate(270deg)` property
+* `.rotate-y-270`: assigns `transform: rotate(180deg)` property
+
 
 ---
 
