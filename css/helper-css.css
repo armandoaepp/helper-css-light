@@ -2593,6 +2593,15 @@ ol.list-lower-alpha {
 .opacity-bg-85 {
   background-color: rgba(0, 0, 0, 0.85) !important; }
 
+.rotate-0 {
+  transform: rotate(0deg); }
+
+.rotate-x-0 {
+  transform: rotateY(0deg); }
+
+.rotate-y-0 {
+  transform: rotateY(0deg); }
+
 .rotate-90 {
   transform: rotate(90deg); }
 
@@ -2619,6 +2628,15 @@ ol.list-lower-alpha {
 
 .rotate-y-270 {
   transform: rotateY(270deg); }
+
+.rotate-360 {
+  transform: rotate(360deg); }
+
+.rotate-x-360 {
+  transform: rotateY(360deg); }
+
+.rotate-y-360 {
+  transform: rotateY(360deg); }
 
 .text-extra-light,
 .fw-100 {

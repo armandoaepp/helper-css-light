@@ -9,7 +9,7 @@
 /// Rotate Mixin: Rotate an element to a certain deg
 /// @param {Number} $deg[] Degree of rotation
 @mixin rotate($deg) {
-	transform:rotate($deg +deg);
+	transform:rotate(-$deg +deg);
 }
 
 /// RotateX Mixin: Rotate an element to a certain deg on X-Axis
