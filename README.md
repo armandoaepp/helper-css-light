@@ -12,7 +12,7 @@ CSS helper classes: Alignments, Display, Text Aling, Margins, Paddings, Border R
 
 #### CSS Helpers for margin and Padding
 
-All _margin_ and _padding_ have properties for distances 0, 5, 10, 15, 20, 30, 40, 50 px.
+All _margin_ and _padding_ have properties for distances 0, .25rem(*-1), .5rem(*-2), 1rem(*-3), 1.5rem(*-4), 3rem(*-5).
 
 Margin classes starts with `m-`, padding classes starts `p-`.
 
@@ -39,7 +39,6 @@ Where size is one of:
 * `3` - (by default) for classes that set the `margin` or `padding` to `$spacer`
 * `4` - (by default) for classes that set the `margin` or `padding` to `$spacer * 1.5`
 * `5` - (by default) for classes that set the `margin` or `padding` to `$spacer * 3`
-* `6` - (by default) for classes that set the `margin` or `padding` to `$spacer * 3.5`
 
 auto - for classes that set the margin to auto
 
@@ -58,7 +57,6 @@ for example($space = 1rem by default)
 * `m-3`: assigns `margin: 1rem` property
 * `m-4`: assigns `margin: 1.5rem` property
 * `m-5`: assigns `margin: 3rem` property
-* `m-5`: assigns `margin: 3.5rem` property
 
 and variants `md`: `m*-md-*`
 ....
@@ -127,7 +125,7 @@ variants
 ...
 ...
 ...
-* `.fs-5x`: assigns `font-size: 1.75em` property
+* `.fs-4x`: assigns `font-size: 4em` property
 
 and variants
 * `sm`: `fs-sm-*x-*`
@@ -163,6 +161,9 @@ and variants
 #### CSS Helpers for Rotates
 
 *Transform*
+* `.rotate-0`: assigns `transform: rotate(0deg)` property
+* `.rotate-x-0`: assigns `transform: rotate(0deg)` property
+* `.rotate-y-0`: assigns `transform: rotate(0deg)` property
 * `.rotate-90`: assigns `transform: rotate(90deg)` property
 * `.rotate-x-90`: assigns `transform: rotate(90deg)` property
 * `.rotate-y-90`: assigns `transform: rotate(90deg)` property
@@ -172,7 +173,9 @@ and variants
 * `.rotate-270`: assigns `transform: rotate(270deg)` property
 * `.rotate-x-270`: assigns `transform: rotate(270deg)` property
 * `.rotate-y-270`: assigns `transform: rotate(180deg)` property
-
+* `.rotate-360`: assigns `transform: rotate(360deg)` property
+* `.rotate-x-360`: assigns `transform: rotate(360deg)` property
+* `.rotate-y-360`: assigns `transform: rotate(360deg)` property
 
 ---
 

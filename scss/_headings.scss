@@ -53,17 +53,17 @@ $header-font-sizes: (
 // HEADGING GENERATES CLASS
 // =================================================================================
 
-h1,
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6,
 .h1,
-h2,
 .h2,
-h3,
 .h3,
-h4,
 .h4,
-h5,
 .h5,
-h6,
 .h6 {
   font-style: normal;
   color: inherit;
@@ -75,17 +75,17 @@ h6,
   font-weight: 500;
 }
 
-h1 small,
+// h1 small,
+// h2 small,
+// h3 small,
+// h4 small,
+// h5 small,
+// h6 small,
 .h1 small,
-h2 small,
 .h2 small,
-h3 small,
 .h3 small,
-h4 small,
 .h4 small,
-h5 small,
 .h5 small,
-h6 small,
 .h6 small {
   line-height: 0;
   color: #cacaca;
@@ -102,7 +102,8 @@ $headers in $header-font-sizes {
       $font-size-temp: 1rem;
       $h-temp: "";
       @if verify-key-header($header) {
-        $h-temp: '#{$header}, .#{$header}';
+        // $h-temp: '#{$header}, .#{$header}';
+        $h-temp: '.#{$header}';
       }
       @else {
         $h-temp: '.#{$header}';
