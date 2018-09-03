@@ -630,6 +630,11 @@ ol.list-lower-alpha {
 .fw-900 {
   font-weight: 900; }
 
+.text-no-decoration,
+a.no-decoration,
+a.no-decoration:hover {
+  text-decoration: none !important; }
+
 a.none,
 .link-text,
 .link-text:hover,
