@@ -2555,6 +2555,11 @@ ol.list-lower-alpha {
 .fw-900 {
   font-weight: 900; }
 
+.text-no-decoration,
+a.no-decoration,
+a.no-decoration:hover {
+  text-decoration: none !important; }
+
 a.none,
 .link-text,
 .link-text:hover,
@@ -2576,3 +2581,24 @@ a.none,
 
 .text-underover {
   text-decoration: underline overline; }
+
+.text-last-right {
+  text-align: justify;
+  /* For Edge */
+  -moz-text-align-last: right;
+  /* For Firefox prior 58.0 */
+  text-align-last: right; }
+
+.text-last-center {
+  text-align: justify;
+  /* For Edge */
+  -moz-text-align-last: center;
+  /* For Firefox prior 58.0 */
+  text-align-last: center; }
+
+.text-last-justify {
+  text-align: justify;
+  /* For Edge */
+  -moz-text-align-last: justify;
+  /* For Firefox prior 58.0 */
+  text-align-last: justify; }

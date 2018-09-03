@@ -1,4 +1,9 @@
 // styles text decoration
+.text-no-decoration,
+a.no-decoration,
+a.no-decoration:hover{ 
+  text-decoration: none!important ;
+}
 
 a.none,
 .link-text,
