@@ -14,7 +14,7 @@
     "url": "git+https://github.com/armandoaepp/helper-css.git"
   },
   "keywords": [
-    "helper-css"
+    "helper-css-light"
   ],
   "author": "@armandoaepp",
   "license": "ISC",
@@ -23,8 +23,7 @@
   },
   "homepage": "https://github.com/armandoaepp/helper-css#readme",
   "dependencies": {
-    "bootstrap": "^4.1.3",
-    "foundation-sites": "^6.4.4-rc1"
+    "bootstrap": "^4.1.3"
   },
   "devDependencies": {
     "node-sass": "^4.9.0"
