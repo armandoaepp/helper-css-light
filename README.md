@@ -1,6 +1,18 @@
-# Helper CSS
+# Helper CSS Light
 
 Common CSS helper classes.
+
+## Install
+
+Install with Npm or Bower
+
+### npm
+
+To install with npm run
+
+```
+$ npm install helper-css-light --save
+```
 
 ## Usage
 

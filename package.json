@@ -1,5 +1,5 @@
 {
-  "name": "helper-css",
+  "name": "helper-css-light",
   "version": "2.3.1",
   "description": "css classes of help for fronend",
   "main": "gulpfile.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/armandoaepp/helper-css.git"
+    "url": "git+https://github.com/armandoaepp/helper-css-light.git"
   },
   "keywords": [
     "helper-css-light"
@@ -19,9 +19,9 @@
   "author": "@armandoaepp",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/armandoaepp/helper-css/issues"
+    "url": "https://github.com/armandoaepp/helper-css-light/issues"
   },
-  "homepage": "https://github.com/armandoaepp/helper-css#readme",
+  "homepage": "https://github.com/armandoaepp/helper-css-light#readme",
   "dependencies": {
     "bootstrap": "^4.1.3"
   },
