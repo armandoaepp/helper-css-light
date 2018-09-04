@@ -1972,6 +1972,13 @@ a.text-dark:hover, a.text-dark:focus {
 .radius-lg {
   border-radius: 1rem !important; }
 
+/* Rounder 5000px ; */
+.radius-rounded {
+  border-radius: 5000px !important; }
+  .radius-rounded:after {
+    border-radius: 50%; }
+
+/* variants radius */
 .radius-top {
   border-bottom-left-radius: 0 !important;
   border-bottom-right-radius: 0 !important; }
@@ -2018,11 +2025,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 .radius-circle {
   border-radius: 50%; }
-
-.radius-rounded {
-  border-radius: 5000px !important; }
-  .radius-rounded:after {
-    border-radius: 50%; }
 
 .fs-x-10 {
   font-size: 0.625rem !important; }
