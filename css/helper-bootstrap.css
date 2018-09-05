@@ -53,6 +53,9 @@
   .radius-rounded:after {
     border-radius: 50%; }
 
+.radius-circle {
+  border-radius: 50%; }
+
 /* variants radius */
 .radius-top {
   border-bottom-left-radius: 0 !important;
@@ -97,9 +100,6 @@
 .radius-diagonal-2 {
   border-top-left-radius: 0 !important;
   border-bottom-right-radius: 0 !important; }
-
-.radius-circle {
-  border-radius: 50%; }
 
 .fs-x-10 {
   font-size: 0.625rem !important; }
@@ -265,6 +265,16 @@
 .h6 small {
   line-height: 0;
   color: #cacaca; }
+
+.h1 small.block,
+.h2 small.block,
+.h3 small.block,
+.h4 small.block,
+.h5 small.block,
+.h6 small.block {
+  display: block;
+  line-height: 1;
+  color: inherit; }
 
 .h1 {
   font-size: 1.75rem; }
