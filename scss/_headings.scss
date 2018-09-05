@@ -91,6 +91,17 @@ $header-font-sizes: (
   color: #cacaca;
 }
 
+.h1 small.block,
+.h2 small.block,
+.h3 small.block,
+.h4 small.block,
+.h5 small.block,
+.h6 small.block {
+  display: block ;
+  line-height: 1;
+  color: inherit;
+}
+
 //  ==========================================================================
 // Heading styles CLASS
 //  ==========================================================================
