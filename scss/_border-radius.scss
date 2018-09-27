@@ -9,6 +9,7 @@ $value in $borders-radius {
     border-radius: $border-radius-temp !important;
   }
 }
+
 /* Rounder 5000px ; */
 
 .radius-rounded {
@@ -18,7 +19,12 @@ $value in $borders-radius {
   }
 }
 
+.radius-circle {
+  border-radius: 50%;
+}
+
 /* variants radius */
+
 .radius-top {
   border-bottom-left-radius: 0 !important;
   border-bottom-right-radius: 0 !important;
@@ -72,8 +78,3 @@ $value in $borders-radius {
   border-top-left-radius: 0 !important;
   border-bottom-right-radius: 0 !important;
 }
-
-.radius-circle {
-  border-radius: 50%;
-}
- 

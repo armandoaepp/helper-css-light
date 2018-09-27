@@ -1,5 +1,5 @@
 /*!
- * helper-css:  v.2.3.1
+ * helper-css:  v.2.4.0
  * github: https://github.com/armandoaepp/helper-css
  * developer: @armandoaepp
  * Copyright 2018
@@ -1972,6 +1972,11 @@ a.text-dark:hover, a.text-dark:focus {
 .full-h {
   height: 100vh; }
 
+.centered-v {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
 @media only screen and (min-width: 768px) {
   .flex-md-center {
     align-items: center;
@@ -1998,6 +2003,9 @@ a.text-dark:hover, a.text-dark:focus {
   border-radius: 5000px !important; }
   .radius-rounded:after {
     border-radius: 50%; }
+
+.radius-circle {
+  border-radius: 50%; }
 
 /* variants radius */
 .radius-top {
@@ -2043,9 +2051,6 @@ a.text-dark:hover, a.text-dark:focus {
 .radius-diagonal-2 {
   border-top-left-radius: 0 !important;
   border-bottom-right-radius: 0 !important; }
-
-.radius-circle {
-  border-radius: 50%; }
 
 .fs-x-12 {
   font-size: 0.75rem !important; }
