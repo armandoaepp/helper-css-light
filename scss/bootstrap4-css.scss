@@ -1,5 +1,5 @@
 //  Bootstrap 4 Utilities
-
+/*
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
@@ -18,5 +18,29 @@
 @import "../node_modules/bootstrap/scss/utilities/sizing";
 @import "../node_modules/bootstrap/scss/utilities/spacing";
 @import "../node_modules/bootstrap/scss/utilities/text";
-@import "../node_modules/bootstrap/scss/utilities/visibility";
+@import "../node_modules/bootstrap/scss/utilities/visibility"; */
+
+/* ns */
+
+// @import "../vendor/bootstrap/scss/bootstrap";
+// @import "../vendor/bootstrap/scss/mixins.";
+
+@import "../vendor/bootstrap/scss/functions";
+@import "../vendor/bootstrap/scss/variables";
+@import "../vendor/bootstrap/scss/mixins.scss";
+@import "../vendor/bootstrap/scss/utilities/align";
+// @import "../vendor/bootstrap/scss/utilities/background";
+@import "../vendor/bootstrap/scss/utilities/borders";
+@import "../vendor/bootstrap/scss/utilities/clearfix";
+@import "../vendor/bootstrap/scss/utilities/display";
+@import "../vendor/bootstrap/scss/utilities/embed";
+@import "../vendor/bootstrap/scss/utilities/flex";
+@import "../vendor/bootstrap/scss/utilities/float";
+@import "../vendor/bootstrap/scss/utilities/position";
+@import "../vendor/bootstrap/scss/utilities/screenreaders";
+@import "../vendor/bootstrap/scss/utilities/shadows";
+@import "../vendor/bootstrap/scss/utilities/sizing";
+@import "../vendor/bootstrap/scss/utilities/spacing";
+@import "../vendor/bootstrap/scss/utilities/text";
+@import "../vendor/bootstrap/scss/utilities/visibility";
 

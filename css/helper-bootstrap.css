@@ -101,12 +101,6 @@
 .radius-circle {
   border-radius: 50%; }
 
-.fs-x-10 {
-  font-size: 0.625rem !important; }
-
-.fs-x-11 {
-  font-size: 0.6875rem !important; }
-
 .fs-x-12 {
   font-size: 0.75rem !important; }
 
@@ -265,6 +259,15 @@
 .h6 small {
   line-height: 0;
   color: #cacaca; }
+
+.h1 small.block,
+.h2 small.block,
+.h3 small.block,
+.h4 small.block,
+.h5 small.block,
+.h6 small.block {
+  line-height: 1;
+  color: inherit; }
 
 .h1 {
   font-size: 1.75rem; }
