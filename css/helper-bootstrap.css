@@ -1,5 +1,5 @@
 /*!
- * helper-css:  v.2.4.0 (for bootstrap)
+ * helper-css:  v.2.4.1 (for bootstrap)
  * github: https://github.com/armandoaepp/helper-css
  * developer: @armandoaepp
  * Copyright 2018
@@ -272,7 +272,9 @@
 .h5 small.block,
 .h6 small.block {
   line-height: 1;
-  color: inherit; }
+  color: inherit;
+  display: block;
+  padding-top: .25rem; }
 
 .h1 {
   font-size: 1.75rem; }
@@ -666,6 +668,12 @@ a.none,
 
 .text-underover {
   text-decoration: underline overline; }
+
+/*  text underline  position*/
+.text-under {
+  -webkit-text-underline-position: under;
+  -ms-text-underline-position: below;
+  text-underline-position: under; }
 
 .text-last-right {
   text-align: justify;
