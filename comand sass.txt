@@ -1,2 +1,0 @@
-sass sass/helper-css.scss css/helper-css.css
-sass sass/helper-css.scss css/helper-css.min.css --style compressed
