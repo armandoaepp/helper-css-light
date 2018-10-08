@@ -1,7 +1,7 @@
 // styles text decoration
 .text-no-decoration,
 a.no-decoration,
-a.no-decoration:hover{ 
+a.no-decoration:hover{
   text-decoration: none!important ;
 }
 
@@ -30,3 +30,11 @@ a.none,
   text-decoration: underline overline;
 }
 
+
+/*  text underline  position*/
+
+.text-under{
+  -webkit-text-underline-position: under;
+  -ms-text-underline-position: below;
+  text-underline-position: under;
+}

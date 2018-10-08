@@ -98,6 +98,8 @@ $header-font-sizes: (
 .h6 small.block {
   line-height: 1;
   color: inherit;
+  display: block;
+  padding-top: .25rem ;
 }
 //  ==========================================================================
 // Heading styles CLASS
