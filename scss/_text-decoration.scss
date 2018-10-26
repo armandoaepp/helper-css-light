@@ -13,27 +13,32 @@ a.none,
   text-decoration: none!important ;
 }
 
-.text-under {
+.text-underline {
   text-decoration: underline;
 }
-.text-over {
+.text-overline {
   text-decoration: overline;
 }
-.text-line {
+.text-line-through {
   text-decoration: line-through;
 }
 .text-blink {
   text-decoration: blink;
 }
 
-.text-underover {
+.text-under-over {
   text-decoration: underline overline;
 }
+
+.text-wavy {
+  text-decoration: red underline overline wavy;
+}
+
 
 
 /*  text underline  position*/
 
-.text-under{
+.text-under-below{
   -webkit-text-underline-position: under;
   -ms-text-underline-position: below;
   text-underline-position: under;
