@@ -30,3 +30,11 @@ a.none,
   text-decoration: underline overline;
 }
 
+/* position */
+
+.text-under{
+  -webkit-text-underline-position: under;
+  -ms-text-underline-position: below;
+  text-underline-position: under; 
+}
+
