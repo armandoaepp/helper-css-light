@@ -1,7 +1,7 @@
 // styles text decoration
 .text-no-decoration,
 a.no-decoration,
-a.no-decoration:hover{ 
+a.no-decoration:hover{
   text-decoration: none!important ;
 }
 
@@ -13,28 +13,33 @@ a.none,
   text-decoration: none!important ;
 }
 
-.text-under {
+.text-underline {
   text-decoration: underline;
 }
-.text-over {
+.text-overline {
   text-decoration: overline;
 }
-.text-line {
+.text-line-through {
   text-decoration: line-through;
 }
 .text-blink {
   text-decoration: blink;
 }
 
-.text-underover {
+.text-under-over {
   text-decoration: underline overline;
 }
 
-/* position */
-
-.text-under{
-  -webkit-text-underline-position: under;
-  -ms-text-underline-position: below;
-  text-underline-position: under; 
+.text-wavy {
+  text-decoration: red underline overline wavy;
 }
 
+
+
+/*  text underline  position*/
+
+.text-under-below{
+  -webkit-text-underline-position: under;
+  -ms-text-underline-position: below;
+  text-underline-position: under;
+}

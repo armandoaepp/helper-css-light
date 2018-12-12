@@ -1,4 +1,4 @@
-# Helper CSS Light
+# Helper CSS Light [![npm version](https://badge.fury.io/js/helper-css-light.svg)](https://www.npmjs.com/package/helper-css-light)
 
 Common CSS helper classes.
 
