@@ -22,88 +22,6 @@
 .align-text-top {
   vertical-align: text-top !important; }
 
-.border {
-  border: 1px solid #dee2e6 !important; }
-
-.border-top {
-  border-top: 1px solid #dee2e6 !important; }
-
-.border-right {
-  border-right: 1px solid #dee2e6 !important; }
-
-.border-bottom {
-  border-bottom: 1px solid #dee2e6 !important; }
-
-.border-left {
-  border-left: 1px solid #dee2e6 !important; }
-
-.border-0 {
-  border: 0 !important; }
-
-.border-top-0 {
-  border-top: 0 !important; }
-
-.border-right-0 {
-  border-right: 0 !important; }
-
-.border-bottom-0 {
-  border-bottom: 0 !important; }
-
-.border-left-0 {
-  border-left: 0 !important; }
-
-.border-primary {
-  border-color: #007bff !important; }
-
-.border-secondary {
-  border-color: #6c757d !important; }
-
-.border-success {
-  border-color: #28a745 !important; }
-
-.border-info {
-  border-color: #17a2b8 !important; }
-
-.border-warning {
-  border-color: #ffc107 !important; }
-
-.border-danger {
-  border-color: #dc3545 !important; }
-
-.border-light {
-  border-color: #f8f9fa !important; }
-
-.border-dark {
-  border-color: #343a40 !important; }
-
-.border-white {
-  border-color: #fefefe !important; }
-
-.rounded {
-  border-radius: 0.25rem !important; }
-
-.rounded-top {
-  border-top-left-radius: 0.25rem !important;
-  border-top-right-radius: 0.25rem !important; }
-
-.rounded-right {
-  border-top-right-radius: 0.25rem !important;
-  border-bottom-right-radius: 0.25rem !important; }
-
-.rounded-bottom {
-  border-bottom-right-radius: 0.25rem !important;
-  border-bottom-left-radius: 0.25rem !important; }
-
-.rounded-left {
-  border-top-left-radius: 0.25rem !important;
-  border-bottom-left-radius: 0.25rem !important; }
-
-.rounded-circle {
-  border-radius: 50% !important; }
-
-.rounded-0 {
-  border-radius: 0 !important; }
-
 .clearfix::after {
   display: block;
   clear: both;
@@ -1585,17 +1503,17 @@ a.text-dark:hover, a.text-dark:focus {
 .radius-0 {
   border-radius: 0rem !important; }
 
-.radius-sm {
+.radius-2 {
   border-radius: 0.125rem !important; }
 
 .radius {
   border-radius: 0.1875rem !important; }
 
-.radius-md {
-  border-radius: 0.5rem !important; }
+.radius-4 {
+  border-radius: 0.25rem !important; }
 
-.radius-lg {
-  border-radius: 1rem !important; }
+.radius-8 {
+  border-radius: 0.5rem !important; }
 
 /* Rounder 5000px ; */
 .radius-rounded {
@@ -1650,6 +1568,99 @@ a.text-dark:hover, a.text-dark:focus {
 .radius-diagonal-2 {
   border-top-left-radius: 0 !important;
   border-bottom-right-radius: 0 !important; }
+
+.border {
+  border: 1px solid #dee2e6 !important; }
+
+.border-0 {
+  border: 0 !important; }
+
+/* BORDER 0 */
+.border-y-0,
+.border-top-0 {
+  border-top: 0 !important; }
+
+.border-x-0,
+.border-right-0 {
+  border-right: 0 !important; }
+
+.border-y-0,
+.border-bottom-0 {
+  border-bottom: 0 !important; }
+
+.border-x-0,
+.border-left-0 {
+  border-left: 0 !important; }
+
+/* BORDERS  */
+.border-top {
+  border-bottom: 0 !important;
+  border-left: 0 !important;
+  border-right: 0 !important; }
+
+.border-bottom {
+  border-top: 0 !important;
+  border-left: 0 !important;
+  border-right: 0 !important; }
+
+.border-left {
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+  border-right: 0 !important; }
+
+.border-right {
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+  border-left: 0 !important; }
+
+.border-y {
+  border-top: 0 !important;
+  border-bottom: 0 !important; }
+
+.border-x {
+  border-left: 0 !important;
+  border-right: 0 !important; }
+
+/* BORDER WIDTH */
+.border-2 {
+  border-width: 2px !important; }
+
+.border-3 {
+  border-width: 3px !important; }
+
+.border-4 {
+  border-width: 4px !important; }
+
+/* BORDER COLORES */
+.border-primary {
+  border-color: #007bff !important; }
+
+.border-secondary {
+  border-color: #6c757d !important; }
+
+.border-success {
+  border-color: #28a745 !important; }
+
+.border-info {
+  border-color: #17a2b8 !important; }
+
+.border-warning {
+  border-color: #ffc107 !important; }
+
+.border-danger {
+  border-color: #dc3545 !important; }
+
+.border-light {
+  border-color: #f8f9fa !important; }
+
+.border-dark {
+  border-color: #343a40 !important; }
+
+.border-white {
+  border-color: #fefefe !important; }
+
+.border-black {
+  border-color: #0a0a0a !important; }
 
 .fs-x-12 {
   font-size: 0.75rem !important; }

@@ -151,10 +151,10 @@ and variants
 
 *Border Radius*
 * `.radius-circle`: assigns `border-radius: 50%` property
-* `.radius-sm`: assigns `border-radius: .125rem` property
+* `.radius-2`: assigns `border-radius: .125rem` property
 * `.radius`: assigns `border-radius: .25rem` property
-* `.radius-md`: assigns `border-radius: 0.5rem` property
-* `.radius-lg`: assigns `border-radius: 1rem` property
+* `.radius-4`: assigns `border-radius: 0.5rem` property
+* `.radius-8`: assigns `border-radius: 1rem` property
 * `.radius-0`: assigns `border-radius: 0` property
 * `.radius-x`: assigns custom  `border-radius: x` property
 
