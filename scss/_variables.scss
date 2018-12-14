@@ -18,21 +18,12 @@ $grid-breakpoints: (
   xl: 1200px
 ) !default;
 
-//  ==========================================================================
-// Borders radius Variables (custom add in the array  $borders-radius => "rounded-x": x , )
-//  ==========================================================================
 
-
-$borders-radius: (
-  "radius-0" : 0,
-  "radius-sm": 2,
-  "radius"   : 3,
-  "radius-md": 8,
-  "radius-lg": 16,
-);
 
 // Z-index master list
 
 $zindex-sticky:                     1020 !default;
 $zindex-fixed:                      1030 !default;
+
+$theme-colors: ()!default;
 
