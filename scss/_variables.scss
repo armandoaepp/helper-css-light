@@ -9,6 +9,7 @@ $black      : #0a0a0a !default;
 $white      : #fefefe !default;
 
 // # $grid-breakpoints:
+// $grid-breakpoints: ()!default ;
 
 $grid-breakpoints: (
   xs: 0,
@@ -24,6 +25,8 @@ $grid-breakpoints: (
 
 $zindex-sticky:                     1020 !default;
 $zindex-fixed:                      1030 !default;
+
+// $sizes: ()!default ;
 
 $theme-colors: ()!default;
 
