@@ -1613,11 +1613,11 @@ a.text-dark:hover, a.text-dark:focus {
   border-bottom: 0 !important;
   border-left: 0 !important; }
 
-.border-y {
+.border-x {
   border-top: 0 !important;
   border-bottom: 0 !important; }
 
-.border-x {
+.border-y {
   border-left: 0 !important;
   border-right: 0 !important; }
 
