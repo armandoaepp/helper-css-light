@@ -117,10 +117,27 @@
 .border {
   border: 1px solid #dee2e6 !important; }
 
+/* Borders sides */
+.border-y,
+.border-top {
+  border-top: 1px solid #dee2e6 !important; }
+
+.border-x,
+.border-right {
+  border-right: 1px solid #dee2e6 !important; }
+
+.border-y,
+.border-bottom {
+  border-bottom: 1px solid #dee2e6 !important; }
+
+.border-x,
+.border-left {
+  border-left: 1px solid #dee2e6 !important; }
+
+/* Border 0 */
 .border-0 {
   border: 0 !important; }
 
-/* BORDER 0 */
 .border-y-0,
 .border-top-0 {
   border-top: 0 !important; }
@@ -137,36 +154,7 @@
 .border-left-0 {
   border-left: 0 !important; }
 
-/* BORDERS  */
-.border-top {
-  border-bottom: 0 !important;
-  border-left: 0 !important;
-  border-right: 0 !important; }
-
-.border-bottom {
-  border-top: 0 !important;
-  border-left: 0 !important;
-  border-right: 0 !important; }
-
-.border-left {
-  border-top: 0 !important;
-  border-bottom: 0 !important;
-  border-right: 0 !important; }
-
-.border-right {
-  border-top: 0 !important;
-  border-bottom: 0 !important;
-  border-left: 0 !important; }
-
-.border-x {
-  border-top: 0 !important;
-  border-bottom: 0 !important; }
-
-.border-y {
-  border-left: 0 !important;
-  border-right: 0 !important; }
-
-/* BORDER WIDTH */
+/* Border width */
 .border-2 {
   border-width: 2px !important; }
 
@@ -176,12 +164,49 @@
 .border-4 {
   border-width: 4px !important; }
 
-/* BORDER COLORES */
+/* Border Style */
+.border-none {
+  border-style: none; }
+
+.border-hidden {
+  border-style: hidden !important; }
+
+.border-dotted {
+  border-style: dotted !important; }
+
+.border-dashed {
+  border-style: dashed !important; }
+
+.border-solid {
+  border-style: solid !important; }
+
+.border-double {
+  border-style: double !important; }
+
+.border-groove {
+  border-style: groove !important; }
+
+.border-ridge {
+  border-style: ridge !important; }
+
+.border-inset {
+  border-style: inset !important; }
+
+.border-outset {
+  border-style: outset !important; }
+
+/* Border colores */
 .border-white {
   border-color: #fefefe !important; }
 
 .border-black {
   border-color: #0a0a0a !important; }
+
+.fs-x-10 {
+  font-size: 0.625rem !important; }
+
+.fs-x-11 {
+  font-size: 0.6875rem !important; }
 
 .fs-x-12 {
   font-size: 0.75rem !important; }
@@ -485,19 +510,19 @@ hr.dotted {
   background-attachment: fixed;
   background-size: cover; }
 
-.lh-1 {
+.lh-1x {
   line-height: 1 !important; }
 
-.lh-1-25 {
+.lh-1x-25 {
   line-height: 1.25 !important; }
 
-.lh-1-50 {
+.lh-1x-50 {
   line-height: 1.5 !important; }
 
-.lh-1-75 {
+.lh-1x-75 {
   line-height: 1.75 !important; }
 
-.lh-2 {
+.lh-2x {
   line-height: 2 !important; }
 
 .list-unstyled,
