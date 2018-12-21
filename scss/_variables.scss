@@ -1,32 +1,15 @@
-
+@import "../vendor/bootstrap/scss/functions";
+@import "../vendor/bootstrap/scss/variables";
+@import "../vendor/bootstrap/scss/mixins.scss";
 
 /// Color.
 /// @type Color
-$light-gray : #e6e6e6 !default;
-$medium-gray: #cacaca !default;
-$dark-gray  : #8a8a8a !default;
 $black      : #0a0a0a !default;
 $white      : #fefefe !default;
 
-// # $grid-breakpoints:
-// $grid-breakpoints: ()!default ;
+$border-color: $gray-300 !default;
 
-$grid-breakpoints: (
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px
-) !default;
-
-
-
-// Z-index master list
-
-$zindex-sticky:                     1020 !default;
-$zindex-fixed:                      1030 !default;
 
 // $sizes: ()!default ;
-
 $theme-colors: ()!default;
 
