@@ -9,7 +9,7 @@
   margin-right: auto;
   margin-left: auto; }
 
-.valing-full {
+.vh-100-center {
   align-items: center;
   min-height: 100vh;
   margin: 0 auto; }
@@ -22,9 +22,6 @@
 .flex-center-v {
   display: flex;
   align-items: center; }
-
-.full-h {
-  height: 100vh; }
 
 /* layer */
 .layer-absolute {
@@ -60,14 +57,16 @@
 .radius-8 {
   border-radius: 0.5rem !important; }
 
-/* Rounder 5000px ; */
-.radius-rounded {
-  border-radius: 5000px !important; }
-  .radius-rounded:after {
-    border-radius: 50%; }
-
+.rounded-circle,
 .radius-circle {
   border-radius: 50%; }
+
+.rounded-pill,
+.radius-pill {
+  border-radius: 50rem !important; }
+  .rounded-pill:after,
+  .radius-pill:after {
+    border-radius: 50%; }
 
 /* variants radius */
 .radius-top {
@@ -225,12 +224,6 @@
 
 .border-black {
   border-color: #000 !important; }
-
-.fs-x-10 {
-  font-size: 0.625rem !important; }
-
-.fs-x-11 {
-  font-size: 0.6875rem !important; }
 
 .fs-x-10 {
   font-size: 0.625rem !important; }
@@ -708,6 +701,15 @@ ol.list-lower-alpha {
 
 .rotate-y-0 {
   transform: rotateY(0deg); }
+
+.rotate-45 {
+  transform: rotate(45deg); }
+
+.rotate-x-45 {
+  transform: rotateY(45deg); }
+
+.rotate-y-45 {
+  transform: rotateY(45deg); }
 
 .rotate-90 {
   transform: rotate(90deg); }

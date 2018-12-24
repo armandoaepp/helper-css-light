@@ -188,6 +188,18 @@
 .embed-responsive-1by1::before {
   padding-top: 100%; }
 
+.embed-responsive-21by9::before {
+  padding-top: 42.85714%; }
+
+.embed-responsive-16by9::before {
+  padding-top: 56.25%; }
+
+.embed-responsive-3by4::before {
+  padding-top: 133.33333%; }
+
+.embed-responsive-1by1::before {
+  padding-top: 100%; }
+
 .float-left {
   float: left !important; }
 
@@ -228,6 +240,12 @@
     float: right !important; }
   .float-xl-none {
     float: none !important; } }
+
+.overflow-auto {
+  overflow: auto !important; }
+
+.overflow-hidden {
+  overflow: hidden !important; }
 
 .position-static {
   position: static !important; }
@@ -1866,7 +1884,7 @@ a.text-dark:hover, a.text-dark:focus {
   margin-right: auto;
   margin-left: auto; }
 
-.valing-full {
+.vh-100-center {
   align-items: center;
   min-height: 100vh;
   margin: 0 auto; }
@@ -1879,9 +1897,6 @@ a.text-dark:hover, a.text-dark:focus {
 .flex-center-v {
   display: flex;
   align-items: center; }
-
-.full-h {
-  height: 100vh; }
 
 /* layer */
 .layer-absolute {
@@ -1917,14 +1932,16 @@ a.text-dark:hover, a.text-dark:focus {
 .radius-8 {
   border-radius: 0.5rem !important; }
 
-/* Rounder 5000px ; */
-.radius-rounded {
-  border-radius: 5000px !important; }
-  .radius-rounded:after {
-    border-radius: 50%; }
-
+.rounded-circle,
 .radius-circle {
   border-radius: 50%; }
+
+.rounded-pill,
+.radius-pill {
+  border-radius: 50rem !important; }
+  .rounded-pill:after,
+  .radius-pill:after {
+    border-radius: 50%; }
 
 /* variants radius */
 .radius-top {
@@ -2082,12 +2099,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 .border-black {
   border-color: #000 !important; }
-
-.fs-x-10 {
-  font-size: 0.625rem !important; }
-
-.fs-x-11 {
-  font-size: 0.6875rem !important; }
 
 .fs-x-10 {
   font-size: 0.625rem !important; }
@@ -2565,6 +2576,15 @@ ol.list-lower-alpha {
 
 .rotate-y-0 {
   transform: rotateY(0deg); }
+
+.rotate-45 {
+  transform: rotate(45deg); }
+
+.rotate-x-45 {
+  transform: rotateY(45deg); }
+
+.rotate-y-45 {
+  transform: rotateY(45deg); }
 
 .rotate-90 {
   transform: rotate(90deg); }

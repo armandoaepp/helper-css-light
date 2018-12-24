@@ -23,18 +23,20 @@ $value in $borders-radius {
   }
 }
 
-/* Rounder 5000px ; */
+ 
+.rounded-circle,
+.radius-circle {
+  border-radius: 50%;
+}
 
-.radius-rounded {
-  @include border-rounded;
+.rounded-pill,
+.radius-pill {
+  border-radius: $rounded-pill !important;
   &:after {
     border-radius: 50%; // For switches
   }
 }
 
-.radius-circle {
-  border-radius: 50%;
-}
 
 /* variants radius */
 
