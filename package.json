@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/armandoaepp/helper-css-light#readme",
   "dependencies": {
-    "bootstrap": "^4.1.3"
+    "bootstrap": "^4.2.1"
   },
   "devDependencies": {
     "node-sass": "^4.11.0",
