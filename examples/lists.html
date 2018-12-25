@@ -5,71 +5,162 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lists Helper-css </title>
+  <title>Lists | Helper css light </title>
   <meta name="description" content="Helper css utilidades css " />
   <meta name="robots" content="index,follow" />
   <meta name="keywords" content="helper css, sass, scss, armandotuweb" />
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,500,700,700i,900" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="css/styles.examples.css">
   <link rel="stylesheet" href="../css/helper-css.css">
 </head>
 
 <body>
 
-  <h1>The list-style-type Property</h1>
+  <header class="mb-2">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+      <a class="navbar-brand" href="#">Helper css light </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-  <p>Example of unordered lists:</p>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Text Properties
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="headings.html">Headings</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="text-align-last.html">Text Align</a>
+              <a class="dropdown-item" href="text-decoration.html">Text Decoration</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="font-sizes.html">Font Sizes</a>
+              <a class="dropdown-item" href="font-weight.html">Font Weight</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="line-heights.html">Line Heights</a>
+              <a class="dropdown-item" href="lists.html">Lists</a>
 
-  <p>
-    <strong> List 1( .list-style-none )</strong>
-  </p>
-  <ul class="list-style-none">
-    <li>List Item1</li>
-    <li>List Item2</li>
-    <li>List Item3</li>
-    <li>List Item4</li>
-  </ul>
+            </div>
+          </li>
 
-  <p>
-    <strong> List 2(.list-circle)</strong>
-  </p>
-  <ul class="list-circle">
-    <li>List Item1</li>
-    <li>List Item2</li>
-    <li>List Item3</li>
-    <li>List Item4</li>
-  </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Borders
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="borders.html">Borders</a>
+              <a class="dropdown-item" href="borders-radius.html">Border Radius</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="hr.html">Hrs</a>
+            </div>
+          </li>
 
-  <p>
-    <strong> List 3(.list-square)</strong>
-  </p>
-  <ul class="list-square">
-    <li>List Item A</li>
-    <li>List Item B</li>
-    <li>List Item C</li>
-    <li>List Item D</li>
-  </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Box Properties
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="opacities.html">Opacities</a>
+              <a class="dropdown-item" href="rotates.html">Rotates</a>
+              <!-- <div class="dropdown-divider"></div> -->
+            </div>
+          </li>
 
-  <p>Example of ordered lists:</p>
+        </ul>
 
-  <p>
-    <strong> List 3(.list-upper-roman)</strong>
-  </p>
-  <ol class="list-upper-roman">
-    <li>List Item1</li>
-    <li>List Item2</li>
-    <li>List Item3</li>
-    <li>List Item4</li>
-  </ol>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/armandoaepp/helper-css-light" target="_blank">
+              <img class="logo-github" src="img/github.png" alt="helper css light">
+              <span class="sr-only">(helper css light)</span>
+            </a>
+          </li>
+        </ul>
 
-  List 3(.list-lower-alpha)
+      </div>
+    </nav>
+  </header>
 
-  <ol class="list-lower-alpha">
-    <li>List Item A</li>
-    <li>List Item B</li>
-    <li>List Item C</li>
-    <li>List Item D</li>
-  </ol>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 border-bottom mb-3">
+        <h1 class="h1 "><strong>list-style-type Property</strong> </h1>
+      </div>
 
+      <div class="col-12">
+
+
+        <p>Example of unordered lists:</p>
+
+        <p>
+          <strong> List 1( .list-style-none )</strong>
+        </p>
+        <ul class="list-style-none">
+          <li>List Item1</li>
+          <li>List Item2</li>
+          <li>List Item3</li>
+          <li>List Item4</li>
+        </ul>
+
+        <p>
+          <strong> List 2(.list-circle)</strong>
+        </p>
+        <ul class="list-circle">
+          <li>List Item1</li>
+          <li>List Item2</li>
+          <li>List Item3</li>
+          <li>List Item4</li>
+        </ul>
+
+        <p>
+          <strong> List 3(.list-square)</strong>
+        </p>
+        <ul class="list-square">
+          <li>List Item A</li>
+          <li>List Item B</li>
+          <li>List Item C</li>
+          <li>List Item D</li>
+        </ul>
+
+        <p>Example of ordered lists:</p>
+
+        <p>
+          <strong> List 3(.list-upper-roman)</strong>
+        </p>
+        <ol class="list-upper-roman">
+          <li>List Item1</li>
+          <li>List Item2</li>
+          <li>List Item3</li>
+          <li>List Item4</li>
+        </ol>
+
+        List 3(.list-lower-alpha)
+
+        <ol class="list-lower-alpha">
+          <li>List Item A</li>
+          <li>List Item B</li>
+          <li>List Item C</li>
+          <li>List Item D</li>
+        </ol>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 
 </body>
 

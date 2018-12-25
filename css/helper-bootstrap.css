@@ -634,23 +634,23 @@
   }
 }
 
-hr {
+.hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-hr.double {
+.hr.double {
   border-top-width: 3px;
   border-top-style: double;
 }
 
-hr.dashed {
+.hr.dashed {
   border-top-style: dashed;
 }
 
-hr.dotted {
+.hr.dotted {
   border-top-style: dotted;
 }
 
@@ -709,6 +709,10 @@ hr.dotted {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+
+.lh {
+  line-height: normal;
 }
 
 .lh-0 {
