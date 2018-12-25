@@ -4,251 +4,267 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> Borders Radius | Helper - Css | armandotuweb.net </title>
+  <title> Borders Radius | Helper Css Light </title>
   <meta name="robots" content="index,follow" />
   <meta name="description" content="Helper css utilidades css " />
   <meta name="keywords" content="helper css, sass, scss, armandotuweb" />
+
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,500,700,700i,900" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="css/styles.examples.css">
   <link rel="stylesheet" href="../css/helper-css.css">
-  <style>
-    .container {
-      clear: both;
-    }
-
-    .col {
-      float: left;
-      width: 150px;
-      height: 150px;
-      margin: 1rem;
-      padding: 1rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-    }
-
-    .col:nth-child(even) {
-      background: #bebebe;
-    }
-
-    .col:nth-child(odd) {
-      background: #9c9b9b;
-    }
-  </style>
+  
 </head>
 
 <body>
-  <h1> Boder radius </h1>
-  <div class="container">
-    <h2> .radius-x </h2>
 
-    <div class="col radius-0">
-      .radius-0
+  <div class="container box">
+    <div class="row">
+
+      <div class="col-12 border-bottom mb-3">
+        <h1 class="h1 "><strong>Border Radius</strong> Property</h1>
+      </div>
+
+
+      <div class="col-12">
+        <h2> .radius-* </h2>
+      </div>
+      <div class="col item radius-0">
+        .radius-0
+      </div>
+
+      <div class="col item radius-2">
+        .radius-2
+      </div>
+
+      <div class="col item radius">
+        radius
+      </div>
+
+      <div class="col item radius-8">
+        .radius-8
+      </div>
+
+      <div class="col item radius-16">
+          .radius-16
+        </div>
+
+      <div class="col item radius-circle">
+        <span>.radius-circle</span>
+      </div>
+
+      <div class="col item radius-pill ">
+        <span>.radius-pill </span>
+      </div>
+
     </div>
 
-    <div class="col radius-2">
-      .radius-2
+
+
+
+    <!-- radius 2 -->
+    <div class="row">
+      <div class="col-12">
+        <h2> .radius-2 .radius-* </h2>
+        <hr>
+      </div>
+
+      <div class="col item radius-2">
+          .radius-2
+        </div>
+
+      <div class="col item radius-2 radius-top">
+        .radius-2 .radius-top
+      </div>
+
+      <div class="col item radius-2 radius-right">
+        .radius-2 .radius-right
+      </div>
+
+      <div class="col item radius-2 radius-bottom">
+        .radius-2 .radius-bottom
+      </div>
+      <div class="col item radius-2 radius-left">
+        .radius-2 .radius-left
+      </div>
+
+      <div class="col item radius-2 radius-top-left ">
+        .radius-2 .radius-top-left
+      </div>
+
+      <div class="col item radius-2 radius-top-left ">
+        .radius-2 .radius-top-left
+      </div>
+
+      <div class="col item radius-2 radius-bottom-left ">
+        .radius-2 .radius-bottom-left
+      </div>
+
+      <div class="col item radius-2 radius-bottom-right ">
+        .radius-2 .radius-bottom-right
+      </div>
+
+      <div class="col item radius-2 radius-diagonal-1 ">
+        .radius-2 .radius-diagonal-1
+      </div>
+
+      <div class="col item radius-2 radius-diagonal-2 ">
+        .radius-2 .radius-diagonal-2
+      </div>
     </div>
 
-    <div class="col radius">
-      radius
+
+    <!-- radius -->
+    <div class="row">
+      <div class="col-12">
+        <h2> .radius .radius-* </h2>
+        <hr>
+      </div>
+      <div class="col item radius">
+          .radius
+        </div>
+      <div class="col item radius radius-top">
+        .radius .radius-top
+      </div>
+
+      <div class="col item radius radius-right">
+        .radius .radius-right
+      </div>
+
+      <div class="col item radius radius-bottom">
+        .radius .radius-bottom
+      </div>
+      <div class="col item radius radius-left">
+        .radius .radius-left
+      </div>
+
+      <div class="col item radius radius-top-left ">
+        .radius .radius-top-left
+      </div>
+
+      <div class="col item radius radius-top-left ">
+        .radius .radius-top-left
+      </div>
+
+      <div class="col item radius radius-bottom-left ">
+        .radius .radius-bottom-left
+      </div>
+
+      <div class="col item radius radius-bottom-right ">
+        .radius .radius-bottom-right
+      </div>
+
+      <div class="col item radius radius-diagonal-1 ">
+        .radius .radius-diagonal-1
+      </div>
+
+      <div class="col item radius radius-diagonal-2 ">
+        .radius .radius-diagonal-2
+      </div>
     </div>
 
-    <div class="col radius-4">
-      .radius-4
+    <!-- radius 8 -->
+    <div class="row">
+      <div class="col-12">
+        <h2> .radius-8 .radius-* </h2>
+        <hr>
+      </div>
+      <div class="col item radius-8">
+          .radius-8
+        </div>
+      <div class="col item radius-8 radius-top">
+        .radius-8 .radius-top
+      </div>
+
+      <div class="col item radius-8 radius-right">
+        .radius-8 .radius-right
+      </div>
+
+      <div class="col item radius-8 radius-bottom">
+        .radius-8 .radius-bottom
+      </div>
+      <div class="col item radius-8 radius-left">
+        .radius-8 .radius-left
+      </div>
+
+      <div class="col item radius-8 radius-top-left ">
+        .radius-8 .radius-top-left
+      </div>
+
+      <div class="col item radius-8 radius-top-left ">
+        .radius-8 .radius-top-left
+      </div>
+
+      <div class="col item radius-8 radius-bottom-left ">
+        .radius-8 .radius-bottom-left
+      </div>
+
+      <div class="col item radius-8 radius-bottom-right ">
+        .radius-8 .radius-bottom-right
+      </div>
+
+      <div class="col item radius-8 radius-diagonal-1 ">
+        .radius-8 .radius-diagonal-1
+      </div>
+
+      <div class="col item radius-8 radius-diagonal-2 ">
+        .radius-8 .radius-diagonal-2
+      </div>
     </div>
 
-    <div class="col radius-8">
-      .radius-8
-    </div>
+    <!-- radius 8 -->
+    <div class="row">
+        <div class="col-12">
+          <h2> .radius-16 .radius-* </h2>
+          <hr>
+        </div>
+        <div class="col item radius-16">
+            .radius-16
+          </div>
+        <div class="col item radius-16 radius-top">
+          .radius-16 .radius-top
+        </div>
+  
+        <div class="col item radius-16 radius-right">
+          .radius-16 .radius-right
+        </div>
+  
+        <div class="col item radius-16 radius-bottom">
+          .radius-16 .radius-bottom
+        </div>
+        <div class="col item radius-16 radius-left">
+          .radius-16 .radius-left
+        </div>
+  
+        <div class="col item radius-16 radius-top-left ">
+          .radius-16 .radius-top-left
+        </div>
+  
+        <div class="col item radius-16 radius-top-left ">
+          .radius-16 .radius-top-left
+        </div>
+  
+        <div class="col item radius-16 radius-bottom-left ">
+          .radius-16 .radius-bottom-left
+        </div>
+  
+        <div class="col item radius-16 radius-bottom-right ">
+          .radius-16 .radius-bottom-right
+        </div>
+  
+        <div class="col item radius-16 radius-diagonal-1 ">
+          .radius-16 .radius-diagonal-1
+        </div>
+  
+        <div class="col item radius-16 radius-diagonal-2 ">
+          .radius-16 .radius-diagonal-2
+        </div>
+      </div>
 
-    <div class="col radius-circle">
-      <span>.radius-circle</span>
-    </div>
 
   </div>
-
-
-  <!-- radius sm -->
-  <div class="container">
-    <h2> .radius-2 .radius-* </h2>
-    <hr>
-    <div class="col radius-2 radius-top">
-      .radius-2 .radius-top
-    </div>
-
-    <div class="col radius-2 radius-right">
-      .radius-2 .radius-right
-    </div>
-
-    <div class="col radius-2 radius-bottom">
-      .radius-2 .radius-bottom
-    </div>
-    <div class="col radius-2 radius-left">
-      .radius-2 .radius-left
-    </div>
-
-    <div class="col radius-2 radius-top-left ">
-      .radius-2 .radius-top-left
-    </div>
-
-    <div class="col radius-2 radius-top-left ">
-      .radius-2 .radius-top-left
-    </div>
-
-    <div class="col radius-2 radius-bottom-left ">
-      .radius-2 .radius-bottom-left
-    </div>
-
-    <div class="col radius-2 radius-bottom-right ">
-      .radius-2 .radius-bottom-right
-    </div>
-
-    <div class="col radius-2 radius-diagonal-1 ">
-      .radius-2 .radius-diagonal-1
-    </div>
-
-    <div class="col radius-2 radius-diagonal-2 ">
-      .radius-2 .radius-diagonal-2
-    </div>
-  </div>
-
-
-  <!-- radius -->
-  <div class="container">
-    <h2> .radius .radius-* </h2>
-    <hr>
-    <div class="col radius radius-top">
-      .radius .radius-top
-    </div>
-
-    <div class="col radius radius-right">
-      .radius .radius-right
-    </div>
-
-    <div class="col radius radius-bottom">
-      .radius .radius-bottom
-    </div>
-    <div class="col radius radius-left">
-      .radius .radius-left
-    </div>
-
-    <div class="col radius radius-top-left ">
-      .radius .radius-top-left
-    </div>
-
-    <div class="col radius radius-top-left ">
-      .radius .radius-top-left
-    </div>
-
-    <div class="col radius radius-bottom-left ">
-      .radius .radius-bottom-left
-    </div>
-
-    <div class="col radius radius-bottom-right ">
-      .radius .radius-bottom-right
-    </div>
-
-    <div class="col radius radius-diagonal-1 ">
-      .radius .radius-diagonal-1
-    </div>
-
-    <div class="col radius radius-diagonal-2 ">
-      .radius .radius-diagonal-2
-    </div>
-  </div>
-
-  <!-- radius md -->
-  <div class="container">
-    <h2> .radius-4 .radius-* </h2>
-    <hr>
-    <div class="col radius-4 radius-top">
-      .radius-4 .radius-top
-    </div>
-
-    <div class="col radius-4 radius-right">
-      .radius-4 .radius-right
-    </div>
-
-    <div class="col radius-4 radius-bottom">
-      .radius-4 .radius-bottom
-    </div>
-    <div class="col radius-4 radius-left">
-      .radius-4 .radius-left
-    </div>
-
-    <div class="col radius-4 radius-top-left ">
-      .radius-4 .radius-top-left
-    </div>
-
-    <div class="col radius-4 radius-top-left ">
-      .radius-4 .radius-top-left
-    </div>
-
-    <div class="col radius-4 radius-bottom-left ">
-      .radius-4 .radius-bottom-left
-    </div>
-
-    <div class="col radius-4 radius-bottom-right ">
-      .radius-4 .radius-bottom-right
-    </div>
-
-    <div class="col radius-4 radius-diagonal-1 ">
-      .radius-4 .radius-diagonal-1
-    </div>
-
-    <div class="col radius-4 radius-diagonal-2 ">
-      .radius-4 .radius-diagonal-2
-    </div>
-  </div>
-
-  <!-- radius lg -->
-  <div class="container">
-    <h2> .radius-8 .radius-* </h2>
-    <hr>
-    <div class="col radius-8 radius-top">
-      .radius-8 .radius-top
-    </div>
-
-    <div class="col radius-8 radius-right">
-      .radius-8 .radius-right
-    </div>
-
-    <div class="col radius-8 radius-bottom">
-      .radius-8 .radius-bottom
-    </div>
-    <div class="col radius-8 radius-left">
-      .radius-8 .radius-left
-    </div>
-
-    <div class="col radius-8 radius-top-left ">
-      .radius-8 .radius-top-left
-    </div>
-
-    <div class="col radius-8 radius-top-left ">
-      .radius-8 .radius-top-left
-    </div>
-
-    <div class="col radius-8 radius-bottom-left ">
-      .radius-8 .radius-bottom-left
-    </div>
-
-    <div class="col radius-8 radius-bottom-right ">
-      .radius-8 .radius-bottom-right
-    </div>
-
-    <div class="col radius-8 radius-diagonal-1 ">
-      .radius-8 .radius-diagonal-1
-    </div>
-
-    <div class="col radius-8 radius-diagonal-2 ">
-      .radius-8 .radius-diagonal-2
-    </div>
-  </div>
-
-
-
 
 
 </body>
