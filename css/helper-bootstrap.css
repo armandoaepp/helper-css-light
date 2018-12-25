@@ -1,5 +1,5 @@
 /*!
- * helper-css:  v.2.4.x (for bootstrap)
+ * helper-css:  v.2.5.x (for bootstrap)
  * github: https://github.com/armandoaepp/helper-css
  * developer: @armandoaepp
  * Copyright 2018
@@ -60,15 +60,15 @@
 }
 
 .radius {
-  border-radius: 0.1875rem !important;
-}
-
-.radius-4 {
   border-radius: 0.25rem !important;
 }
 
 .radius-8 {
   border-radius: 0.5rem !important;
+}
+
+.radius-16 {
+  border-radius: 1rem !important;
 }
 
 .rounded-circle,
@@ -711,6 +711,10 @@ hr.dotted {
   background-size: cover;
 }
 
+.lh-0 {
+  line-height: 0 !important;
+}
+
 .lh-1x {
   line-height: 1 !important;
 }
@@ -1089,24 +1093,45 @@ a.none,
   text-underline-position: under;
 }
 
-.text-last-right {
+.text-last-auto,
+.text-last-start,
+.text-last-end,
+.text-last-left,
+.text-last-right,
+.text-last-center,
+.text-last-justify {
   text-align: justify;
-  /* For Edge */
-  /* For Firefox prior 58.0 */
+}
+
+.text-last-auto {
+  text-align-last: auto;
+}
+
+.text-last-start {
+  text-align-last: start;
+}
+
+.text-last-end {
+  text-align-last: end;
+}
+
+.text-last-left {
+  text-align-last: left;
+}
+
+.text-last-right {
   text-align-last: right;
 }
 
 .text-last-center {
-  text-align: justify;
-  /* For Edge */
-  /* For Firefox prior 58.0 */
   text-align-last: center;
 }
 
 .text-last-justify {
-  text-align: justify;
-  /* For Edge */
-  /* For Firefox prior 58.0 */
   text-align-last: justify;
+}
+
+.text-last-initial {
+  text-align-last: initial;
 }
 /*# sourceMappingURL=helper-bootstrap.css.map */
