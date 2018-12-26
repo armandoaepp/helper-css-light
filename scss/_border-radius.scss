@@ -6,9 +6,9 @@
 $borders-radius: (
   "radius-0" : 0,
   "radius-2": 2,
-  "radius"   : 3,
-  "radius-4": 4,
+  "radius"   : 4,   
   "radius-8": 8,
+  "radius-16": 16,
 );
 
 //  ==========================================================================
@@ -23,7 +23,6 @@ $value in $borders-radius {
   }
 }
 
- 
 .rounded-circle,
 .radius-circle {
   border-radius: 50%;

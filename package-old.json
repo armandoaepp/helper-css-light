@@ -1,21 +1,19 @@
-{
+ {
   "name": "helper-css-light",
-  "version": "2.5.1",
+  "version": "2.5.0",
   "description": "css classes of help for fronend",
   "main": "gulpfile.js",
   "scripts": {
-    "css": "npm-run-all vendor css-compile css-prefix-main css-minify",
+    "css": "npm-run-all --parallel helper helper-min helper-bootstrap css-prefix-main",
     "clean": "rimraf vendor",
     "vendor": "vendor-copy",
-    "css-compile": "npm-run-all --parallel css-compile-*",
-    "css-compile-main": "node-sass  --output-style expanded --source-map true --source-map-contents true --precision 6 scss/helper-css.scss css/helper-css.css",
-    "css-compile-bootstrap": "node-sass  --output-style expanded --source-map true --source-map-contents true --precision 6 scss/helper-bootstrap.scss css/helper-bootstrap.css",
-    "css-minify": "npm-run-all --parallel css-minify-*",
-    "css-minify-main": "cleancss --level 1 --format breaksWith=lf --source-map --source-map-inline-sources --output css/helper-css.min.css css/helper-css.css",
-    "css-minify-bootstrap": "cleancss --level 1 --format breaksWith=lf --source-map --source-map-inline-sources --output css/helper-bootstrap.min.css css/helper-bootstrap.css",
+    "helper": "node-sass  --output-style expanded --source-map true --source-map-contents true --precision 6 scss/helper-css.scss css/helper-css.css",
+    "helper-min": "node-sass  --output-style expanded --source-map true --source-map-contents true --precision 6 scss/helper-css.scss css/helper-css.min.css  --output-style compressed",
+    "helper-bootstrap": "node-sass  --output-style expanded --source-map true --source-map-contents true --precision 6 scss/helper-bootstrap.scss css/helper-bootstrap.css",
+    "helper-bootstrap-min": "node-sass  --output-style expanded --source-map true --source-map-contents true --precision 6 scss/helper-bootstrap.scss css/helper-bootstrap.min.css  --output-style compressed",
     "css-prefix-main": "postcss --config build/postcss.config.js --replace \"css/*.css\" \"!css/*.min.css\"",
     "dev": "npm run vendor & npm run css",
-    "prod": "npm run dev"
+    "prod": "npm run css"
   },
   "repository": {
     "type": "git",
@@ -35,7 +33,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.4.3",
-    "clean-css-cli": "^4.2.1",
     "node-sass": "^4.11.0",
     "npm-run-all": "^4.1.5",
     "postcss-cli": "^6.1.0",
@@ -43,9 +40,7 @@
     "sass-loader": "^7.1.0",
     "vendor-copy": "^2.0.0",
     "webpack": "^4.27.1",
-    "webpack-cli": "^3.1.2",
-    "autoprefixer": "^9.4.3",
-    "postcss-cli": "^6.1.0"
+    "webpack-cli": "^3.1.2"
   },
   "vendorCopy": [
     {
