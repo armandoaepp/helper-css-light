@@ -3233,32 +3233,6 @@ a.text-dark:hover, a.text-dark:focus {
   border-top-color: rgba(0, 0, 0, 0.75);
 }
 
-.icon-stack {
-  position: relative;
-  display: inline-block;
-  width: 2em;
-  height: 2em;
-  line-height: 2em;
-  vertical-align: middle;
-}
-
-.icon-stack-1x,
-.icon-stack-2x {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  text-align: center;
-}
-
-.icon-stack-1x {
-  line-height: inherit;
-  color: #ffffff;
-}
-
-.icon-stack-2x {
-  font-size: 2em;
-}
-
 .img-bg-fluid {
   background-repeat: no-repeat;
   background-size: contain;
