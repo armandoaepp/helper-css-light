@@ -675,7 +675,6 @@
 .h5 small,
 .h6 small {
   line-height: 0;
-  color: #cacaca;
 }
 
 .h1 small.block,
@@ -684,7 +683,7 @@
 .h4 small.block,
 .h5 small.block,
 .h6 small.block {
-  line-height: 1;
+  line-height: inherit;
   color: inherit;
   display: block;
   padding-top: .25rem;
@@ -695,7 +694,7 @@
 }
 
 .h2 {
-  font-size: 1.375rem;
+  font-size: 1.5rem;
 }
 
 .h3 {
@@ -714,16 +713,12 @@
   font-size: 1rem;
 }
 
-.h7 {
-  font-size: 0.875rem;
-}
-
 @media (min-width: 576px) {
   .h1 {
-    font-size: 1.875rem;
+    font-size: 2rem;
   }
   .h2 {
-    font-size: 1.5625rem;
+    font-size: 1.625rem;
   }
   .h3 {
     font-size: 1.375rem;
@@ -737,9 +732,6 @@
   .h6 {
     font-size: 1rem;
   }
-  .h7 {
-    font-size: 0.875rem;
-  }
 }
 
 @media (min-width: 768px) {
@@ -747,10 +739,10 @@
     font-size: 2.25rem;
   }
   .h2 {
-    font-size: 1.875rem;
+    font-size: 1.75rem;
   }
   .h3 {
-    font-size: 1.5625rem;
+    font-size: 1.5rem;
   }
   .h4 {
     font-size: 1.375rem;
@@ -761,31 +753,25 @@
   .h6 {
     font-size: 1rem;
   }
-  .h7 {
-    font-size: 0.9375rem;
-  }
 }
 
 @media (min-width: 992px) {
   .h1 {
-    font-size: 3rem;
-  }
-  .h2 {
     font-size: 2.5rem;
   }
+  .h2 {
+    font-size: 2rem;
+  }
   .h3 {
-    font-size: 1.9375rem;
+    font-size: 1.75rem;
   }
   .h4 {
-    font-size: 1.5625rem;
+    font-size: 1.5rem;
   }
   .h5 {
     font-size: 1.25rem;
   }
   .h6 {
-    font-size: 1rem;
-  }
-  .h7 {
     font-size: 1rem;
   }
 }
