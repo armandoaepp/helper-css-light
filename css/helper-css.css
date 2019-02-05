@@ -3187,15 +3187,6 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: 500;
 }
 
-.h1 small,
-.h2 small,
-.h3 small,
-.h4 small,
-.h5 small,
-.h6 small {
-  line-height: 0;
-}
-
 .h1 small.block,
 .h2 small.block,
 .h3 small.block,
