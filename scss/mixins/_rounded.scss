@@ -5,7 +5,7 @@ $prototype-border-radius: rem-calc(4) !default;
 /// Rounded utility (all corners): Adds radius corners (all corners) to an element by default.
 /// @param {Number} $radius [$prototype-border-radius] Border radius (all corners)
 @mixin border-radius( $radius: $prototype-border-radius) {
-  border-radius: $radius;
+  border-radius: $radius!important;
 }
 
 /// Rounded square utility or rectangle utility (all corners): Rounds all corners to an element by default to make a pill shape.

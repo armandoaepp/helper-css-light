@@ -73,7 +73,7 @@
 
 .rounded-circle,
 .radius-circle {
-  border-radius: 50%;
+  border-radius: 50% !important;
 }
 
 .rounded-pill,
@@ -83,7 +83,7 @@
 
 .rounded-pill:after,
 .radius-pill:after {
-  border-radius: 50%;
+  border-radius: 50% !important;
 }
 
 /* variants radius */
@@ -826,7 +826,7 @@
 }
 
 .lh {
-  line-height: normal;
+  line-height: normal !important;
 }
 
 .lh-0 {
@@ -1042,93 +1042,93 @@ ol.list-lower-alpha {
 }
 
 .rotate-0 {
-  -webkit-transform: rotate(0deg);
-  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg) !important;
+  transform: rotate(0deg) !important;
 }
 
 .rotate-x-0 {
-  -webkit-transform: rotateY(0deg);
-  transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg) !important;
+  transform: rotateY(0deg) !important;
 }
 
 .rotate-y-0 {
-  -webkit-transform: rotateY(0deg);
-  transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg) !important;
+  transform: rotateY(0deg) !important;
 }
 
 .rotate-45 {
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg) !important;
+  transform: rotate(45deg) !important;
 }
 
 .rotate-x-45 {
-  -webkit-transform: rotateY(45deg);
-  transform: rotateY(45deg);
+  -webkit-transform: rotateY(45deg) !important;
+  transform: rotateY(45deg) !important;
 }
 
 .rotate-y-45 {
-  -webkit-transform: rotateY(45deg);
-  transform: rotateY(45deg);
+  -webkit-transform: rotateY(45deg) !important;
+  transform: rotateY(45deg) !important;
 }
 
 .rotate-90 {
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg) !important;
+  transform: rotate(90deg) !important;
 }
 
 .rotate-x-90 {
-  -webkit-transform: rotateY(90deg);
-  transform: rotateY(90deg);
+  -webkit-transform: rotateY(90deg) !important;
+  transform: rotateY(90deg) !important;
 }
 
 .rotate-y-90 {
-  -webkit-transform: rotateY(90deg);
-  transform: rotateY(90deg);
+  -webkit-transform: rotateY(90deg) !important;
+  transform: rotateY(90deg) !important;
 }
 
 .rotate-180 {
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg) !important;
+  transform: rotate(180deg) !important;
 }
 
 .rotate-x-180 {
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg) !important;
+  transform: rotateY(180deg) !important;
 }
 
 .rotate-y-180 {
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg) !important;
+  transform: rotateY(180deg) !important;
 }
 
 .rotate-270 {
-  -webkit-transform: rotate(270deg);
-  transform: rotate(270deg);
+  -webkit-transform: rotate(270deg) !important;
+  transform: rotate(270deg) !important;
 }
 
 .rotate-x-270 {
-  -webkit-transform: rotateY(270deg);
-  transform: rotateY(270deg);
+  -webkit-transform: rotateY(270deg) !important;
+  transform: rotateY(270deg) !important;
 }
 
 .rotate-y-270 {
-  -webkit-transform: rotateY(270deg);
-  transform: rotateY(270deg);
+  -webkit-transform: rotateY(270deg) !important;
+  transform: rotateY(270deg) !important;
 }
 
 .rotate-360 {
-  -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg) !important;
+  transform: rotate(360deg) !important;
 }
 
 .rotate-x-360 {
-  -webkit-transform: rotateY(360deg);
-  transform: rotateY(360deg);
+  -webkit-transform: rotateY(360deg) !important;
+  transform: rotateY(360deg) !important;
 }
 
 .rotate-y-360 {
-  -webkit-transform: rotateY(360deg);
-  transform: rotateY(360deg);
+  -webkit-transform: rotateY(360deg) !important;
+  transform: rotateY(360deg) !important;
 }
 
 .text-no-decoration,
@@ -1146,28 +1146,28 @@ a.none,
 }
 
 .text-underline {
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 
 .text-overline {
-  text-decoration: overline;
+  text-decoration: overline !important;
 }
 
 .text-line-through {
-  text-decoration: line-through;
+  text-decoration: line-through !important;
 }
 
 .text-blink {
-  text-decoration: blink;
+  text-decoration: blink !important;
 }
 
 .text-under-over {
-  text-decoration: underline overline;
+  text-decoration: underline overline !important;
 }
 
 .text-wavy {
-  -webkit-text-decoration: red underline overline wavy;
-  text-decoration: red underline overline wavy;
+  -webkit-text-decoration: red underline overline wavy !important;
+  text-decoration: red underline overline wavy !important;
 }
 
 /*  text underline  position*/

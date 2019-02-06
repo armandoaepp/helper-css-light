@@ -25,14 +25,14 @@ $value in $borders-radius {
 
 .rounded-circle,
 .radius-circle {
-  border-radius: 50%;
+  border-radius: 50%!important;
 }
 
 .rounded-pill,
 .radius-pill {
   border-radius: $rounded-pill !important;
   &:after {
-    border-radius: 50%; // For switches
+    border-radius: 50%!important; // For switches
   }
 }
 
