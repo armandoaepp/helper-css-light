@@ -1047,8 +1047,8 @@ ol.list-lower-alpha {
 }
 
 .rotate-x-0 {
-  -webkit-transform: rotateY(0deg) !important;
-  transform: rotateY(0deg) !important;
+  -webkit-transform: rotateX(0deg) !important;
+  transform: rotateX(0deg) !important;
 }
 
 .rotate-y-0 {
@@ -1062,13 +1062,18 @@ ol.list-lower-alpha {
 }
 
 .rotate-x-45 {
-  -webkit-transform: rotateY(45deg) !important;
-  transform: rotateY(45deg) !important;
+  -webkit-transform: rotateX(45deg) !important;
+  transform: rotateX(45deg) !important;
 }
 
 .rotate-y-45 {
   -webkit-transform: rotateY(45deg) !important;
   transform: rotateY(45deg) !important;
+}
+
+.rotate-n45 {
+  -webkit-transform: rotate(-45deg) !important;
+  transform: rotate(-45deg) !important;
 }
 
 .rotate-90 {
@@ -1077,13 +1082,18 @@ ol.list-lower-alpha {
 }
 
 .rotate-x-90 {
-  -webkit-transform: rotateY(90deg) !important;
-  transform: rotateY(90deg) !important;
+  -webkit-transform: rotateX(90deg) !important;
+  transform: rotateX(90deg) !important;
 }
 
 .rotate-y-90 {
   -webkit-transform: rotateY(90deg) !important;
   transform: rotateY(90deg) !important;
+}
+
+.rotate-n90 {
+  -webkit-transform: rotate(-90deg) !important;
+  transform: rotate(-90deg) !important;
 }
 
 .rotate-180 {
@@ -1092,13 +1102,18 @@ ol.list-lower-alpha {
 }
 
 .rotate-x-180 {
-  -webkit-transform: rotateY(180deg) !important;
-  transform: rotateY(180deg) !important;
+  -webkit-transform: rotateX(180deg) !important;
+  transform: rotateX(180deg) !important;
 }
 
 .rotate-y-180 {
   -webkit-transform: rotateY(180deg) !important;
   transform: rotateY(180deg) !important;
+}
+
+.rotate-n180 {
+  -webkit-transform: rotate(-180deg) !important;
+  transform: rotate(-180deg) !important;
 }
 
 .rotate-270 {
@@ -1107,8 +1122,8 @@ ol.list-lower-alpha {
 }
 
 .rotate-x-270 {
-  -webkit-transform: rotateY(270deg) !important;
-  transform: rotateY(270deg) !important;
+  -webkit-transform: rotateX(270deg) !important;
+  transform: rotateX(270deg) !important;
 }
 
 .rotate-y-270 {
@@ -1116,19 +1131,9 @@ ol.list-lower-alpha {
   transform: rotateY(270deg) !important;
 }
 
-.rotate-360 {
-  -webkit-transform: rotate(360deg) !important;
-  transform: rotate(360deg) !important;
-}
-
-.rotate-x-360 {
-  -webkit-transform: rotateY(360deg) !important;
-  transform: rotateY(360deg) !important;
-}
-
-.rotate-y-360 {
-  -webkit-transform: rotateY(360deg) !important;
-  transform: rotateY(360deg) !important;
+.rotate-n270 {
+  -webkit-transform: rotate(-270deg) !important;
+  transform: rotate(-270deg) !important;
 }
 
 .text-no-decoration,

@@ -1,27 +1,31 @@
 // rotates variants (param: x deg)
 
-$rotates: (0 : 0,
-45 : 45,
-90 : 90,
-180 : 180,
-270 : 270,
-360 : 360,
+$rotates: (
+  0 : 0,
+  45 : 45,
+  90 : 90,
+  180 : 180,
+  270 : 270,
 );
 
-
-@each $class,
-$value in $rotates {
+@each $class, $deg in $rotates {
 
   .rotate-#{$class} {
-    @include rotate(-$value) ;
+    transform: rotate($deg +deg) !important;
   }
 
   .rotate-x-#{$class} {
-    @include rotateY($value);
+    transform: rotateX($deg +deg) !important;
   }
 
   .rotate-y-#{$class} {
-    @include rotateY($value);
+    transform: rotateY($deg +deg) !important;
+  }
+
+  @if $deg > 0 {
+    .rotate-n#{$class} {
+      transform: rotate(-$deg +deg) !important;
+    }
   }
 
 }
