@@ -803,11 +803,11 @@
   border-top-color: rgba(0, 0, 0, 0.75);
 }
 
-.svg-icon {
+.svg {
   display: inline-block;
   font-size: inherit;
-  height: 1em;
   overflow: visible;
+  fill: currentColor;
 }
 
 .img-bg-fluid {

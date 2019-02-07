@@ -1,6 +1,6 @@
 {
   "name": "helper-css-light",
-  "version": "2.5.6",
+  "version": "2.5.7",
   "description": "css classes of help for fronend",
   "main": "gulpfile.js",
   "scripts": {
