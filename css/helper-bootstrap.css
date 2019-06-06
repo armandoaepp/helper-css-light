@@ -1,5 +1,5 @@
 /*!
- * helper-css:  v.2.5.x (for bootstrap)
+ * helper-css:  v.2.6.x (for bootstrap)
  * github: https://github.com/armandoaepp/helper-css
  * developer: @armandoaepp
  * Copyright 2018
@@ -49,6 +49,38 @@
     display: flex;
     justify-content: center;
   }
+}
+
+.bg-black-25 {
+  background-color: rgba(0, 0, 0, 0.25) !important;
+}
+
+.bg-black-50 {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.bg-black-75 {
+  background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
+.bg-black-85 {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+}
+
+.bg-white-25 {
+  background-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+.bg-white-50 {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.bg-white-75 {
+  background-color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.bg-white-85 {
+  background-color: rgba(255, 255, 255, 0.85) !important;
 }
 
 .radius-0 {
