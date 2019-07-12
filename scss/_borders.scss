@@ -1,125 +1,293 @@
-.border {
-  border: $border-width solid $border-color!important;
+.b {
+  border: $border-width solid $border-color !important;
 }
 
 /* Borders sides */
 
-.border-y,
-.border-top {
-  border-top: $border-width solid $border-color!important;
+.b-y,
+.b-top {
+  border-top: $border-width solid $border-color !important;
 }
 
-.border-x,
-.border-right {
-  border-right: $border-width solid $border-color!important;
+.b-x,
+.b-right {
+  border-right: $border-width solid $border-color !important;
 }
 
-.border-y,
-.border-bottom {
-  border-bottom: $border-width solid $border-color!important;
+.b-y,
+.b-bottom {
+  border-bottom: $border-width solid $border-color !important;
 }
 
-.border-x,
-.border-left {
+.b-x,
+.b-left {
   border-left: $border-width solid $border-color !important;
 }
 
 /* Border 0 */
 
-.border-0 {
+.b-0 {
   border: 0 !important;
 }
 
-.border-y-0,
-.border-top-0 {
+.b-y-0,
+.b-top-0 {
   border-top: 0 !important;
 }
 
-.border-x-0,
-.border-right-0 {
+.b-x-0,
+.b-right-0 {
   border-right: 0 !important;
 }
 
-.border-y-0,
-.border-bottom-0 {
+.b-y-0,
+.b-bottom-0 {
   border-bottom: 0 !important;
 }
 
-.border-x-0,
-.border-left-0 {
+.b-x-0,
+.b-left-0 {
   border-left: 0 !important;
 }
 
 /* Border width */
 
-.border-2 {
+.b-2 {
   border-width: 2px !important;
 }
 
-.border-3 {
+.b-3 {
   border-width: 3px !important;
 }
 
-.border-4 {
+.b-4 {
   border-width: 4px !important;
 }
 
 /* Border Style */
 
-.border-style-none {
+.b-style-none {
   border-style: none;
 }
 
-.border-hidden {
-  border-style: hidden!important;
+.b-hidden {
+  border-style: hidden !important;
 }
 
-.border-dotted {
-  border-style: dotted!important;
+//  border-style dotted ===========================================
+.b-dotted {
+  border-style: dotted !important;
 }
 
-.border-dashed {
-  border-style: dashed!important;
+.b-y-dotted,
+.b-top-dotted {
+  border-top-style: dotted !important;
 }
 
-.border-solid {
-  border-style: solid!important;
+.b-x-dotted,
+.b-right-dotted {
+  border-right-style: dotted !important;
 }
 
-.border-double {
-  border-style: double!important;
+.b-y-dotted,
+.b-bottom-dotted {
+  border-bottom-style: dotted !important;
 }
 
-.border-groove {
-  border-style: groove!important;
+.b-x-dotted,
+.b-left-dotted {
+  border-left-style: dotted !important;
 }
 
-.border-ridge {
-  border-style: ridge!important;
+//  border-style dashed ===========================================
+.b-dashed {
+  border-style: dashed !important;
 }
 
-.border-inset {
-  border-style: inset!important;
+.b-y-dashed,
+.b-top-dashed {
+  border-top-style: dashed !important;
 }
 
-.border-outset {
-  border-style: outset!important;
+.b-x-dashed,
+.b-right-dashed {
+  border-right-style: dashed !important;
 }
 
+.b-y-dashed,
+.b-bottom-dashed {
+  border-bottom-style: dashed !important;
+}
+
+.b-x-dashed,
+.b-left-dashed {
+  border-left-style: dashed !important;
+}
+
+
+//  border-style solid ===========================================
+.b-solid {
+  border-style: solid !important;
+}
+
+.b-y-solid,
+.b-top-solid {
+  border-top-style: solid !important;
+}
+
+.b-x-solid,
+.b-right-solid {
+  border-right-style: solid !important;
+}
+
+.b-y-solid,
+.b-bottom-solid {
+  border-bottom-style: solid !important;
+}
+
+.b-x-solid,
+.b-left-solid {
+  border-left-style: solid !important;
+}
+
+//  border-style groove ===========================================
+.b-groove {
+  border-style: groove !important;
+}
+
+.b-y-groove,
+.b-top-groove {
+  border-top-style: groove !important;
+}
+
+.b-x-groove,
+.b-right-groove {
+  border-right-style: groove !important;
+}
+
+.b-y-groove,
+.b-bottom-groove {
+  border-bottom-style: groove !important;
+}
+
+.b-x-groove,
+.b-left-groove {
+  border-left-style: groove !important;
+}
+
+//  border-style double ===========================================
+.b-double {
+  border-style: double !important;
+}
+
+.b-y-double,
+.b-top-double {
+  border-top-style: double !important;
+}
+
+.b-x-double,
+.b-right-double {
+  border-right-style: double !important;
+}
+
+.b-y-double,
+.b-bottom-double {
+  border-bottom-style: double !important;
+}
+
+.b-x-double,
+.b-left-double {
+  border-left-style: double !important;
+}
+
+//  border-style ridge ===========================================
+.b-ridge {
+  border-style: ridge !important;
+}
+
+.b-y-ridge,
+.b-top-ridge {
+  border-top-style: ridge !important;
+}
+
+.b-x-ridge,
+.b-right-ridge {
+  border-right-style: ridge !important;
+}
+
+.b-y-ridge,
+.b-bottom-ridge {
+  border-bottom-style: ridge !important;
+}
+
+.b-x-ridge,
+.b-left-ridge {
+  border-left-style: ridge !important;
+}
+
+//  border-style inset ===========================================
+.b-inset {
+  border-style: inset !important;
+}
+
+.b-y-inset,
+.b-top-inset {
+  border-top-style: inset !important;
+}
+
+.b-x-inset,
+.b-right-inset {
+  border-right-style: inset !important;
+}
+
+.b-y-inset,
+.b-bottom-inset {
+  border-bottom-style: inset !important;
+}
+
+.b-x-inset,
+.b-left-inset {
+  border-left-style: inset !important;
+}
+
+//  border-style outset ===========================================
+.b-outset {
+  border-style: outset !important;
+}
+
+.b-y-outset,
+.b-top-outset {
+  border-top-style: outset !important;
+}
+
+.b-x-outset,
+.b-right-outset {
+  border-right-style: outset !important;
+}
+
+.b-y-outset,
+.b-bottom-outset {
+  border-bottom-style: outset !important;
+}
+
+.b-x-outset,
+.b-left-outset {
+  border-left-style: outset !important;
+}
 
 /* Border colores */
 
 @each $color,
 $value in $theme-colors {
-  .border-#{$color} {
+  .b-#{$color} {
     border-color: $value !important;
   }
 }
 
-.border-white {
+.b-white {
   border-color: $white !important;
 }
 
-.border-black {
+.b-black {
   border-color: $black !important;
 }
