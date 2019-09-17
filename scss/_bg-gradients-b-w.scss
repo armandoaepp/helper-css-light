@@ -1,42 +1,16 @@
+$bg-default-rgba: (
+  15 : 15,
+  25 : 25,
+  50 : 50,
+  60 : 65,
+  75 : 75,
+  80 : 85,
+);
 
-//  ==========================================================================
-// BACKGROUND black
-//  ==========================================================================
-.bg-black-15 {
-  background-color: rgba(#000000, 0.15) !important;
+@each $size, $length in $bg-default-rgba {
+  .bg-black-#{$size} { background-color: rgba(#000000, ($length)/100) !important;  }
 }
 
-.bg-black-25 {
-  background-color: rgba(#000000, 0.25) !important;
-}
-
-.bg-black-50 {
-  background-color: rgba(#000000, 0.50) !important;
-}
-
-.bg-black-75 {
-  background-color: rgba(#000000, 0.75) !important;
-}
-
-.bg-black-85 {
-  background-color: rgba(#000000, 0.85) !important;
-}
-
-//  ==========================================================================
-// BACKGROUND white
-//  ==========================================================================
-.bg-white-25 {
-  background-color: rgba(#ffffff, 0.25) !important;
-}
-
-.bg-white-50 {
-  background-color: rgba(#ffffff, 0.50) !important;
-}
-
-.bg-white-75 {
-  background-color: rgba(#ffffff, 0.75) !important;
-}
-
-.bg-white-85 {
-  background-color: rgba(#ffffff, 0.85) !important;
+@each $size, $length in $bg-default-rgba {
+  .bg-white-#{$size} { background-color: rgba(#ffffff, ($length)/100) !important;  }
 }
