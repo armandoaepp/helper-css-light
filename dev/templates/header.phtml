@@ -1,0 +1,82 @@
+<?php
+$setvar = !empty($setvar) ? $setvar : [] ;
+extract($setvar);
+
+$navbar_class    = !empty($navbar_class ) ? $navbar_class      : "navbar-dark" ;
+$navbar_bg_class = !empty($navbar_bg_class ) ? $navbar_bg_class: "bg-primary " ;
+$navbar_active   = !empty($navbar_active ) ? $navbar_active    : [0,0] ;
+
+?>
+<!-- header -->
+<header class="mb-2">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+      <a class="navbar-brand" href="#">Helper css light </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item <?php if($navbar_active[0] == 1){echo 'active';} ?>">
+            <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown <?php if($navbar_active[0] == 2){echo 'active';} ?>">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Text Properties
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item <?php if($navbar_active[0] == 2 && $navbar_active[1] == 1){echo 'active';} ?>" href="headings.php">Headings</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item <?php if($navbar_active[0] == 2 && $navbar_active[1] == 2){echo 'active';} ?>" href="text-align-last.php">Text Align</a>
+              <a class="dropdown-item <?php if($navbar_active[0] == 2 && $navbar_active[1] == 3){echo 'active';} ?>" href="text-decoration.php">Text Decoration</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item <?php if($navbar_active[0] == 2 && $navbar_active[1] == 4){echo 'active';} ?>" href="font-sizes.php">Font Sizes</a>
+              <a class="dropdown-item <?php if($navbar_active[0] == 2 && $navbar_active[1] == 5){echo 'active';} ?>" href="font-weight.php">Font Weight</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item <?php if($navbar_active[0] == 2 && $navbar_active[1] == 6){echo 'active';} ?>" href="line-heights.php">Line Heights</a>
+              <a class="dropdown-item <?php if($navbar_active[0] == 2 && $navbar_active[1] == 7){echo 'active';} ?>" href="lists.php">Lists</a>
+
+            </div>
+          </li>
+
+          <li class="nav-item dropdown <?php if($navbar_active[0] == 3){echo 'active';} ?>">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Borders
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item <?php if($navbar_active[0] == 3 && $navbar_active[1] == 1){echo 'active';} ?>" href="borders.php">Borders</a>
+              <a class="dropdown-item <?php if($navbar_active[0] == 3 && $navbar_active[1] == 2){echo 'active';} ?>" href="borders-radius.php">Border Radius</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item <?php if($navbar_active[0] == 3 && $navbar_active[1] == 3){echo 'active';} ?>" href="hr.php">Hrs</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown <?php if($navbar_active[0] == 4){echo 'active';} ?>">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Box Properties
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item <?php if($navbar_active[0] == 4 && $navbar_active[1] == 1){echo 'active';} ?>" href="opacities.php">Opacities</a>
+              <a class="dropdown-item <?php if($navbar_active[0] == 4 && $navbar_active[1] == 2){echo 'active';} ?>" href="rotates.php">Rotates</a>
+              <!-- <div class="dropdown-divider"></div> -->
+            </div>
+          </li>
+
+        </ul>
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/armandoaepp/helper-css-light" title="Ir al repositorio" target="_blank">
+              <img class="logo-github" src="img/github.png" alt="helper css light">
+              <span class="sr-only">(helper css light)</span>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+  </header>
