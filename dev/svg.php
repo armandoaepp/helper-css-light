@@ -17,7 +17,7 @@
       'follow'        => '',
       'description'   => 'svgs - helper css utilidades cs, utilidades bootstrap4 ',
       'keywords'      => 'svgs, helper css, sass, scss,bootstrap4',
-      'navbar_active' => [2,7]
+      'navbar_active' => [5,1]
     );
 
     require $root."templates/head_links.phtml";

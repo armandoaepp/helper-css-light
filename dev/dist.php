@@ -1,45 +1,16 @@
 <?php
 $folders = array(
-  'content' ,
-  'dashboard' ,
-  'navigation' ,
-  'pages' ,
-  'ui-elements' ,
-  'utilities' ,
-  'admin' ,
-  'theme-variants' ,
+  './' ,
+  // 'dashboard' ,
 );
 
-$themes = array(
-  'default',
-  'blue',
-  'teal',
-  'purple',
-) ;
+dirToArray($folders) ;
+function dirToArray($folders) {
 
-$theme = !empty($_GET['theme']) ? $_GET['theme'] : 'default'  ;
-
-// $theme = 'default' ;
-// $theme = 'blue' ;
-// $theme = 'teal' ;
-// $theme = 'purple' ;
-
-if(in_array($theme, $themes))
-{
-  dirToArray($folders, $theme);
-}
-else {
-  echo " THEME NO EXISTE " ;
-}
+  $files_not_prod = array(".",".." , 'dist.php', 'paths.php', 'img','css', 'templates') ;
 
 
-
-
-
-function dirToArray($folders, $theme) {
-
-
-  $dir_prod = './dist/'.$theme ;
+  $dir_prod = '../examples/' ;
 
   // path_dist = para imagenes en produccion
   $path_dist = "../../" ;
@@ -55,7 +26,7 @@ function dirToArray($folders, $theme) {
   {
 
     // $dir_name = basename(__DIR__) ;
-
+      echo "dir:: ".$dir_name;
       $dir_prod_full = $dir_prod.DIRECTORY_SEPARATOR.$dir_name ;
       // $dir_prod_full = $dir_prod.DIRECTORY_SEPARATOR."navigation" ;
 
@@ -69,7 +40,8 @@ function dirToArray($folders, $theme) {
 
       foreach ($cdir as $key => $value)
       {
-        if ( !in_array($value,array(".","..")) ) {
+        // if ( !in_array($value,array(".","..")) ) {
+          if ( !in_array($value, $files_not_prod) ) {
           // echo $key ." === " .$value."<br>";
 
           # ============================================================
@@ -108,7 +80,7 @@ function dirToArray($folders, $theme) {
   }
 
   echo "<pre>";
-  echo "Dist Theme: ".$theme." OK <br>" ;
+  echo "Dist Theme:  OK <br>" ;
   print_r($folders) ;
   echo "</pre>";
 
