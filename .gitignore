@@ -2,10 +2,8 @@
 /sass/.sass-cache
 /sass/.sass-cache/*
 .sass-cache/*
-dev/*
 #*.css.map
 
 npm-debug.log
 package-lock.json
 
-dev/*
