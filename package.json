@@ -1,6 +1,6 @@
 {
   "name": "helper-css-light",
-  "version": "2.6.3",
+  "version": "2.6.4",
   "description": "css classes of help for fronend",
   "main": "gulpfile.js",
   "scripts": {
@@ -22,7 +22,9 @@
     "url": "git+https://github.com/armandoaepp/helper-css-light.git"
   },
   "keywords": [
-    "helper-css-light"
+    "helper css light",
+    "helper css bootstrap4",
+    "utilidades bootstrap4"
   ],
   "author": "@armandoaepp",
   "license": "ISC",
