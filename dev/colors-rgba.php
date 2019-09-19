@@ -13,10 +13,10 @@
     // $path = !empty($path_dist) ? $path_dist : $path ;
 
     $setvar = array(
-      'titulo'        => 'Colors Rbga | Helper Css Light | Bootstrap4',
+      'titulo'        => 'Colors Rgba | Helper Css Light | Bootstrap4',
       'follow'        => '',
-      'description'   => 'Colors Rbga - helper css utilidades cs, utilidades bootstrap4 ',
-      'keywords'      => 'Colors Rbga, helper css, sass, scss,bootstrap4',
+      'description'   => 'Colors Rgba - helper css utilidades cs, utilidades bootstrap4 ',
+      'keywords'      => 'Colors Rgba, helper css, sass, scss,bootstrap4',
       'navbar_active' => [5,2]
     );
 
