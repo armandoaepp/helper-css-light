@@ -66,6 +66,18 @@ $navbar_active   = !empty($navbar_active ) ? $navbar_active    : [0,0] ;
             </div>
           </li>
 
+          <li class="nav-item dropdown <?php if($navbar_active[0] == 5){echo 'active';} ?>">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Object
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item <?php if($navbar_active[0] == 5 && $navbar_active[1] == 1){echo 'active';} ?>" href="svg.php">Svg</a>
+              <a class="dropdown-item <?php if($navbar_active[0] == 5 && $navbar_active[1] == 2){echo 'active';} ?>" href="colors-rgba.php">Colors Rgba</a>
+
+            </div>
+          </li>
+
         </ul>
 
         <ul class="navbar-nav">
