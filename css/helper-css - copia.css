@@ -255,8 +255,8 @@
   padding-top: 56.25%;
 }
 
-.embed-responsive-4by3::before {
-  padding-top: 75%;
+.embed-responsive-3by4::before {
+  padding-top: 133.333333%;
 }
 
 .embed-responsive-1by1::before {
@@ -271,8 +271,8 @@
   padding-top: 56.25%;
 }
 
-.embed-responsive-4by3::before {
-  padding-top: 75%;
+.embed-responsive-3by4::before {
+  padding-top: 133.333333%;
 }
 
 .embed-responsive-1by1::before {
@@ -364,6 +364,7 @@
 }
 
 .position-sticky {
+  position: -webkit-sticky !important;
   position: sticky !important;
 }
 
@@ -383,8 +384,9 @@
   z-index: 1030;
 }
 
-@supports (position: sticky) {
+@supports ((position: -webkit-sticky) or (position: sticky)) {
   .sticky-top {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
@@ -2304,7 +2306,7 @@
 }
 
 .text-monospace {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .text-justify {
@@ -2517,11 +2519,6 @@ a.text-dark:hover, a.text-dark:focus {
   text-decoration: none !important;
 }
 
-.text-break {
-  word-break: break-word !important;
-  overflow-wrap: break-word !important;
-}
-
 .text-reset {
   color: inherit !important;
 }
@@ -2550,8 +2547,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 /* layer */
-.layer-absolute,
-.layer-overly {
+.layer-absolute {
   position: absolute;
   top: 0;
   left: 0;
@@ -2562,10 +2558,11 @@ a.text-dark:hover, a.text-dark:focus {
 .centered-v {
   position: relative;
   top: 50%;
+  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .flex-md-center {
     align-items: center;
     display: flex;
@@ -3338,37 +3335,6 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-.fs-p-50 {
-  font-size: 50%;
-}
-
-.fs-p-75 {
-  font-size: 75%;
-}
-
-.fs-p-80 {
-  font-size: 80%;
-}
-
-.fs-p-90 {
-  font-size: 90%;
-}
-
-@media (min-width: 768px) {
-  .fs-p-md-50 {
-    font-size: 50%;
-  }
-  .fs-p-md-75 {
-    font-size: 75%;
-  }
-  .fs-p-md-80 {
-    font-size: 80%;
-  }
-  .fs-p-md-90 {
-    font-size: 90%;
-  }
-}
-
 .text-extra-light,
 .fw-100 {
   font-weight: 100 !important;
@@ -3787,78 +3753,97 @@ ol.list-lower-alpha {
 }
 
 .rotate-0 {
+  -webkit-transform: rotate(0deg) !important;
   transform: rotate(0deg) !important;
 }
 
 .rotate-x-0 {
+  -webkit-transform: rotateX(0deg) !important;
   transform: rotateX(0deg) !important;
 }
 
 .rotate-y-0 {
+  -webkit-transform: rotateY(0deg) !important;
   transform: rotateY(0deg) !important;
 }
 
 .rotate-45 {
+  -webkit-transform: rotate(45deg) !important;
   transform: rotate(45deg) !important;
 }
 
 .rotate-x-45 {
+  -webkit-transform: rotateX(45deg) !important;
   transform: rotateX(45deg) !important;
 }
 
 .rotate-y-45 {
+  -webkit-transform: rotateY(45deg) !important;
   transform: rotateY(45deg) !important;
 }
 
 .rotate-n45 {
+  -webkit-transform: rotate(-45deg) !important;
   transform: rotate(-45deg) !important;
 }
 
 .rotate-90 {
+  -webkit-transform: rotate(90deg) !important;
   transform: rotate(90deg) !important;
 }
 
 .rotate-x-90 {
+  -webkit-transform: rotateX(90deg) !important;
   transform: rotateX(90deg) !important;
 }
 
 .rotate-y-90 {
+  -webkit-transform: rotateY(90deg) !important;
   transform: rotateY(90deg) !important;
 }
 
 .rotate-n90 {
+  -webkit-transform: rotate(-90deg) !important;
   transform: rotate(-90deg) !important;
 }
 
 .rotate-180 {
+  -webkit-transform: rotate(180deg) !important;
   transform: rotate(180deg) !important;
 }
 
 .rotate-x-180 {
+  -webkit-transform: rotateX(180deg) !important;
   transform: rotateX(180deg) !important;
 }
 
 .rotate-y-180 {
+  -webkit-transform: rotateY(180deg) !important;
   transform: rotateY(180deg) !important;
 }
 
 .rotate-n180 {
+  -webkit-transform: rotate(-180deg) !important;
   transform: rotate(-180deg) !important;
 }
 
 .rotate-270 {
+  -webkit-transform: rotate(270deg) !important;
   transform: rotate(270deg) !important;
 }
 
 .rotate-x-270 {
+  -webkit-transform: rotateX(270deg) !important;
   transform: rotateX(270deg) !important;
 }
 
 .rotate-y-270 {
+  -webkit-transform: rotateY(270deg) !important;
   transform: rotateY(270deg) !important;
 }
 
 .rotate-n270 {
+  -webkit-transform: rotate(-270deg) !important;
   transform: rotate(-270deg) !important;
 }
 
@@ -3897,6 +3882,7 @@ a.none,
 }
 
 .text-wavy {
+  -webkit-text-decoration: red underline overline wavy !important;
   text-decoration: red underline overline wavy !important;
 }
 
@@ -3948,5 +3934,4 @@ a.none,
 .text-last-initial {
   text-align-last: initial;
 }
-
 /*# sourceMappingURL=helper-css.css.map */
