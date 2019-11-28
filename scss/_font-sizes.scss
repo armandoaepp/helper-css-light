@@ -130,3 +130,37 @@ $fsizes in $font-sizes {
   }
 }
 
+.fs-p-50{
+  font-size:50%
+}
+
+.fs-p-75{
+  font-size:75%
+}
+
+.fs-p-80{
+  font-size:80%
+}
+
+.fs-p-90{
+  font-size:90%
+}
+
+@media( min-width: 768px)
+{
+  .fs-p-md-50{
+    font-size:50%
+  }
+
+  .fs-p-md-75{
+    font-size:75%
+  }
+
+  .fs-p-md-80{
+    font-size:80%
+  }
+
+  .fs-p-md-90{
+    font-size:90%
+  }
+}
