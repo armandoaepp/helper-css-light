@@ -42,7 +42,7 @@
   },
   "homepage": "https://github.com/armandoaepp/helper-css-light#readme",
   "dependencies": {
-    "bootstrap": "^4.4.0"
+    "bootstrap": "^4.4.1"
   },
   "devDependencies": {
     "autoprefixer": "^9.7.2",

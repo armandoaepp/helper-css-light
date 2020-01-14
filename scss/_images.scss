@@ -4,9 +4,8 @@
 //  ==========================================================================
 .img-bg-fluid {
   background-repeat: no-repeat;
-  background-size: contain;
   background-position: center;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 
 .img-bg-fixed,
@@ -16,3 +15,10 @@
   background-attachment: fixed;
   background-size: cover;
 }
+
+.img-bg-cover {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+

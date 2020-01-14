@@ -10,3 +10,30 @@
 .hide-after::after {
   display: none !important;
 }
+
+// color before and after
+.bg-white-before::before {
+  background-color: $white !important;
+}
+
+.bg-white-after::after {
+  background-color: $white !important;
+}
+
+.bg-white-before-after::before,
+.bg-white-before-after::after {
+  background-color: $white !important;
+}
+
+.bg-black-before::before {
+  background-color: $black !important;
+}
+
+.bg-black-after::after {
+  background-color: $black !important;
+}
+
+.bg-black-before-after::before,
+.bg-black-before-after::after {
+  background-color: $black !important;
+}

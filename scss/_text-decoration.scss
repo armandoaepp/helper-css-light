@@ -1,43 +1,46 @@
 // styles text decoration
 .text-no-decoration,
 a.no-decoration,
-a.no-decoration:hover{
-  text-decoration: none!important ;
+a.no-decoration:hover {
+  text-decoration: none !important;
 }
 
 a.none,
 .link-text,
 .link-text:hover,
-.link-text:active{
-  color: inherit ;
-  text-decoration: none!important ;
+.link-text:active {
+  color: inherit;
+  text-decoration: none !important;
 }
 
 .text-underline {
-  text-decoration: underline!important;
+  text-decoration: underline !important;
 }
+
 .text-overline {
-  text-decoration: overline!important;
+  text-decoration: overline !important;
 }
+
 .text-line-through {
-  text-decoration: line-through!important;
+  text-decoration: line-through !important;
 }
+
 .text-blink {
-  text-decoration: blink!important;
+  text-decoration: blink !important;
 }
 
 .text-under-over {
-  text-decoration: underline overline!important;
+  text-decoration: underline overline !important;
 }
 
 .text-wavy {
-  text-decoration: red underline overline wavy!important;
+  text-decoration: red underline overline wavy !important;
 }
 
 
 /*  text underline  position*/
 
-.text-under-below{
+.text-under-below {
   -webkit-text-underline-position: under;
   -ms-text-underline-position: below;
   text-underline-position: under;

@@ -3438,6 +3438,18 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: 900 !important;
 }
 
+.fs-normal {
+  font-style: normal;
+}
+
+.fs-italic {
+  font-style: italic;
+}
+
+.fs-oblique {
+  font-style: oblique;
+}
+
 .h1,
 .h2,
 .h3,
@@ -3598,9 +3610,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 .img-bg-fluid {
   background-repeat: no-repeat;
-  background-size: contain;
   background-position: center;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 
 .img-bg-fixed,
@@ -3608,6 +3619,12 @@ a.text-dark:hover, a.text-dark:focus {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
+}
+
+.img-bg-cover {
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
@@ -3809,6 +3826,32 @@ ol.list-lower-alpha {
 .hide-before::before,
 .hide-after::after {
   display: none !important;
+}
+
+.bg-white-before::before {
+  background-color: #fff !important;
+}
+
+.bg-white-after::after {
+  background-color: #fff !important;
+}
+
+.bg-white-before-after::before,
+.bg-white-before-after::after {
+  background-color: #fff !important;
+}
+
+.bg-black-before::before {
+  background-color: #000 !important;
+}
+
+.bg-black-after::after {
+  background-color: #000 !important;
+}
+
+.bg-black-before-after::before,
+.bg-black-before-after::after {
+  background-color: #000 !important;
 }
 
 .rotate-0 {
