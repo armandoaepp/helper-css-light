@@ -3613,11 +3613,20 @@ a.text-dark:hover, a.text-dark:focus {
   background-size: cover;
 }
 
+.bg-no-repeat,
 .img-bg-cover,
 .img-bg-fluid,
 .img-bg-fixed,
 .img-parallax {
   background-repeat: no-repeat;
+}
+
+.bg-position-c {
+  background-position: center;
+}
+
+.bg-position-c-c {
+  background-position: center center;
 }
 
 .lh {
