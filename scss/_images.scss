@@ -1,18 +1,27 @@
-
 //  ==========================================================================
 // IMAGES BACKGROUND
 //  ==========================================================================
-.img-bg-fluid {
-  background-repeat: no-repeat;
-  background-size: contain;
+.img-bg-cover {
   background-position: center;
   background-size: cover;
+}
+
+.img-bg-fluid {
+  background-position: center;
+  background-size: 100% 100%;
 }
 
 .img-bg-fixed,
 .img-parallax {
   background-position: center center;
-  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+
+
+.img-bg-cover,
+.img-bg-fluid,
+.img-bg-fixed,
+.img-parallax {
+  background-repeat: no-repeat;
 }

@@ -3596,19 +3596,28 @@ a.text-dark:hover, a.text-dark:focus {
   fill: currentColor;
 }
 
-.img-bg-fluid {
-  background-repeat: no-repeat;
-  background-size: contain;
+.img-bg-cover {
   background-position: center;
   background-size: cover;
+}
+
+.img-bg-fluid {
+  background-position: center;
+  background-size: 100% 100%;
 }
 
 .img-bg-fixed,
 .img-parallax {
   background-position: center center;
-  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+
+.img-bg-cover,
+.img-bg-fluid,
+.img-bg-fixed,
+.img-parallax {
+  background-repeat: no-repeat;
 }
 
 .lh {
@@ -3904,6 +3913,21 @@ ol.list-lower-alpha {
 .rotate-n270 {
   -webkit-transform: rotate(-270deg) !important;
   transform: rotate(-270deg) !important;
+}
+
+.rotate-n45 {
+  -webkit-transform: rotate(-45deg) !important;
+  transform: rotate(-45deg) !important;
+}
+
+.rotate-x-n45 {
+  -webkit-transform: rotateX(-45deg) !important;
+  transform: rotateX(-45deg) !important;
+}
+
+.rotate-y-n45 {
+  -webkit-transform: rotateY(-45deg) !important;
+  transform: rotateY(-45deg) !important;
 }
 
 .text-no-decoration,
