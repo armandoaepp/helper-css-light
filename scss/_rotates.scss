@@ -6,6 +6,7 @@ $rotates: (
   90 : 90,
   180 : 180,
   270 : 270,
+  n45 : -45,
 );
 
 @each $class, $deg in $rotates {
