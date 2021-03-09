@@ -1,7 +1,7 @@
 // styles Ul
 
 .list-unstyled,
-.list-inline  {
+.list-inline {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -16,10 +16,21 @@
 }
 
 // li styles
-ul.list-circle {list-style-type: circle;}
-ul.list-square {list-style-type: square;}
-ol.list-upper-roman {list-style-type: upper-roman;}
-ol.list-lower-alpha {list-style-type: lower-alpha;}
+ul.list-circle {
+  list-style-type: circle;
+}
+
+ul.list-square {
+  list-style-type: square;
+}
+
+ol.list-upper-roman {
+  list-style-type: upper-roman;
+}
+
+ol.list-lower-alpha {
+  list-style-type: lower-alpha;
+}
 
 .li-square li:before {
   content: "";

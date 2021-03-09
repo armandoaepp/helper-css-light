@@ -1,8 +1,7 @@
 // =================================================================================
 // HEADGING
 // =================================================================================
-$headers:(
-  'h1',
+$headers:('h1',
   'h2',
   'h3',
   'h4',
@@ -10,38 +9,33 @@ $headers:(
   'h6',
 );
 
-$header-font-sizes: (
-  all: (
-    'h1'   : ('font-size': 28),
-    'h2'   : ('font-size': 24),
-    'h3'   : ('font-size': 20),
-    'h4'   : ('font-size': 18),
-    'h5'   : ('font-size': 17),
-    'h6'   : ('font-size': 16),
+$header-font-sizes: (all: ('h1' : ('font-size': 28),
+    'h2' : ('font-size': 24),
+    'h3' : ('font-size': 20),
+    'h4' : ('font-size': 18),
+    'h5' : ('font-size': 17),
+    'h6' : ('font-size': 16),
   ),
-  sm: (
-    'h1'   : ('font-size': 32),
-    'h2'   : ('font-size': 26),
-    'h3'   : ('font-size': 22),
-    'h4'   : ('font-size': 20),
-    'h5'   : ('font-size': 18),
-    'h6'   : ('font-size': 16),
+  sm: ('h1' : ('font-size': 32),
+    'h2' : ('font-size': 26),
+    'h3' : ('font-size': 22),
+    'h4' : ('font-size': 20),
+    'h5' : ('font-size': 18),
+    'h6' : ('font-size': 16),
   ),
-  md: (
-    'h1'   : ('font-size': 36),
-    'h2'   : ('font-size': 28),
-    'h3'   : ('font-size': 24),
-    'h4'   : ('font-size': 22),
-    'h5'   : ('font-size': 19),
-    'h6'   : ('font-size': 16),
+  md: ('h1' : ('font-size': 36),
+    'h2' : ('font-size': 28),
+    'h3' : ('font-size': 24),
+    'h4' : ('font-size': 22),
+    'h5' : ('font-size': 19),
+    'h6' : ('font-size': 16),
   ),
-  lg: (
-    'h1'   : ('font-size': 40),
-    'h2'   : ('font-size': 32),
-    'h3'   : ('font-size': 28),
-    'h4'   : ('font-size': 24),
-    'h5'   : ('font-size': 20),
-    'h6'   : ('font-size': 16),
+  lg: ('h1' : ('font-size': 40),
+    'h2' : ('font-size': 32),
+    'h3' : ('font-size': 28),
+    'h4' : ('font-size': 24),
+    'h5' : ('font-size': 20),
+    'h6' : ('font-size': 16),
   ),
 );
 
@@ -91,32 +85,39 @@ $header-font-sizes: (
   line-height: inherit;
   color: inherit;
   display: block;
-  padding-top: .25rem ;
+  padding-top: .25rem;
 }
+
 //  ==========================================================================
 // Heading styles CLASS
 //  ==========================================================================
 @each $size,
 $headers in $header-font-sizes {
   @include media-breakpoint-up($size) {
+
     @each $header,
     $header-defs in $headers {
       $font-size-temp: 1rem;
       $h-temp: "";
+
       @if verify-key-header($header) {
         // $h-temp: '#{$header}, .#{$header}';
         $h-temp: '.#{$header}';
       }
+
       @else {
         $h-temp: '.#{$header}';
-      } // #{$header}, .#{$header} {
+      }
+
+      // #{$header}, .#{$header} {
       #{$h-temp} {
         @if map-has-key($header-defs, font-size) {
-          $font-size-temp: rem-calc(map-get($header-defs, font-size)) ;
+          $font-size-temp: rem-calc(map-get($header-defs, font-size));
           font-size: $font-size-temp;
         }
+
         @else if map-has-key($header-defs, fs) {
-          $font-size-temp: rem-calc(map-get($header-defs, fs)) ;
+          $font-size-temp: rem-calc(map-get($header-defs, fs));
           font-size: $font-size-temp;
         }
       }

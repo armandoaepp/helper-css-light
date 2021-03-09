@@ -2522,7 +2522,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .text-break {
   word-break: break-word !important;
-  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
 }
 
 .text-reset {
@@ -2979,6 +2979,38 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 /* Border colores */
+.b-primary {
+  border-color: #007bff !important;
+}
+
+.b-secondary {
+  border-color: #6c757d !important;
+}
+
+.b-success {
+  border-color: #28a745 !important;
+}
+
+.b-info {
+  border-color: #17a2b8 !important;
+}
+
+.b-warning {
+  border-color: #ffc107 !important;
+}
+
+.b-danger {
+  border-color: #dc3545 !important;
+}
+
+.b-light {
+  border-color: #f8f9fa !important;
+}
+
+.b-dark {
+  border-color: #343a40 !important;
+}
+
 .b-white {
   border-color: #fff !important;
 }
@@ -3958,4 +3990,4 @@ a.none,
   -moz-text-align-last: initial;
   text-align-last: initial;
 }
-/*# sourceMappingURL=helper-css.css.map */
+/*# sourceMappingURL=helper-css - copia.css.map */

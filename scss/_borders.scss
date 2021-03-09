@@ -277,12 +277,6 @@
 
 /* Border colores */
 
-@each $color,
-$value in $theme-colors {
-  .b-#{$color} {
-    border-color: $value !important;
-  }
-}
 
 .b-white {
   border-color: $white !important;
