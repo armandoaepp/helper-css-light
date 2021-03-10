@@ -6,7 +6,7 @@
 $borders-radius: (
   "radius-0" : 0,
   "radius-2" : 2,
-  "radius"   : 4,   
+  "radius"   : 4,
   "radius-8" : 8,
   "radius-16": 16,
 );
@@ -30,7 +30,7 @@ $value in $borders-radius {
 
 .rounded-pill,
 .radius-pill {
-  border-radius: $rounded-pill !important;
+  border-radius: 50rem !important;
   &:after {
     border-radius: 50%!important; // For switches
   }
