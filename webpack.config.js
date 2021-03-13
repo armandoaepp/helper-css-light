@@ -4,8 +4,8 @@ const path = require('path');
 module.exports = {
 
   entry: {
-    // 'helper-css': './scss/helper-css.scss',
-    'helper-bootstrap': './scss/helper-bootstrap.scss',
+    'helper-css': './scss/helper-css.scss',
+    // 'helper-bootstrap': './scss/helper-bootstrap.scss',
   },
   output: {
     filename: '[name].js',

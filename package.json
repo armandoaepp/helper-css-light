@@ -1,6 +1,6 @@
 {
   "name": "helper-css-light",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "css classes of help for fronend",
   "main": "gulpfile.js",
   "scripts": {
@@ -37,6 +37,8 @@
     "url": "https://github.com/armandoaepp/helper-css-light/issues"
   },
   "homepage": "https://github.com/armandoaepp/helper-css-light#readme",
+  "dependencies": {
+  },
   "devDependencies": {
     "autoprefixer": "^9.7.2",
     "clean-css-cli": "^4.3.0",
