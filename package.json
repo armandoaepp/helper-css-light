@@ -37,8 +37,6 @@
     "url": "https://github.com/armandoaepp/helper-css-light/issues"
   },
   "homepage": "https://github.com/armandoaepp/helper-css-light#readme",
-  "dependencies": {
-  },
   "devDependencies": {
     "autoprefixer": "^9.7.2",
     "clean-css-cli": "^4.3.0",
