@@ -8,9 +8,9 @@ $bg-default-rgba: (
 );
 
 @each $size, $length in $bg-default-rgba {
-  .bg-black-#{$size} { background-color: rgba(#000000, ($length)/100) !important;  }
+  .bg-black-#{$size} { background-color: rgba(#000000, ($length*0.01)) !important;  }
 }
 
 @each $size, $length in $bg-default-rgba {
-  .bg-white-#{$size} { background-color: rgba(#ffffff, ($length)/100) !important;  }
+  .bg-white-#{$size} { background-color: rgba(#ffffff, ($length*0.01)) !important;  }
 }

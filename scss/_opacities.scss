@@ -11,7 +11,7 @@ $opacities: (
 //  ==========================================================================
 
   @each $size, $length in $opacities {
-    .opacity-#{$size} { opacity: ($length)/100 !important; }
+    .opacity-#{$size} { opacity: ($length*0.01) !important; }
   }
 
 //  ==========================================================================
@@ -19,7 +19,7 @@ $opacities: (
 //  ==========================================================================
   @each $size, $length in $opacities {
     .hvr-opacity-#{$size}.opacity:hover,
-    .hvr-opacity-#{$size} .opacity:hover { opacity: ($length)/100 !important; }
+    .hvr-opacity-#{$size} .opacity:hover { opacity: ($length*0.01) !important; }
   }
 
 
