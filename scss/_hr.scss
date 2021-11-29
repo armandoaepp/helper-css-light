@@ -10,29 +10,29 @@
 
 .hr.double {
   border-top-width: 3px;
-  border-top-style: double;
+  border-top-style: double!important;
 }
 
 .hr.dashed {
-  border-top-style: dashed;
+  border-top-style: dashed!important;
 }
 
 .hr.dotted {
-  border-top-style: dotted;
+  border-top-style: dotted!important;
 }
 
 .hr-2x {
-  border-top-width: 2px;
+  border-top-width: 2px!important;
 }
 
 .hr-3x {
-  border-top-width: 3px;
+  border-top-width: 3px!important;
 }
 
 .hr-white {
-  border-top-color: rgba(255, 255, 255, 0.75);
+  border-top-color: rgba(255, 255, 255, 0.75)!important;
 }
 
 .hr-black {
-  border-top-color: rgba(0, 0, 0, 0.75);
+  border-top-color: rgba(0, 0, 0, 0.75)!important;
 }
