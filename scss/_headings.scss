@@ -66,23 +66,12 @@ $header-font-sizes: (all: (
   font-weight: 500;
 }
 
-
-// .h1 small,
-// .h2 small,
-// .h3 small,
-// .h4 small,
-// .h5 small,
-// .h6 small {
-//   line-height: inherit;
-// }
-
-
-.h1 small.block,
-.h2 small.block,
-.h3 small.block,
-.h4 small.block,
-.h5 small.block,
-.h6 small.block {
+.h1 .block,
+.h2 .block,
+.h3 .block,
+.h4 .block,
+.h5 .block,
+.h6 .block {
   line-height: inherit;
   color: inherit;
   display: block;

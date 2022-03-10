@@ -16,32 +16,18 @@
 }
 
 // li styles
-ul.list-circle {
+.list-circle {
   list-style-type: circle;
 }
 
-ul.list-square {
+.list-square {
   list-style-type: square;
 }
 
-ol.list-upper-roman {
+.list-upper-roman {
   list-style-type: upper-roman;
 }
 
-ol.list-lower-alpha {
+.list-lower-alpha {
   list-style-type: lower-alpha;
-}
-
-.li-square li:before {
-  content: "";
-  width: 8px;
-  height: 8px;
-  display: inline-block;
-  background-color: #101010;
-  margin-right: 0.5rem;
-  vertical-align: middle;
-}
-
-.li-square.square-white li:before {
-  background-color: #ffffff !important;
 }

@@ -1,84 +1,68 @@
-.b {
+.border {
   border: $border-width solid $border-color !important;
 }
 
 /* Borders sides */
 
-.by,
-.b-top {
+.border-y,
+.border-top {
   border-top: $border-width solid $border-color !important;
 }
 
-.bx,
-.b-right {
+.border-x,
+.border-right {
   border-right: $border-width solid $border-color !important;
 }
 
-.by,
-.b-bottom {
+.border-y,
+.border-bottom {
   border-bottom: $border-width solid $border-color !important;
 }
 
-.bx,
-.b-left {
+.border-x,
+.border-left {
   border-left: $border-width solid $border-color !important;
 }
 
 /* Border 0 */
 
-.b-0 {
+.border-0 {
   border: 0 !important;
 }
 
-.by-0,
-.b-top-0 {
+.border-y-0,
+.border-top-0 {
   border-top: 0 !important;
 }
 
-.bx-0,
-.b-right-0 {
+.border-x-0,
+.border-right-0 {
   border-right: 0 !important;
 }
 
-.by-0,
-.b-bottom-0 {
+.border-y-0,
+.border-bottom-0 {
   border-bottom: 0 !important;
 }
 
-.bx-0,
-.b-left-0 {
+.border-x-0,
+.border-left-0 {
   border-left: 0 !important;
 }
 
 /* Border width */
+.border-1 {
+  border-width: 1px !important
+}
 
-.b-2 {
+.border-2 {
   border-width: 2px !important;
 }
 
-.b-3 {
+.border-3 {
   border-width: 3px !important;
 }
 
-.b-4 {
+.border-4 {
   border-width: 4px !important;
-}
-
-/* Border Style */
-
-.b-style-none {
-  border-style: none;
-}
-
-.b-hidden {
-  border-style: hidden !important;
-}
-
-/* Border colores */
-.b-white {
-  border-color: $white !important;
-}
-
-.b-black {
-  border-color: $black !important;
 }

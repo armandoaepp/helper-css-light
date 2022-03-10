@@ -59,9 +59,9 @@ $font-sizes: (
     'fs-sm-2x-75'      : ('font-size': 44),
     // 3rem
     'fs-sm-3x'         : ('font-size': 48),
-    'fs-sm-3x-25'      : ('font-size': 52),
-    'fs-sm-3x-50'      : ('font-size': 56),
-    'fs-sm-3x-75'      : ('font-size': 60),
+    // 'fs-sm-3x-25'      : ('font-size': 52),
+    // 'fs-sm-3x-50'      : ('font-size': 56),
+    // 'fs-sm-3x-75'      : ('font-size': 60),
     // 4rem
     'fs-sm-4x'         : ('font-size': 64),
   ),
@@ -78,9 +78,9 @@ $font-sizes: (
      'fs-md-2x-75': ('font-size': 44),
      // 3rem
      'fs-md-3x'   : ('font-size': 48),
-     'fs-md-3x-25': ('font-size': 52),
-     'fs-md-3x-50': ('font-size': 56),
-     'fs-md-3x-75': ('font-size': 60),
+    //  'fs-md-3x-25': ('font-size': 52),
+    //  'fs-md-3x-50': ('font-size': 56),
+    //  'fs-md-3x-75': ('font-size': 60),
      // 4rem
      'fs-md-4x'   : ('font-size': 64),
   ),
@@ -97,9 +97,9 @@ $font-sizes: (
     'fs-lg-2x-75': ('font-size': 44),
     // 3rem
     'fs-lg-3x'   : ('font-size': 48),
-    'fs-lg-3x-25': ('font-size': 52),
-    'fs-lg-3x-50': ('font-size': 56),
-    'fs-lg-3x-75': ('font-size': 60),
+    // 'fs-lg-3x-25': ('font-size': 52),
+    // 'fs-lg-3x-50': ('font-size': 56),
+    // 'fs-lg-3x-75': ('font-size': 60),
     // 4rem
     'fs-lg-4x'   : ('font-size': 64),
  ),
@@ -129,6 +129,7 @@ $fsizes in $font-sizes {
     }
   }
 }
+
 
 .fs-p-50{
   font-size:50%
