@@ -1,0 +1,28 @@
+$sizes-em: (
+  'x-50' : 0.50,
+  'x-75' : 0.75,
+  // 1em
+  '1x' : 1,
+  '1x-25': 1.25,
+  '1x-50': 1.50,
+  '1x-75': 1.75,
+  // 2em
+  '2x' : 2,
+  '2x-25': 2.25,
+  '2x-50': 2.50,
+  '2x-75': 1.75,
+  // xem
+  '3x' : 3,
+  '4x' : 4,
+);
+
+@each $prop,
+$abbrev in (width: w, height: h) {
+
+  @each $size,
+  $length in $sizes-em {
+    .#{$abbrev}-#{$size} {
+      #{$prop}: #{$length}em !important;
+    }
+  }
+}
