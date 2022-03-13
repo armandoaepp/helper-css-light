@@ -1,8 +1,9 @@
-@use "sass:math";
+
 
 // value = px
 @function rem-calc($value, $base: 16) {
-    $value: ($value/ $base) * 1rem;
+    $value: calc($value/ $base) * 1rem;
+    // $value:  math.div($value/ $base) * 1rem;   
     @return $value;
 }
 
