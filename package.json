@@ -1,6 +1,6 @@
 {
   "name": "helper-css-light",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "css classes of help for fronend",
   "main": "gulpfile.js",
   "scripts": {
@@ -10,8 +10,7 @@
     "sass-watch": "sass --watch --update --style=expanded scss/helper-css.scss:css/helper-css.css",
     "css-postcss": "postcss --config build/postcss.config.js --replace \"css/*.css\" \"!css/*.min.css\"",
     "dev": " npm run sass-dev ",
-    "prod": "npm run css-dev && npm run css-prod && npm run css-postcss ",
-    "prod2": "npm run sass-dev && npm run sass-prod"
+    "prod": "npm run css-dev && npm run css-prod && npm run css-postcss "
   },
   "postcss": {
     "parser": "sugarss",
