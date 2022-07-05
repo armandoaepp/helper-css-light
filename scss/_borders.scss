@@ -1,27 +1,27 @@
 .border {
-  border: $border-width solid $border-color !important;
+  border: $border-width solid $border-color ;
 }
 
 /* Borders sides */
 
 .border-y,
 .border-top {
-  border-top: $border-width solid $border-color !important;
+  border-top: $border-width solid $border-color ;
 }
 
 .border-x,
 .border-right {
-  border-right: $border-width solid $border-color !important;
+  border-right: $border-width solid $border-color ;
 }
 
 .border-y,
 .border-bottom {
-  border-bottom: $border-width solid $border-color !important;
+  border-bottom: $border-width solid $border-color ;
 }
 
 .border-x,
 .border-left {
-  border-left: $border-width solid $border-color !important;
+  border-left: $border-width solid $border-color ;
 }
 
 /* Border 0 */

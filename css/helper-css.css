@@ -4,16 +4,6 @@
  * developer: @armandoaepp
  * Copyright 2022
 */
-input::-moz-placeholder {
-  color: red;
-}
-input:-ms-input-placeholder {
-  color: red;
-}
-input::placeholder {
-  color: red;
-}
-
 .centered {
   display: block;
   margin-right: auto;
@@ -190,28 +180,28 @@ input::placeholder {
   border-bottom-right-radius: 0 !important;
 } */
 .border {
-  border: 1px solid #dee2e6 !important;
+  border: 1px solid #dee2e6;
 }
 
 /* Borders sides */
 .border-y,
 .border-top {
-  border-top: 1px solid #dee2e6 !important;
+  border-top: 1px solid #dee2e6;
 }
 
 .border-x,
 .border-right {
-  border-right: 1px solid #dee2e6 !important;
+  border-right: 1px solid #dee2e6;
 }
 
 .border-y,
 .border-bottom {
-  border-bottom: 1px solid #dee2e6 !important;
+  border-bottom: 1px solid #dee2e6;
 }
 
 .border-x,
 .border-left {
-  border-left: 1px solid #dee2e6 !important;
+  border-left: 1px solid #dee2e6;
 }
 
 /* Border 0 */
@@ -852,22 +842,6 @@ input::placeholder {
 
 .list-inline li:not(:last-child) {
   margin-right: 0.5rem;
-}
-
-.list-circle {
-  list-style-type: circle;
-}
-
-.list-square {
-  list-style-type: square;
-}
-
-.list-upper-roman {
-  list-style-type: upper-roman;
-}
-
-.list-lower-alpha {
-  list-style-type: lower-alpha;
 }
 
 .opacity-0 {
