@@ -22,3 +22,11 @@
 .text-blink {
   text-decoration: blink !important;
 }
+
+.link-hover-underline {
+  text-decoration: none;
+}
+
+.link-hover-underline:hover {
+  text-decoration: underline;
+}
