@@ -552,21 +552,6 @@
   background-position: center center;
 }
 
-.list-unstyled,
-.list-inline {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.list-inline li {
-  display: inline-block;
-}
-
-.list-inline li:not(:last-child) {
-  margin-right: 0.5rem;
-}
-
 .text-no-decoration,
 .link-text,
 .link-text:hover,
@@ -577,16 +562,4 @@
 
 .text-underline {
   text-decoration: underline !important;
-}
-
-.text-overline {
-  text-decoration: overline !important;
-}
-
-.text-line-through {
-  text-decoration: line-through !important;
-}
-
-.text-blink {
-  text-decoration: blink !important;
 }
