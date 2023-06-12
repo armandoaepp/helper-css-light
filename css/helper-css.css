@@ -4,7 +4,7 @@
  * developer: @armandoaepp
  * Copyright 2022
 */
-.centered {
+/* .centered {
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -26,7 +26,7 @@
   display: flex;
   align-items: center;
 }
-
+ */
 /* layer */
 .layer-absolute,
 .layer-overly {
@@ -43,13 +43,6 @@
   transform: translateY(-50%);
 }
 
-@media (min-width: 768px) {
-  .flex-md-center {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
-}
 .w-x-50 {
   width: 0.5em !important;
 }
@@ -356,16 +349,6 @@
     font-size: 90%;
   }
 }
-.fw-extra-light,
-.fw-100 {
-  font-weight: 100 !important;
-}
-
-.fw-semi-light,
-.fw-200 {
-  font-weight: 200 !important;
-}
-
 .fw-light,
 .fw-300 {
   font-weight: 300 !important;

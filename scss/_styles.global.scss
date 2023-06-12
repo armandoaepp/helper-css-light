@@ -1,7 +1,7 @@
 //  ==========================================================================
 // ---- Alignments ----
 //  ==========================================================================
-.centered {
+/* .centered {
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -23,7 +23,8 @@
   display: flex;
   align-items: center;
 }
-
+ */
+ 
 /* layer */
 .layer-absolute,
 .layer-overly{
@@ -40,13 +41,4 @@
   top: 50%;
   transform: translateY(-50%);
 }
-
-
-@media (min-width: 768px) {
-  .flex-md-center {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
-
-}
+ 
