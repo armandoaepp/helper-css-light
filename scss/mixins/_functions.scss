@@ -1,21 +1,15 @@
-
-
 // value = px
-@function rem-calc($value, $base: 16) { 
-    $value: ($value/ $base) * 1rem; 
-    // $value: calc($value/ $base) * 1rem; 
-    
-    // $value:  math.div($value/ $base) * 1rem;   
-    @return $value;
+@function rem-calc($value, $base: 16) {
+  $value: calc($value/ $base) * 1rem;
+  // $value:  math.div($value/ $base) * 1rem;   
+  @return $value;
 }
 
 // verificar si existe un item en list
 @function verify-key-header($key) {
-    @return index($headers, $key);
+  @return index($headers, $key);
 }
 
 @function sumar($number1, $number2) {
-    @return $number1+$number2
+  @return $number1+$number2
 }
-
-
